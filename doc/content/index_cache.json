@@ -1,0 +1,94 @@
+{
+  "readme.html": [],
+  "doc/content/sections/alphabet.html": [
+    {
+      "entry": "\u0430\u043b\u0444\u0430\u0432\u0438\u0442",
+      "link": "sections/alphabet.html#index_entry_index_1",
+      "title": "\u0410\u043b\u0444\u0430\u0432\u0438\u0442"
+    },
+    {
+      "entry": "\u043f\u0435\u0440\u0435\u0432\u043e\u0434",
+      "link": "sections/alphabet.html#index_entry_index_2",
+      "title": "\u0410\u043b\u0444\u0430\u0432\u0438\u0442"
+    }
+  ],
+  "doc/content/sections/phonetics.html": [
+    {
+      "entry": "\u0444\u043e\u043d\u0435\u0442\u0438\u043a\u0430",
+      "link": "sections/phonetics.html#index_entry_index_1",
+      "title": "\u0424\u043e\u043d\u0435\u0442\u0438\u043a\u0430"
+    }
+  ],
+  "doc/content/sections/verb_to_be.html": [
+    {
+      "entry": "\u0431\u044b\u0442\u044c, \u0433\u043b\u0430\u0433\u043e\u043b",
+      "link": "sections/verb_to_be.html#index_entry_index_1",
+      "title": "\u0413\u043b\u0430\u0433\u043e\u043b \"\u0431\u044b\u0442\u044c\""
+    }
+  ],
+  "doc/content/sections/question_words.html": [
+    {
+      "entry": "\u0432\u043e\u043f\u0440\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u0441\u043b\u043e\u0432\u0430",
+      "link": "sections/question_words.html#index_entry_index_1",
+      "title": "\u0412\u043e\u043f\u0440\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u0441\u043b\u043e\u0432\u0430"
+    }
+  ],
+  "doc/content/sections/noun_genders.html": [
+    {
+      "entry": "\u0440\u043e\u0434 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445",
+      "link": "sections/noun_genders.html#index_entry_index_1",
+      "title": "\u0420\u043e\u0434 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445"
+    }
+  ],
+  "doc/content/sections/posessive_pronouns.html": [
+    {
+      "entry": "\u043f\u0440\u0438\u0442\u044f\u0436\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043c\u0435\u0441\u0442\u043e\u0438\u043c\u0435\u043d\u0438\u044f",
+      "link": "sections/posessive_pronouns.html#index_entry_index_1",
+      "title": "\u041f\u0440\u0438\u0442\u044f\u0436\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043c\u0435\u0441\u0442\u043e\u0438\u043c\u0435\u043d\u0438\u044f"
+    },
+    {
+      "entry": "\u043c\u0435\u0441\u0442\u043e\u0438\u043c\u0435\u043d\u0438\u044f, \u043f\u0440\u0438\u0442\u044f\u0436\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435",
+      "link": "sections/posessive_pronouns.html#index_entry_index_1",
+      "title": "\u041f\u0440\u0438\u0442\u044f\u0436\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043c\u0435\u0441\u0442\u043e\u0438\u043c\u0435\u043d\u0438\u044f"
+    }
+  ],
+  "doc/content/sections/adjectives_and_nouns.html": [
+    {
+      "entry": "\u043f\u0440\u0438\u043b\u0430\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435",
+      "link": "sections/adjectives_and_nouns.html#index_entry_index_1",
+      "title": "\u041f\u0440\u0438\u043b\u0430\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435"
+    }
+  ],
+  "doc/content/sections/numbers.html": [
+    {
+      "entry": "\u0447\u0438\u0441\u043b\u0430",
+      "link": "sections/numbers.html#index_entry_index_1",
+      "title": "\u0427\u0438\u0441\u043b\u0430"
+    },
+    {
+      "entry": "\u0447\u0438\u0441\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435, \u043f\u043e\u0440\u044f\u0434\u043a\u043e\u0432\u044b\u0435",
+      "link": "sections/numbers.html#index_entry_index_2",
+      "title": "\u0427\u0438\u0441\u043b\u0430"
+    },
+    {
+      "entry": "\u043f\u043e\u0440\u044f\u0434\u043a\u043e\u0432\u044b\u0435 \u0447\u0438\u0441\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435",
+      "link": "sections/numbers.html#index_entry_index_2",
+      "title": "\u0427\u0438\u0441\u043b\u0430"
+    }
+  ],
+  "doc/content/sections/plurals.html": [
+    {
+      "entry": "\u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0447\u0438\u0441\u043b\u043e",
+      "link": "sections/plurals.html#index_entry_index_1",
+      "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0447\u0438\u0441\u043b\u043e"
+    }
+  ],
+  "doc/content/sections/references.html": [],
+  "doc/content/sections/demonstrative_pronouns.html": [
+    {
+      "entry": "\u043c\u0435\u0441\u0442\u043e\u0438\u043c\u0435\u043d\u0438\u044f, \u0443\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435",
+      "link": "sections/demonstrative_pronouns.html#index_entry_index_1",
+      "title": "\u0423\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043c\u0435\u0441\u0442\u043e\u0438\u043c\u0435\u043d\u0438\u044f"
+    }
+  ]
+}
