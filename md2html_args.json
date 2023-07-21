@@ -29,7 +29,8 @@
             "sections": { "groups": ["sidebar"] },
             "header": [
                 { "link": "readme.html", "title": "Home" },
-                { "link": "doc/content/index_page.html", "title": "Index" }
+                { "link": "doc/content/index_page.html", "title": "Index" },
+                { "link": "https://down2ground.github.io/serbian_study/readme.html", "title": "GitHub", "external": true }
             ]
 #            ,
 #            "useful_links": { "title": "Useful links", "groups": ["sidebar"], "items": [
