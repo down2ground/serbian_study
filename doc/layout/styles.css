@@ -3,17 +3,18 @@ body, html {
 }
 
 body {
+    max-width: 900px;
     font-size: 18px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-    max-width: 900px;
+    /* max-width: 900px; */
 }
 
 li {
-    max-width: 860px;
+    /* max-width: 860px; */
 }
 
 ul, ol {
@@ -23,9 +24,10 @@ ul, ol {
 hr {
     height: 1px;
     border: 0px;
-    width: 899px;
-    margin-left: 0px;
-    text-align: left;
+    width: 100%;
+    /* width: 899px; */
+    /* margin-left: 0px; */
+    /* text-align: left; */
 }
 
 h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
@@ -47,7 +49,7 @@ code, .code {
 pre>code, div.code {
     font-size: 16px;
     display: block;
-    width: 878px;
+    /* width: 878px; */
     min-width: max-content;
     line-height: 1.4;
     border-radius: 0;
@@ -64,7 +66,7 @@ pre>code.language-wrapped {
 pre>code.language-text {
     background-color: unset;
     padding: 0;
-    width: 900px;
+    /* width: 900px; */
     border: none;
 }
 
@@ -82,36 +84,38 @@ pre>code.language-wrapped-shell, pre>code.language-wrapped-code {
 
 blockquote {
     margin-left: 0;
+    margin-right: 0px;
     padding: 1px 10px;
     font-size: 16px;
-    width: 868px;
-    min-width: max-content;
+    /* width: 868px; */
+    /* min-width: max-content; */
     border-style: solid;
     border-width: 1px 1px 1px 10px;
 }
 
 blockquote *, div.admonition * {
-    max-width: 868px;
+    /* max-width: 868px; */
 }
 
 blockquote, div.admonition {
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow-x: auto;
 }
 
 blockquote pre>code {
-    width: 847px;
+    /* width: 847px; */
 }
 
 div.admonition pre>code {
-    width: 857px;
+    /* width: 857px; */
 }
 
 blockquote li pre code {
-    width: 808px;
+    /* width: 808px; */
 }
 
 table {
-    max-width: 900px;
+    max-width: 100%;
     border-spacing: 0;
     border-collapse: collapse;
     font-size: 16px;
@@ -147,8 +151,8 @@ div.admonition {
     margin-left: 0;
     padding: 0;
     font-size: 16px;
-    width: 898px;
-    min-width: max-content;
+    /* width: 898px; */
+    /* min-width: max-content; */
     border-style: solid;
     border-width: 1px;
 }
@@ -167,7 +171,7 @@ div.admonition>* {
 }
 
 div.admonition li {
-    width: 838px;
+    /* width: 838px; */
 }
 
 li>div.admonition {
@@ -176,11 +180,11 @@ li>div.admonition {
 }
 
 li>blockquote {
-    width: 827px;
+    /* width: 827px; */
 }
 
 li>pre>code {
-    width: 838px;
+    /* width: 838px; */
 }
 
 img.floatRight {
