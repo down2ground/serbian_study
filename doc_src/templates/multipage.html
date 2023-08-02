@@ -4,9 +4,11 @@
 <meta charset="utf-8">
 <link rel="shortcut icon" type="image/png" href="{{resource_path}}favicon.png"/>
 <link rel="stylesheet" type="text/css" href="{{resource_path}}layout/styles.css"/>
+<link rel="stylesheet" type="text/css" href="{{resource_path}}themes/{{theme}}_content.css"/>
 <link rel="stylesheet" type="text/css" href="{{resource_path}}layout/layout.css"/>
+<link rel="stylesheet" type="text/css" href="{{resource_path}}themes/{{theme}}_layout.css"/>
 {{{styles}}}
-<link rel="stylesheet" type="text/css" href="{{resource_path}}theme.css"/>
+<link rel="stylesheet" type="text/css" href="{{resource_path}}custom.css"/>
 <style>
 .headerNavArrows {position: relative; top: 3px;}
 </style>
@@ -32,8 +34,9 @@ class="header_item{{#current}} selected{{/current}}" href="{{link}}">{{title}}</
     <table class="sidebarAligner">
         <tr><td valign="top">
             {{#sidebar}}
-            {{#title}}<h3>{{.}}</h3>{{/title}}
-            {{#.}}<a class="sidebar_item{{#current}} selected{{/current}}" href="{{link}}">{{title}}</a>
+            {{#not_empty}}{{#title}}<h3>{{.}}</h3>{{/title}}{{/not_empty}}
+            {{#.}}
+            <a class="sidebar_item{{#current}} selected{{/current}}" href="{{link}}">{{title}}</a>
             {{/.}}
             {{/sidebar}}
         </td></tr>
