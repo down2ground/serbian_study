@@ -1,21 +1,29 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html>
 <head><title>Прилагательные</title>
 <meta charset="utf-8">
 <link rel="shortcut icon" type="image/png" href="../../favicon.png"/>
+
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+
 <link rel="stylesheet" type="text/css" href="../../layout/styles.css"/>
 <link rel="stylesheet" type="text/css" href="../../themes/light_default_content.css"/>
 <link rel="stylesheet" type="text/css" href="../../layout/layout.css"/>
 <link rel="stylesheet" type="text/css" href="../../themes/light_default_layout.css"/>
 
+<link rel="stylesheet" type="text/css" href="../../layout/flex.css"/>
 <link rel="stylesheet" type="text/css" href="../../custom.css"/>
 <style>
 .headerNavArrows {position: relative; top: 3px;}
+#burger {position: relative; top: 4px; margin-right: 10px;}
 </style>
 </head>
 <body>
 
-<div class="header"><b><span style="color:#59f;margin-right:7px;">Srpski</span></b><a 
+<div class="header">
+<img id="burger" src="../..//layout/pict/burger.png" onclick="toggleSidebar();return false;" />
+<b><span style="color:#59f;margin-right:7px;">Srpski</span></b><a 
 class="header_item" href="../../../readme.html">Home</a><a 
 class="header_item" href="../index_page.html">Index</a><a 
 class="header_item" href="https://github.com/down2ground/serbian_study">GitHub</a>
@@ -334,6 +342,18 @@ src="../../layout/pict/next_page.png"/></a>
 </p>
 
 <div style="height: 1000px;"><p>&nbsp;</p></div>
+
+<script>
+function toggleSidebar() {
+    let sidebar = document.getElementsByClassName("sidebar")[0]
+    let display = sidebar.style.display
+    if (!display || display == "none") {
+        sidebar.style.display = "block"
+    } else {
+        sidebar.style.display = ""
+    }
+}
+</script>
 
 </body>
 </html>
