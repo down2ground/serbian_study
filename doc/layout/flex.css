@@ -1,0 +1,29 @@
+@media screen and (max-width: 850px) {
+    .sidebar {
+        display: none;
+    }
+    body {
+        margin-left: 0px;
+    }
+    img#burger {
+        display: inline;
+    }
+    div.index-content {
+        column-count: 1;
+    }
+    img.floatRight, img.floatLeft {
+        float: unset;
+        margin: unset;
+    }
+    table.sidebarAligner {
+        height: unset;
+    }
+    .sidebar {
+        bottom: unset;
+    }
+    .hideInCompactMode {
+        display: none;
+    }
+}
+
+

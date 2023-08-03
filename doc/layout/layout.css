@@ -1,5 +1,9 @@
 body {
-    margin:34px 0 0 250px;
+    /* margin:34px 0 0 250px; */
+    margin-top: 34px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 250px;
     padding:20px;
 }
 
@@ -42,6 +46,7 @@ body {
 }
 
 .sidebar {
+    display: block;
     position: fixed;
     top: 40px;
     bottom: 0;
@@ -57,7 +62,7 @@ body {
 
 table.sidebarAligner {
     height: 100%;
-    width:100%;
+    width: 100%;
     border-spacing: 0;
     border-collapse: collapse;
 }
@@ -100,10 +105,10 @@ div.sidebar h4::before, div.sidebar h5::before, div.sidebar h6::before {
 }
 
 .sidebar_item { 
+    display: block;
     padding: 0 20px 0 20px; 
     margin-left: -20px; 
     margin-right: -20px;
-    display: block;
     text-decoration: none;
 }
 
@@ -118,4 +123,10 @@ div.sidebar h3 {
     margin-top: 10px;
     margin-bottom: 0;
 }
+
+#burger {
+    cursor: pointer;
+    display: none;
+}
+
 
