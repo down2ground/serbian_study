@@ -28,14 +28,10 @@
         "page-flows": {
             "sections": { "groups": ["sidebar"] },
             "header": [
-                { "link": "doc/content/index_page.html", "title": "Index" }
-            ],
-             "header_page_links": [
-                { "link": "readme.html", "title": "Home" }
-            ],
-            "header_additional_links": { "title": " ", "groups": ["sidebar"], "items": [
+                { "link": "readme.html", "title": "Home" },
+                { "link": "doc/content/index_page.html", "title": "Index" },
                 { "link": "https://github.com/down2ground/serbian_study", "title": "GitHub", "external": true }
-            ]}
+            ]
 #            ,
 #            "useful_links": { "title": "Useful links", "groups": ["sidebar"], "items": [
 #                { "link": "https://daringfireball.net/projects/markdown/", "title": "Markdown", "external": true },
