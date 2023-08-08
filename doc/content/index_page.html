@@ -3,10 +3,7 @@
 <head><title>Index</title>
 <meta charset="utf-8">
 <link rel="shortcut icon" type="image/png" href="../favicon.png"/>
-
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-
 <link rel="stylesheet" type="text/css" href="../layout/styles.css"/>
 <link rel="stylesheet" type="text/css" href="../themes/light_default_content.css"/>
 <link rel="stylesheet" type="text/css" href="../layout/layout.css"/>
@@ -14,25 +11,28 @@
 <link rel="stylesheet" type="text/css" href="../layout/index.css">
 <link rel="stylesheet" type="text/css" href="../layout/flex.css"/>
 <link rel="stylesheet" type="text/css" href="../custom.css"/>
-<style>
-.headerNavArrows {position: relative; top: 4px;}
-#burger {position: relative; top: 4px; margin-right: 10px;}
-</style>
 </head>
 <body>
 
 <div class="header">
-<img id="burger" src="..//layout/pict/burger.png" onclick="toggleSidebar();return false;" />
-<b><span style="color:#59f;margin-right:7px;">Srpski</span></b><a 
-class="header_item hideInCompactMode" 
-href="../../readme.html">Home</a><a 
-class="header_item selected" 
-href="index_page.html">Index</a><a 
-class="header_item hideInCompactMode" 
-href="https://github.com/down2ground/serbian_study">GitHub</a>
+<img id="burger" src="..//layout/pict/burger.png" 
+onclick="toggleSidebar();return false;" />
 
-<span class="header_item_source inactive">&lt;/&gt;</span>
+<a 
+class="header_item "
+href="../../readme.html"><img 
+class="logo_image" src="../favicon.png" /></a><a 
+class="header_item wide_only"
+href="../../readme.html"><span class="">Home</span></a><a 
+class="header_item selected wide_only"
+href="index_page.html"><span class="">Index</span></a><a 
+class="header_item selected narrow_only"
+href="index_page.html"><img 
+class="header_image index_image" src="../layout/pict/search.png" /></a><a 
+class="header_item wide_only"
+href="https://github.com/down2ground/serbian_study"><span class="">GitHub</span></a>
 
+<span class="header_item_source inactive wide_only">&lt;/&gt;</span>
 
 <img class="headerNavArrows" src="../layout/pict/previous_page_h21px_inactive.png"/>
 
@@ -46,23 +46,26 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
     <table class="sidebarAligner">
         <tr><td valign="top">
             
-            <a class="sidebar_item" href="../../readme.html">Home</a>
-            <a class="sidebar_item" href="sections/references.html">Источники</a>
-            <a class="sidebar_item" href="sections/alphabet.html">Алфавит</a>
-            <a class="sidebar_item" href="sections/phonetics.html">Фонетика</a>
-            <a class="sidebar_item" href="sections/verb_to_be.html">Глагол &quot;быть&quot;</a>
-            <a class="sidebar_item" href="sections/question_words.html">Вопросительные слова</a>
-            <a class="sidebar_item" href="sections/noun_genders.html">Род существительных</a>
-            <a class="sidebar_item" href="sections/pronouns.html">Местоимения</a>
-            <a class="sidebar_item" href="sections/adjectives_and_nouns.html">Прилагательные</a>
-            <a class="sidebar_item" href="sections/numbers.html">Числа</a>
-            <a class="sidebar_item" href="sections/plurals.html">Множественное число</a>
-            <a class="sidebar_item" href="sections/verb_conjugation.html">Спряжения глаголов</a>
-            <a class="sidebar_item" href="sections/modal_verbs.html">Модальные глаголы</a>
-            <a class="sidebar_item" href="sections/reflexive_verbs.html">Возвратные глаголы</a>
-            <a class="sidebar_item" href="sections/past_tense.html">Прошедшее время</a>
-            <h3> </h3>
-            <a class="sidebar_item" href="https://github.com/down2ground/serbian_study">GitHub</a>
+            <span class="sidebar_item header_item_source inactive narrow_only align_right"
+                >&lt;/&gt;</span>
+            
+            <a class="sidebar_item narrow_only align_right" href="https://github.com/down2ground/serbian_study">GitHub</a>
+            
+            <a class="sidebar_item " href="../../readme.html">Home</a>
+            <a class="sidebar_item " href="sections/references.html">Источники</a>
+            <a class="sidebar_item " href="sections/alphabet.html">Алфавит</a>
+            <a class="sidebar_item " href="sections/phonetics.html">Фонетика</a>
+            <a class="sidebar_item " href="sections/verb_to_be.html">Глагол &quot;быть&quot;</a>
+            <a class="sidebar_item " href="sections/question_words.html">Вопросительные слова</a>
+            <a class="sidebar_item " href="sections/noun_genders.html">Род существительных</a>
+            <a class="sidebar_item " href="sections/pronouns.html">Местоимения</a>
+            <a class="sidebar_item " href="sections/adjectives_and_nouns.html">Прилагательные</a>
+            <a class="sidebar_item " href="sections/numbers.html">Числа</a>
+            <a class="sidebar_item " href="sections/plurals.html">Множественное число</a>
+            <a class="sidebar_item " href="sections/verb_conjugation.html">Спряжения глаголов</a>
+            <a class="sidebar_item " href="sections/modal_verbs.html">Модальные глаголы</a>
+            <a class="sidebar_item " href="sections/reflexive_verbs.html">Возвратные глаголы</a>
+            <a class="sidebar_item " href="sections/past_tense.html">Прошедшее время</a>
         </td></tr>
         <tr><td class="bottom" valign="bottom">
             Generated by <a href="https://github.com/arctrong/md2html">md2html_py</a> 1.0.5
