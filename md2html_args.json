@@ -26,12 +26,31 @@
             }
         },
         "page-flows": {
-            "sections": { "groups": ["sidebar"] },
             "header": [
-                { "link": "readme.html", "title": "Home" },
-                { "link": "doc/content/index_page.html", "title": "Index" },
-                { "link": "https://github.com/down2ground/serbian_study", "title": "GitHub", "external": true }
-            ]
+                { "link": "readme.html", "title": "", "image": "favicon.png", "image_class": "logo_image" },
+                { "link": "readme.html", "title": "Home", "class": "wide_only" },
+                { "link": "doc/content/index_page.html", "title": "Index", "class": "wide_only" },
+                { "link": "doc/content/index_page.html", "title": "", "class": "narrow_only",
+                    "image": "layout/pict/search.png", "image_class": "header_image index_image" },
+                { "link": "https://github.com/down2ground/serbian_study", "title": "GitHub",
+                    "external": true, "class": "wide_only" }
+            ],
+            "links_from_header": { "groups": ["sidebar"], "items": [
+                { "link": "https://github.com/down2ground/serbian_study", "title": "GitHub",
+                    "external": true, "class": "narrow_only align_right" }
+            ]},
+            "sections": { "groups": ["sidebar"] }
+        
+        
+#            "header": [
+#                { "link": "doc/content/index_page.html", "title": "Index" }
+#            ],
+#             "header_page_links": [
+#                { "link": "readme.html", "title": "Home" }
+#            ],
+#            "header_additional_links": { "title": " ", "groups": ["sidebar"], "items": [
+#                { "link": "https://github.com/down2ground/serbian_study", "title": "GitHub", "external": true }
+#            ]}
 #            ,
 #            "useful_links": { "title": "Useful links", "groups": ["sidebar"], "items": [
 #                { "link": "https://daringfireball.net/projects/markdown/", "title": "Markdown", "external": true },
@@ -39,8 +58,9 @@
 #            ]}
         },
         "variables": {
-            "logo": "<b><span style=\"color:#59f;margin-right:7px;\">Srpski</span></b>",
-            "theme": "light_default"
+#            "logo": "<b><span style=\"color:#59f;margin-right:7px;\">Srpski</span></b>",
+            "theme": "light_default",
+            "show_source_link": true
         },
         "index": {"index": {"output": "index_page.html", "title": "Index", "index-cache": "index_cache.json", 
                     "index-cache-relative": true, "letters": true, "letters-block": true,

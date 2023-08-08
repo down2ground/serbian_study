@@ -1,5 +1,8 @@
 body {
-    margin:34px 0 0 250px;
+    margin-left: 250px;
+    margin-right: 0px;
+    margin-top: 34px;
+    margin-bottom: 0px;
     padding:20px;
 }
 
@@ -9,12 +12,52 @@ body {
     left: 0;
     z-index: 1;
     width: 100%;
-    height: 30px;
+    height: 40px;
     margin: 0;
-    padding: 5px 20px;
+    padding-right: 20px;
+    padding-left: 20px;
     overflow: hidden;
     white-space: nowrap;
     font-size: 20px;
+}
+
+.header * {
+    margin-top: -2px;
+}
+
+.header .wide_only {
+    display: inline;
+}
+
+.header .narrow_only {
+    display: none;
+}
+
+.headerNavArrows {
+        position: relative;
+        top: 4px;
+}
+
+#burger {
+    cursor: pointer;
+    display: none;
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+}
+
+.logo_image {
+    height: 30px;
+    position: relative;
+    top: 7px;
+    margin-right: 2px;
+}
+
+.index_image {
+    height: 26px;
+    position: relative;
+    top: 8px;
+    border-bottom: solid transparent 3px;
 }
 
 .header>a:link, .header>a:visited, .header>a:hover, .header>a:active {
@@ -42,6 +85,7 @@ body {
 }
 
 .sidebar {
+    display: block;
     position: fixed;
     top: 40px;
     bottom: 0;
@@ -55,9 +99,21 @@ body {
     border-right-width: 1px;
 }
 
+.sidebar .wide_only {
+    display: block;
+}
+
+.sidebar .narrow_only {
+    display: none;
+}
+
+.sidebar .align_right {
+  text-align: right;
+}
+
 table.sidebarAligner {
     height: 100%;
-    width:100%;
+    width: 100%;
     border-spacing: 0;
     border-collapse: collapse;
 }
@@ -100,10 +156,10 @@ div.sidebar h4::before, div.sidebar h5::before, div.sidebar h6::before {
 }
 
 .sidebar_item { 
+    display: block;
     padding: 0 20px 0 20px; 
     margin-left: -20px; 
     margin-right: -20px;
-    display: block;
     text-decoration: none;
 }
 
@@ -118,4 +174,8 @@ div.sidebar h3 {
     margin-top: 10px;
     margin-bottom: 0;
 }
+
+
+
+
 

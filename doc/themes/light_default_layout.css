@@ -15,6 +15,10 @@ body {
     text-decoration-color: dodgerblue !important;
 }
 
+.header_item.selected .header_image {
+    border-bottom-color: dodgerblue;
+}
+
 .headerTitle {
     color: antiquewhite;
 }
