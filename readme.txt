@@ -28,6 +28,8 @@ https://www.dict.com/%D1%81%D0%B5%D1%80%D0%B1%D1%81%D0%BA%D0%BE-%D1%80%D1%83%D1%
 [Сербско-русский словарь | classes.ru](https://classes.ru/all-serbian/) ---
 менее удобен в использовании, но имеет достаточно большое количество слов.
 
+[Glosbe](https://ru.glosbe.com/sh/ru) --- словарь большого количества языковых пар.
+
 LingoHut: [Бесплатные уроки сербского языка](
 https://www.lingohut.com/ru/l90/%D1%83%D1%87%D0%B8%D1%82%D1%8C-%D1%81%D0%B5%D1%80%D0%B1%D1%81%D0%BA%D0%B8%D0%B9).
 
