@@ -14,6 +14,9 @@
             "page-flows": ["sections", "nav"] },
         { "input-glob": "sections/*.txt", "page-flows": ["sections", "nav"], 
             "title-from-variable": "title", "code-from-variable": "code", 
+            "sort-by-variable": "SORT_ORDER" },
+        { "input-glob": "sections/sidesteps/*.txt", "page-flows": ["sidesteps", "nav"], 
+            "title-from-variable": "title", "code-from-variable": "code", 
             "sort-by-variable": "SORT_ORDER" }
     ],
     "plugins": {
@@ -39,7 +42,8 @@
                 { "link": "https://github.com/down2ground/serbian_study", "title": "GitHub",
                     "external": true, "class": "narrow_only align_right" }
             ]},
-            "sections": { "groups": ["sidebar"] }
+            "sections": { "groups": ["sidebar"] },
+            "sidesteps": { "groups": ["sidebar"], "title": "Дополнительно" }
         
         
 #            "header": [
