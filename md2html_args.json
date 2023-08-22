@@ -44,25 +44,8 @@
             ]},
             "sections": { "groups": ["sidebar"] },
             "sidesteps": { "groups": ["sidebar"], "title": "Дополнительно" }
-        
-        
-#            "header": [
-#                { "link": "doc/content/index_page.html", "title": "Index" }
-#            ],
-#             "header_page_links": [
-#                { "link": "readme.html", "title": "Home" }
-#            ],
-#            "header_additional_links": { "title": " ", "groups": ["sidebar"], "items": [
-#                { "link": "https://github.com/down2ground/serbian_study", "title": "GitHub", "external": true }
-#            ]}
-#            ,
-#            "useful_links": { "title": "Useful links", "groups": ["sidebar"], "items": [
-#                { "link": "https://daringfireball.net/projects/markdown/", "title": "Markdown", "external": true },
-#                { "link": "https://github.com/arctrong/md2html", "title": "md2html", "external": true }
-#            ]}
         },
         "variables": {
-#            "logo": "<b><span style=\"color:#59f;margin-right:7px;\">Srpski</span></b>",
             "theme": "light_default",
             "show_source_link": true
         },
