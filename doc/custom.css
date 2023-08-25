@@ -14,4 +14,17 @@ grey {
   color: grey;
 }
 
+.tableSection {
+  background-color: lemonchiffon;
+}
+
+.noTop {
+  border-top: none;
+}
+
+.noBottom {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
 
