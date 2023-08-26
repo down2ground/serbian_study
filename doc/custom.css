@@ -2,6 +2,10 @@
     background-color: aqua;
 }
 
+.hide {
+    display: none;
+}
+
 red {
   color: red;
 }
