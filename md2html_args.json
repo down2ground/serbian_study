@@ -34,14 +34,12 @@
                 { "link": "readme.html", "title": "Home", "class": "wide_only" },
                 { "link": "doc/content/index_page.html", "title": "Index", "class": "wide_only" },
                 { "link": "doc/content/index_page.html", "title": "", "class": "narrow_only",
-                    "image": "layout/pict/search.png", "image_class": "header_image index_image" },
-                { "link": "https://github.com/down2ground/serbian_study", "title": "GitHub",
-                    "external": true, "class": "wide_only" }
+                    "image": "layout/pict/search.png", "image_class": "header_image index_image" }
             ],
-            "links_from_header": { "groups": ["sidebar"], "items": [
+            "header_wide_only": [
                 { "link": "https://github.com/down2ground/serbian_study", "title": "GitHub",
-                    "external": true, "class": "narrow_only align_right" }
-            ]},
+                    "external": true }
+            ],
             "sections": { "groups": ["sidebar"] },
             "sidesteps": { "groups": ["sidebar"], "title": "Дополнительно" }
         },
