@@ -226,7 +226,19 @@
     }
   ],
   "doc/content/sections/adjective_comparison.html": [],
-  "doc/content/sections/subjunctive_mood.html": [],
+  "doc/content/sections/subjunctive_mood.html": [
+    {
+      "entry": "\u0441\u043e\u0441\u043b\u0430\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u043d\u0430\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u0435",
+      "link": "sections/subjunctive_mood.html#index_entry_index_1",
+      "title": "\u0421\u043e\u0441\u043b\u0430\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u043d\u0430\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u0435"
+    }
+  ],
   "doc/content/sections/verb_kinds.html": [],
-  "doc/content/sections/imperative_mood.html": []
+  "doc/content/sections/imperative_mood.html": [
+    {
+      "entry": "\u043f\u043e\u0432\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u043d\u0430\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u0435",
+      "link": "sections/imperative_mood.html#index_entry_index_1",
+      "title": "\u041f\u043e\u0432\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u043d\u0430\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u0435"
+    }
+  ]
 }
