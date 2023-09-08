@@ -15,10 +15,6 @@ body {
     text-decoration-color: dodgerblue !important;
 }
 
-.header_item.selected .header_image {
-    border-bottom-color: dodgerblue;
-}
-
 .headerTitle {
     color: antiquewhite;
 }
@@ -32,7 +28,7 @@ body {
 }
 
 .sidebar {
-    border-color: cadetblue;
+    border-right-color: cadetblue;
     background-color: powderblue;
 }
 
@@ -44,15 +40,16 @@ body {
     color: firebrick;
 }
 
-.sidebar_item, .sidebar_item_inline { 
+.sidebar_item { 
     color: firebrick;
 }
 
-.sidebar_item:hover, .sidebar_item_inline:hover { 
+
+.sidebar_item:hover { 
     background-color: #8fd8e1;
 }
 
-.sidebar_item.selected, .sidebar_item_inline.selected {
+.sidebar_item.selected {
     text-decoration-color: dodgerblue;
 }
 
@@ -60,9 +57,4 @@ div.sidebar h3 {
     color: darkslategray;
 }
 
-a[name]:target::before, a[id]:target::before, 
-h1[id]:target::before, h2[id]:target::before, h3[id]:target::before, 
-h4[id]:target::before, h5[id]:target::before, h6[id]:target::before,
-a[name]:empty:target::before, a[id]:empty:target::before {
-    content: url(../layout/pict/target_pointer_light.png);
-}
+
