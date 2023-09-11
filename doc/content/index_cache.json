@@ -243,8 +243,18 @@
   ],
   "doc/content/sections/complex_topics.html": [
     {
-      "entry": "\u0424\u0443\u0442\u0443\u0440 2",
+      "entry": "\u0444\u0443\u0442\u0443\u0440 2",
       "link": "sections/complex_topics.html#index_entry_index_1",
+      "title": "\u0421\u043b\u043e\u0436\u043d\u044b\u0435 \u0442\u0435\u043c\u044b"
+    },
+    {
+      "entry": "\u0430\u043e\u0440\u0438\u0441\u0442",
+      "link": "sections/complex_topics.html#index_entry_index_2",
+      "title": "\u0421\u043b\u043e\u0436\u043d\u044b\u0435 \u0442\u0435\u043c\u044b"
+    },
+    {
+      "entry": "\u0438\u043c\u043f\u0435\u0440\u0444\u0435\u043a\u0442",
+      "link": "sections/complex_topics.html#index_entry_index_3",
       "title": "\u0421\u043b\u043e\u0436\u043d\u044b\u0435 \u0442\u0435\u043c\u044b"
     }
   ]
