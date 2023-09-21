@@ -11,6 +11,7 @@
 
 <link rel="stylesheet" type="text/css" href="../../layout/flex.css">
 <link rel="stylesheet" type="text/css" href="../../custom.css">
+<script  src="../../review.js"></script>
 </head>
 <body>
 
@@ -39,6 +40,7 @@ src="../../layout/pict/previous_page_h21px.png" alt="Back"></a>
 <a href="modal_verbs.html" title="Next: Модальные глаголы"><img class="headerNavArrows"
 src="../../layout/pict/next_page_h21px.png" alt="Next"></a>
 
+<span id="reviewToggler" class="header_image" onclick="toggleReview();" title="Скрыть/показать ответы"></span>
 
 <span class="headerTitle">Спряжения глаголов</span>
 
@@ -486,40 +488,40 @@ src="../../layout/pict/next_page_h21px.png" alt="Next"></a>
 </thead>
 <tbody>
 <tr>
-<td><strong>Да ли</strong> (ти)* знаш ту девојку?</td>
+<td><span class="rv"><strong>Да ли</strong> (ти)<sup>1</sup> знаш ту девојку? </span></td>
 <td>Ты знаешь эту девушку?</td>
 </tr>
 <tr>
-<td>Имате <strong>ли</strong> (ви) влажне марамице?</td>
+<td><span class="rv">Имате <strong>ли</strong> (ви) влажне марамице?          </span></td>
 <td>У вас есть влажные салфетки?</td>
 </tr>
 <tr>
-<td><strong>Коју</strong> књигу (ти) читаш?</td>
+<td><span class="rv"><strong>Коју</strong> књигу (ти) читаш?                  </span></td>
 <td>Какую книгу ты читаешь?</td>
 </tr>
 <tr>
-<td><strong>Шта</strong> (ви) радите?</td>
+<td><span class="rv"><strong>Шта</strong> (ви) радите?                        </span></td>
 <td>Что (вы) делаете?</td>
 </tr>
 <tr>
-<td><strong>Да ли</strong> твоји родитељи живе у Москви?</td>
+<td><span class="rv"><strong>Да ли</strong> твоји родитељи живе у Москви?     </span></td>
 <td>Твои родители живут в Москве?</td>
 </tr>
 <tr>
-<td><strong>Је л'</strong> радиш негде?**</td>
+<td><span class="rv"><strong>Је л'</strong> радиш негде?<sup>2</sup>          </span></td>
 <td>Ты где-то работаешь?</td>
 </tr>
 <tr>
-<td>Радите заједно?***</td>
+<td><span class="rv">Радите заједно?<sup>3</sup>                 </span></td>
 <td>Вы работаете вместе?</td>
 </tr>
 </tbody>
 </table>
-<p>* Местоимения как правило не используются, но если используются, то в указанных позициях.</p>
-<p>** Кто-то считает эту конструкцию неграмотной, но она все равно используется часто.</p>
-<p>*** Такая форма чаще всего используется для уточнения когда ответ более или менее известен. </p>
+<p><sup>1</sup> Местоимения как правило не используются, но если используются, то в указанных позициях.</p>
+<p><sup>2</sup> Кто-то считает эту конструкцию неграмотной, но она все равно используется часто.</p>
+<p><sup>3</sup> Такая форма чаще всего используется для уточнения когда ответ более или менее известен. </p>
 <p><strong>Упражнение</strong></p>
-<p>Задать вопросы к данным утверждениям.</p>
+<p>Задать вопросы к заданным утверждениям.</p>
 <table>
 <thead>
 <tr>
@@ -532,32 +534,32 @@ src="../../layout/pict/next_page_h21px.png" alt="Next"></a>
 <tbody>
 <tr>
 <td>Радим у фирми.</td>
-<td>Работаю в компании.</td>
-<td>Где радите?</td>
-<td>Где работаете?</td>
+<td><span class="rv">Работаю в компании.  </span></td>
+<td><span class="rv">Где радиш?           </span></td>
+<td>Где работаешь?</td>
 </tr>
 <tr>
 <td>Читам досадну књигу.</td>
-<td>Читаю скучную книгу.</td>
-<td>Шта радиш?</td>
+<td><span class="rv">Читаю скучную книгу. </span></td>
+<td><span class="rv">Шта радиш?           </span></td>
 <td>Что делаешь?</td>
 </tr>
 <tr>
 <td>Ана не пије пиво.</td>
-<td>Анна не пьет пиво.</td>
-<td>Да ли Ана пије пиво?</td>
+<td><span class="rv">Анна не пьет пиво.   </span></td>
+<td><span class="rv">Да ли Ана пије пиво? </span></td>
 <td>Анна пьет пиво?</td>
 </tr>
 <tr>
 <td>Немамо времена.</td>
-<td>Нет времени.</td>
-<td>Да ли идете у шетњу?</td>
+<td><span class="rv">Нет времени.         </span></td>
+<td><span class="rv">Да ли идете у шетњу? </span></td>
 <td>Идете на прогулку?</td>
 </tr>
 <tr>
 <td>Он живи у Немачкој.</td>
-<td>Он живет в Германии.</td>
-<td>Где он живи?</td>
+<td><span class="rv">Он живет в Германии. </span></td>
+<td><span class="rv">Где он живи?         </span></td>
 <td>Где он живет?</td>
 </tr>
 </tbody>
