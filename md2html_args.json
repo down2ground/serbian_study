@@ -20,7 +20,10 @@
             "sort-by-variable": "SORT_ORDER" }
     ],
     "plugins": {
-        "variables": { "html_lang": "ru", "show_source_link": true, "theme": "light" },
+        "variables": { "html_lang": "ru", "show_source_link": true, "theme": "light",
+            "link_js": [{"src": "review.js", "defer": false}],
+            "controls": ["<span id=\"reviewToggler\" class=\"header_image\" onclick=\"toggleReview();\" title=\"Скрыть/показать ответы\"></span>"]
+        },
         "page-variables": {},
         "relative-paths": {
             "markers": ["path"],

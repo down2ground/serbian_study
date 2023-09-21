@@ -31,4 +31,46 @@ grey {
   padding-bottom: 0;
 }
 
+.rv {
+  background-color: aliceblue;
+}
 
+.rv.review_is_on {
+  cursor: pointer;
+}
+
+#reviewToggler {
+    display: inline-block;
+    position: relative;
+    width: 41px;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    top: 7px;
+    margin-left: 7px;
+}
+
+#reviewToggler::before {
+    content: url("pict/eyes_spline.png"); 
+    position: absolute;
+} 
+
+#reviewToggler::before {
+    left: 0;
+}
+
+#reviewToggler.reviewHidden::before {
+    left: -41px;
+}
+
+.hidden_review {
+    visibility: hidden;
+}
+
+.hidden_review::before {
+    content: url("pict/closed_eye.png"); 
+    position: absolute;
+    cursor: pointer;
+    visibility: initial;
+    margin-left: 5px;
+} 
