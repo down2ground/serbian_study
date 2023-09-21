@@ -55,6 +55,14 @@ grey {
     position: absolute;
 } 
 
+.reviewTogglerClass::before {
+    content: url("pict/eyes_spline.png");
+    width: 41px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: -12px;
+}
+ 
 #reviewToggler::before {
     left: 0;
 }

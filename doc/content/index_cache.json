@@ -1,5 +1,16 @@
 {
-  "readme.html": [],
+  "readme.html": [
+    {
+      "entry": "\u0440\u0435\u0436\u0438\u043c \u043f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u044f",
+      "link": "../../readme.html#index_entry_index_1",
+      "title": "Home"
+    },
+    {
+      "entry": "\u043f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u0430",
+      "link": "../../readme.html#index_entry_index_1",
+      "title": "Home"
+    }
+  ],
   "doc/content/sections/references.html": [],
   "doc/content/sections/alphabet.html": [
     {
