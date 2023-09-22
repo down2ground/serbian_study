@@ -16,7 +16,7 @@
 Слово   | Перевод
 --------|--------
 <span class="rv">нож    </span>  | нож
-<span class="rv">мУзеj  </span>  | мУзеj
+<span class="rv">мУзеj  </span>  | музей
 <span class="rv">стан   </span>  | квартира
 <span class="rv">миш    </span>  | мышь
 Исключения {colspan=2 .tableSection} | &mbsp; {.hide}
