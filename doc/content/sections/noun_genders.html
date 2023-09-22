@@ -1,139 +1,312 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head><title>Род существительных</title>
 <meta charset="utf-8">
-<link rel="shortcut icon" type="image/png" href="../../favicon.png"/>
-
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<link rel="shortcut icon" type="image/png" href="../../favicon.png">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../../layout/content.css">
+<link rel="stylesheet" type="text/css" href="../../themes/light/content_theme.css">
+<link rel="stylesheet" type="text/css" href="../../layout/layout.css">
+<link rel="stylesheet" type="text/css" href="../../themes/light/layout_theme.css">
 
-<link rel="stylesheet" type="text/css" href="../../layout/styles.css"/>
-<link rel="stylesheet" type="text/css" href="../../themes/light_default_content.css"/>
-<link rel="stylesheet" type="text/css" href="../../layout/layout.css"/>
-<link rel="stylesheet" type="text/css" href="../../themes/light_default_layout.css"/>
-
-<link rel="stylesheet" type="text/css" href="../../layout/flex.css"/>
-<link rel="stylesheet" type="text/css" href="../../custom.css"/>
-<style>
-.headerNavArrows {position: relative; top: 4px;}
-#burger {position: relative; top: 4px; margin-right: 10px;}
-</style>
+<link rel="stylesheet" type="text/css" href="../../layout/flex.css">
+<link rel="stylesheet" type="text/css" href="../../custom.css">
+<script  src="../../review.js"></script>
 </head>
 <body>
 
 <div class="header">
-<img id="burger" src="../..//layout/pict/burger.png" onclick="toggleSidebar();return false;" />
-<b><span style="color:#59f;margin-right:7px;">Srpski</span></b><a 
-class="header_item hideInCompactMode" 
-href="../../../readme.html">Home</a><a 
-class="header_item" 
-href="../index_page.html">Index</a><a 
-class="header_item hideInCompactMode" 
-href="https://github.com/down2ground/serbian_study">GitHub</a>
-<a href="../../../doc_src/sections/noun_genders.txt " class="header_item_source" title="Source text">&lt;/&gt;</a>
+<img id="burger" src="../..//layout/pict/burger.png" 
+onclick="toggleSidebar();return false;" class="toggle_narrow_only_inline" alt="Sidebar">
 
+<a 
+class="header_item "
+href="../../../readme.html"><img 
+class="logo_image" src="../../favicon.png" alt="Logo"></a><a 
+class="header_item toggle_wide_only_inline"
+href="../../../readme.html"><span class="">Home</span></a><a 
+class="header_item toggle_wide_only_inline"
+href="../index_page.html"><span class="">Index</span></a><a 
+class="header_item toggle_narrow_only_inline"
+href="../index_page.html"><img 
+class="header_image index_image" src="../../layout/pict/search.png" alt="Index"></a><a 
+class="header_item toggle_wide_only_inline"
+href="https://github.com/down2ground/serbian_study"><span class="">GitHub</span></a>
+<a href="../../../doc_src/sections/noun_genders.txt" class="source_file toggle_wide_only_inline" title="Source text">&lt;/&gt;</a>
 
-<a href="question_words.html" title="Previous: Вопросительные слова"><img class="headerNavArrows" src="../../layout/pict/previous_page_h21px.png"/></a>
+<a href="question_words.html" title="Previous: Вопросительные слова"><img class="headerNavArrows"
+src="../../layout/pict/previous_page_h21px.png" alt="Back"></a>
 
-<a href="posessive_pronouns.html" title="Next: Притяжательные местоимения"><img class="headerNavArrows" src="../../layout/pict/next_page_h21px.png"/></a>
+<a href="pronouns.html" title="Next: Местоимения"><img class="headerNavArrows"
+src="../../layout/pict/next_page_h21px.png" alt="Next"></a>
 
+<span id="reviewToggler" class="header_image" onclick="toggleReview();" title="Скрыть/показать ответы"></span>
 
 <span class="headerTitle">Род существительных</span>
 
 </div>
 
+<div class="sidebarWrapper">
 <div class="sidebar">
     <table class="sidebarAligner">
-        <tr><td valign="top">
+        <tr><td class="valign_top">
+            <div class="align_right toggle_narrow_only_block">
+            <a class="sidebar_item_inline align_right" href="https://github.com/down2ground/serbian_study">GitHub</a>
             
-            <a class="sidebar_item" href="../../../readme.html">Home</a>
-            <a class="sidebar_item" href="references.html">Источники</a>
-            <a class="sidebar_item" href="alphabet.html">Алфавит</a>
-            <a class="sidebar_item" href="phonetics.html">Фонетика</a>
-            <a class="sidebar_item" href="verb_to_be.html">Глагол &quot;быть&quot;</a>
-            <a class="sidebar_item" href="question_words.html">Вопросительные слова</a>
-            <a class="sidebar_item selected" href="noun_genders.html">Род существительных</a>
-            <a class="sidebar_item" href="posessive_pronouns.html">Притяжательные местоимения</a>
-            <a class="sidebar_item" href="adjectives_and_nouns.html">Прилагательные</a>
-            <a class="sidebar_item" href="numbers.html">Числа</a>
-            <a class="sidebar_item" href="plurals.html">Множественное число</a>
-            <a class="sidebar_item" href="demonstrative_pronouns.html">Указательные местоимения</a>
-            <a class="sidebar_item" href="verb_conjugation.html">Спряжения глаголов</a>
-            <a class="sidebar_item" href="modal_verbs.html">Модальные глаголы</a>
-            <a class="sidebar_item" href="reflexive_verbs.html">Возвратные глаголы</a>
-            <a class="sidebar_item" href="past_tense.html">Прошедшее время</a>
-            <h3> </h3>
-            <a class="sidebar_item" href="https://github.com/down2ground/serbian_study">GitHub</a>
+            <a href="../../../doc_src/sections/noun_genders.txt" class="sidebar_item_inline source_file align_right" 
+                title="Source text">&lt;/&gt;</a>
+            
+            </div>
+            
+            <a class="sidebar_item " href="../../../readme.html">Home</a>
+            <a class="sidebar_item " href="references.html">Источники</a>
+            <a class="sidebar_item " href="alphabet.html">Алфавит</a>
+            <a class="sidebar_item " href="phonetics.html">Фонетика</a>
+            <a class="sidebar_item " href="verb_to_be.html">Глагол &quot;быть&quot;</a>
+            <a class="sidebar_item " href="question_words.html">Вопросительные слова</a>
+            <a class="sidebar_item selected " href="noun_genders.html">Род существительных</a>
+            <a class="sidebar_item " href="pronouns.html">Местоимения</a>
+            <a class="sidebar_item " href="adjectives_and_nouns.html">Прилагательные</a>
+            <a class="sidebar_item " href="numbers.html">Числа</a>
+            <a class="sidebar_item " href="plurals.html">Множественное число</a>
+            <a class="sidebar_item " href="verb_conjugation.html">Спряжения глаголов</a>
+            <a class="sidebar_item " href="modal_verbs.html">Модальные глаголы</a>
+            <a class="sidebar_item " href="reflexive_verbs.html">Возвратные глаголы</a>
+            <a class="sidebar_item " href="past_tense.html">Прошедшее время</a>
+            <a class="sidebar_item " href="future_tense.html">Будущее время</a>
+            <a class="sidebar_item " href="cases.html">Падежи</a>
+            <a class="sidebar_item " href="prepositions.html">Предлоги</a>
+            <a class="sidebar_item " href="adjective_comparison.html">Степени сравнения прилагательных</a>
+            <a class="sidebar_item " href="subjunctive_mood.html">Сослагательное наклонение</a>
+            <a class="sidebar_item " href="verb_kinds.html">Виды глаголов</a>
+            <a class="sidebar_item " href="imperative_mood.html">Повелительное наклонение</a>
+            <a class="sidebar_item " href="complex_topics.html">Сложные темы</a>
+            <h3>Дополнительно</h3>
+            <a class="sidebar_item " href="sidesteps/lexis.html">Лексика</a>
         </td></tr>
-        <tr><td class="bottom" valign="bottom">
-            Generated by <a href="https://github.com/arctrong/md2html">md2html_py</a> 1.0.5
+        <tr><td class="bottom valign_bottom"><span class="poweredBy">Powered by <a class="poweredByLink"
+            href="https://github.com/arctrong/md2html">md2html_py</a> 1.0.6</span>
         </td></tr>
     </table>
+</div>
 </div>
 
 <p style="font-size:44px;font-weight:bold;margin:0 0 30px 0;">Род существительных</p>
 
 <div class="toc">
 <ul>
-<li><a href="#11">Урок 11. Род существительных</a></li>
+<li><a href="#11">Урок 11. Род существительных</a><ul>
+<li><a href="#_1">Мужской род</a></li>
+<li><a href="#_2">Женский род</a></li>
+<li><a href="#_3">Средний род</a></li>
+<li><a href="#_4">Упражнение</a></li>
+</ul>
+</li>
 </ul>
 </div>
 <hr />
 <p><a name="index_entry_index_1"></a></p>
 <h1 id="11">Урок 11. Род существительных</h1>
 <p>[<a href="references.html#ref_1_12">1.12</a>]</p>
-<p><strong>Мужской род</strong></p>
-<p>В основном оканчиваются на согласный: <em>нож</em>, <em>мУзеj</em>, <em>стан</em> (квартира), <em>миш</em> (мышь). 
-Исключения: <em>тАта</em> (папа), <em>сУдиjа</em> (судья), <em>кОмшиjа</em> (сосед), <em>ауто</em> (автомобиль), <em>сто</em> (стол), <em>Орео</em> (орёл).</p>
-<p><strong>Женский род</strong></p>
-<p>В основном оканчиваются на <em>а</em>: <em>кУћа</em> (дом), <em>кнjИга</em> (книга), <em>кУгла</em> (шар). 
-Исключения: <em>ствар</em> (вещь), <em>ноћ</em> (ночь), <em>кост</em> (кость).</p>
-<p><strong>Средний род</strong></p>
-<p>Оканчивается на <em>о</em> или на <em>е</em>: <em>дЕте</em> (ребенок), <em>мОре</em> (море), <em>нЕбо</em> (небо), <em>вИно</em> (вино).</p>
-<p>Примеры:</p>
+<h2 id="_1">Мужской род</h2>
+<p>В основном оканчиваются на <span class="rv">согласный</span>:</p>
 <table>
 <thead>
 <tr>
 <th>Слово</th>
-<th align="center">Род</th>
+<th>Перевод</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="rv">нож    </span></td>
+<td>нож</td>
+</tr>
+<tr>
+<td><span class="rv">мУзеj  </span></td>
+<td>мУзеj</td>
+</tr>
+<tr>
+<td><span class="rv">стан   </span></td>
+<td>квартира</td>
+</tr>
+<tr>
+<td><span class="rv">миш    </span></td>
+<td>мышь</td>
+</tr>
+<tr>
+<td class="tableSection" colspan="2">Исключения</td>
+<td class="hide">&mbsp;</td>
+</tr>
+<tr>
+<td><span class="rv">тАта    </span></td>
+<td>папа</td>
+</tr>
+<tr>
+<td><span class="rv">сУдиjа  </span></td>
+<td>судья</td>
+</tr>
+<tr>
+<td><span class="rv">кОмшиjа </span></td>
+<td>сосед</td>
+</tr>
+<tr>
+<td><span class="rv">ауто    </span></td>
+<td>автомобиль</td>
+</tr>
+<tr>
+<td><span class="rv">сто     </span></td>
+<td>стол</td>
+</tr>
+<tr>
+<td><span class="rv">Орео    </span></td>
+<td>орёл</td>
+</tr>
+</tbody>
+</table>
+<p><a name="foreign_masculines"></a>
+Также имеются иностранные слова с окончаниями на <strong>у</strong>, <strong>о</strong>, <strong>е</strong>, <strong>и</strong>, которые тоже
+имеют мужской род:</p>
+<ul>
+<li><span class="rv"><strong>рАгу</strong></span> &mdash; <em>рагу</em></li>
+<li><span class="rv"><strong>мЕтро</strong></span> &mdash; <em>метро</em></li>
+<li><span class="rv"><strong>тАкси</strong></span> &mdash; <em>такси</em></li>
+<li><span class="rv"><strong>интЕрвју</strong></span> &mdash; <em>интервью</em></li>
+<li><span class="rv"><strong>бИфе</strong></span> &mdash; <em>буфет</em></li>
+</ul>
+<h2 id="_2">Женский род</h2>
+<p>В основном оканчиваются на <span class="rv"><em>а</em></span>:</p>
+<table>
+<thead>
+<tr>
+<th>Слово</th>
+<th>Перевод</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="rv">кУћа  </span></td>
+<td>дом</td>
+</tr>
+<tr>
+<td><span class="rv">кнjИга</span></td>
+<td>книга</td>
+</tr>
+<tr>
+<td><span class="rv">кУгла </span></td>
+<td>шар</td>
+</tr>
+<tr>
+<td class="tableSection" colspan="2"><a name="feminine_exceptions"></a>Исключения</td>
+<td class="hide">&mbsp;</td>
+</tr>
+<tr>
+<td><span class="rv">ствар  </span></td>
+<td>вещь</td>
+</tr>
+<tr>
+<td><span class="rv">ноћ    </span></td>
+<td>ночь</td>
+</tr>
+<tr>
+<td><span class="rv">кост   </span></td>
+<td>кость</td>
+</tr>
+<tr>
+<td><span class="rv">реч    </span></td>
+<td>слово</td>
+</tr>
+<tr>
+<td><span class="rv">љубав  </span></td>
+<td>любовь</td>
+</tr>
+<tr>
+<td><span class="rv">радост </span></td>
+<td>радость</td>
+</tr>
+<tr>
+<td><span class="rv">мудрост</span></td>
+<td>мудрость</td>
+</tr>
+<tr>
+<td><span class="rv">мисао  </span></td>
+<td>мысль</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">Средний род</h2>
+<p>Оканчивается на <span class="rv"><em>о</em> или на <em>е</em></span>:</p>
+<table>
+<thead>
+<tr>
+<th>Слово</th>
+<th>Перевод</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="rv">дЕте</span></td>
+<td>ребенок</td>
+</tr>
+<tr>
+<td><span class="rv">мОре</span></td>
+<td>море</td>
+</tr>
+<tr>
+<td><span class="rv">нЕбо</span></td>
+<td>небо</td>
+</tr>
+<tr>
+<td><span class="rv">вИно</span></td>
+<td>вино</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">Упражнение</h2>
+<p>Определить род существительных.</p>
+<table>
+<thead>
+<tr>
+<th>Слово</th>
+<th>Род</th>
 <th>Перевод</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>зид</td>
-<td align="center">м</td>
-<td>стена</td>
+<td><span class="rv">м    </span></td>
+<td><span class="rv">стена  </span></td>
 </tr>
 <tr>
 <td>пЕпео</td>
-<td align="center">м</td>
-<td>пепел</td>
+<td><span class="rv">м    </span></td>
+<td><span class="rv">пепел  </span></td>
 </tr>
 <tr>
 <td>прОзор</td>
-<td align="center">м</td>
-<td>окно</td>
+<td><span class="rv">м    </span></td>
+<td><span class="rv">окно   </span></td>
 </tr>
 <tr>
 <td>реч</td>
-<td align="center"><strong>ж</strong></td>
-<td>слово</td>
+<td><span class="rv"><strong>ж</strong></span></td>
+<td><span class="rv">слово  </span></td>
 </tr>
 <tr>
 <td>дЕо</td>
-<td align="center">м</td>
-<td>часть</td>
+<td><span class="rv">м    </span></td>
+<td><span class="rv">часть  </span></td>
 </tr>
 <tr>
 <td>глад</td>
-<td align="center"><strong>ж</strong></td>
-<td>голод</td>
+<td><span class="rv"><strong>ж</strong></span></td>
+<td><span class="rv">голод  </span></td>
 </tr>
 <tr>
 <td>прЕзиме</td>
-<td align="center">с</td>
-<td>фамилия</td>
+<td><span class="rv">с    </span></td>
+<td><span class="rv">фамилия</span></td>
 </tr>
 </tbody>
 </table>
@@ -141,17 +314,15 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <hr />
 
 <p style="margin-top:0px;margin-bottom:0px;text-align:right;"><a href="question_words.html" 
-title="Previous: Вопросительные слова"><img src="../../layout/pict/previous_page.png"/></a>
-
-<a href="posessive_pronouns.html" title="Next: Притяжательные местоимения"><img 
-src="../../layout/pict/next_page.png"/></a>
+title="Previous: Вопросительные слова"><img src="../../layout/pict/previous_page.png"
+alt="Back"></a>
+<a href="pronouns.html" title="Next: Местоимения"><img 
+src="../../layout/pict/next_page.png" alt="Next"></a>
 </p>
-
-<div style="height: 1000px;"><p>&nbsp;</p></div>
 
 <script>
 function toggleSidebar() {
-    let sidebar = document.getElementsByClassName("sidebar")[0]
+    let sidebar = document.getElementsByClassName("sidebarWrapper")[0]
     let display = sidebar.style.display
     if (!display || display == "none") {
         sidebar.style.display = "block"

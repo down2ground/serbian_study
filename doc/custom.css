@@ -1,0 +1,84 @@
+.marker1 {
+    background-color: aqua;
+}
+
+.hide {
+    display: none;
+}
+
+red {
+  color: red;
+}
+
+blue {
+  color: mediumblue;
+}
+
+grey {
+  color: grey;
+}
+
+.tableSection {
+  background-color: lightyellow;
+}
+
+.noTop {
+  border-top: none;
+}
+
+.noBottom {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.rv {
+  background-color: aliceblue;
+}
+
+.rv.review_is_on {
+  cursor: pointer;
+}
+
+#reviewToggler {
+    display: inline-block;
+    position: relative;
+    width: 41px;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    top: 7px;
+    margin-left: 2px;
+}
+
+#reviewToggler::before {
+    content: url("pict/eyes_spline.png"); 
+    position: absolute;
+} 
+
+.reviewTogglerClass::before {
+    content: url("pict/eyes_spline.png");
+    width: 41px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: -12px;
+}
+ 
+#reviewToggler::before {
+    left: 0;
+}
+
+#reviewToggler.reviewHidden::before {
+    left: -41px;
+}
+
+.hidden_review {
+    visibility: hidden;
+}
+
+.hidden_review::before {
+    content: url("pict/closed_eye.png"); 
+    position: absolute;
+    cursor: pointer;
+    visibility: initial;
+    margin-left: 5px;
+} 

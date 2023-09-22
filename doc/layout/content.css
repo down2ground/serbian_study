@@ -7,18 +7,12 @@ body, html {
 }
 
 body {
-    /* font-size: 18px; */
     max-width: 50rem;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-p, h1, h2, h3, h4, h5, h6 {
-    /* max-width: 900px; */
-}
-
-li {
-    /* max-width: 860px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 100px;
 }
 
 ul, ol {
@@ -29,9 +23,6 @@ hr {
     height: 1px;
     border: 0px;
     width: 100%;
-    /* width: 899px; */
-    /* margin-left: 0px; */
-    /* text-align: left; */
 }
 
 h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
@@ -53,12 +44,11 @@ code, .code {
 pre>code, div.code {
     font-size: 0.889rem;
     display: block;
-    /* width: 878px; */
-    min-width: max-content;
     line-height: 1.4;
     border-radius: 0;
     white-space: pre;
     padding: 10px;
+    overflow-x: auto;
 }
 
 pre>code.language-wrapped {
@@ -70,7 +60,6 @@ pre>code.language-wrapped {
 pre>code.language-text {
     background-color: unset;
     padding: 0;
-    /* width: 900px; */
     border: none;
 }
 
@@ -91,31 +80,12 @@ blockquote {
     margin-right: 0px;
     padding: 1px 10px;
     font-size: 0.889rem;
-    /* width: 868px; */
-    /* min-width: max-content; */
     border-style: solid;
     border-width: 1px 1px 1px 10px;
 }
 
-blockquote *, div.admonition * {
-    /* max-width: 868px; */
-}
-
 blockquote, div.admonition {
-    /* overflow: hidden; */
     overflow-x: auto;
-}
-
-blockquote pre>code {
-    /* width: 847px; */
-}
-
-div.admonition pre>code {
-    /* width: 857px; */
-}
-
-blockquote li pre code {
-    /* width: 808px; */
 }
 
 table {
@@ -145,7 +115,7 @@ div.tableLight+table td, div.tableLight+table th {
     padding: 2px 7px;
 }
 
-div.tableHederless+table>thead {
+div.tableHeaderless+table>thead {
     display: none;
 }
 
@@ -155,8 +125,6 @@ div.admonition {
     margin-left: 0;
     padding: 0;
     font-size: 0.889rem;
-    /* width: 898px; */
-    /* min-width: max-content; */
     border-style: solid;
     border-width: 1px;
 }
@@ -167,28 +135,15 @@ div.admonition>p.admonition-title {
     border-bottom-width: 1px;
     padding: 5px 20px 5px 10px;
     font-weight: bold;
-    max-width: unset;
 }
 
 div.admonition>* {
     margin: 16px 10px;
 }
 
-div.admonition li {
-    /* width: 838px; */
-}
-
 li>div.admonition {
     width: unset;
     min-width: unset;
-}
-
-li>blockquote {
-    /* width: 827px; */
-}
-
-li>pre>code {
-    /* width: 838px; */
 }
 
 img.floatRight {
@@ -200,3 +155,9 @@ img.floatLeft {
     float: left; 
     margin: 0 25px 25px 0;
 }
+
+.poweredBy {
+    font-size: 0.734rem;
+}
+
+

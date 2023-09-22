@@ -125,9 +125,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.8820636"
-     inkscape:cx="93.630303"
-     inkscape:cy="94.264654"
+     inkscape:zoom="3.9410318"
+     inkscape:cx="186.11877"
+     inkscape:cy="91.854118"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -191,35 +191,51 @@
          style="font-size:3.175px;fill:#ff0000;stroke:none;stroke-width:0.264583"
          id="tspan3216">at 96 dpi as well.</tspan></text>
     <g
-       id="g1329"
+       id="g1011"
+       transform="matrix(0.97777802,0,0,0.97777802,0.60943496,0.37520909)"
+       style="stroke-width:1.02273"
        inkscape:export-filename="doc\favicon.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
-      <path
-         style="fill:#0000ff;fill-opacity:0.996078;fill-rule:evenodd;stroke-width:1.265;stroke-opacity:0.996078;paint-order:stroke fill markers"
-         d="M 39.331121,16.88459 V 28.79084 H 27.424871"
-         id="path1274"
-         sodipodi:nodetypes="ccc" />
-      <path
-         style="fill:#ff0000;fill-opacity:0.996078;fill-rule:evenodd;stroke-width:1.265;stroke-opacity:0.996078;paint-order:stroke fill markers"
-         d="M 27.424871,28.79084 V 16.88459 h 11.90625 z"
-         id="rect1222"
-         sodipodi:nodetypes="cccc" />
+      <g
+         id="g1329"
+         inkscape:export-filename="doc\favicon.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         style="stroke-width:1.02273">
+        <path
+           style="fill:#0000ff;fill-opacity:0.996078;fill-rule:evenodd;stroke-width:1.29375;stroke-opacity:0.996078;paint-order:stroke fill markers"
+           d="M 39.331121,16.88459 V 28.79084 H 27.424871"
+           id="path1274"
+           sodipodi:nodetypes="ccc" />
+        <path
+           style="fill:#ff0000;fill-opacity:0.996078;fill-rule:evenodd;stroke-width:1.29375;stroke-opacity:0.996078;paint-order:stroke fill markers"
+           d="M 27.424871,28.79084 V 16.88459 h 11.90625 z"
+           id="rect1222"
+           sodipodi:nodetypes="cccc" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:12.0223px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.70283;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         x="28.25703"
+         y="27.065716"
+         id="text303"
+         transform="scale(0.99478728,1.00524)"
+         inkscape:export-filename="D:\8230o\study\java\spring\spring_ioc\doc\pict\favicon.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan301"
+           x="28.25703"
+           y="27.065716"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.958px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;stroke:none;stroke-width:1.70283;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers">Ђ</tspan></text>
+      <rect
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.270596;stroke-linecap:square;stroke-dasharray:none;paint-order:markers fill stroke"
+         id="rect353"
+         width="11.906247"
+         height="11.906249"
+         x="27.424871"
+         y="16.88459" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.3413px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.66499;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-       x="28.002562"
-       y="27.258476"
-       id="text303"
-       transform="scale(0.99817753,1.0018258)"
-       inkscape:export-filename="D:\8230o\study\java\spring\spring_ioc\doc\pict\favicon.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan301"
-         x="28.002562"
-         y="27.258476"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.2753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;stroke:none;stroke-width:1.66499;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers">Ђ</tspan></text>
   </g>
 </svg>

@@ -1,74 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head><title>Вопросительные слова</title>
 <meta charset="utf-8">
-<link rel="shortcut icon" type="image/png" href="../../favicon.png"/>
-
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<link rel="shortcut icon" type="image/png" href="../../favicon.png">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../../layout/content.css">
+<link rel="stylesheet" type="text/css" href="../../themes/light/content_theme.css">
+<link rel="stylesheet" type="text/css" href="../../layout/layout.css">
+<link rel="stylesheet" type="text/css" href="../../themes/light/layout_theme.css">
 
-<link rel="stylesheet" type="text/css" href="../../layout/styles.css"/>
-<link rel="stylesheet" type="text/css" href="../../themes/light_default_content.css"/>
-<link rel="stylesheet" type="text/css" href="../../layout/layout.css"/>
-<link rel="stylesheet" type="text/css" href="../../themes/light_default_layout.css"/>
-
-<link rel="stylesheet" type="text/css" href="../../layout/flex.css"/>
-<link rel="stylesheet" type="text/css" href="../../custom.css"/>
-<style>
-.headerNavArrows {position: relative; top: 4px;}
-#burger {position: relative; top: 4px; margin-right: 10px;}
-</style>
+<link rel="stylesheet" type="text/css" href="../../layout/flex.css">
+<link rel="stylesheet" type="text/css" href="../../custom.css">
+<script  src="../../review.js"></script>
 </head>
 <body>
 
 <div class="header">
-<img id="burger" src="../..//layout/pict/burger.png" onclick="toggleSidebar();return false;" />
-<b><span style="color:#59f;margin-right:7px;">Srpski</span></b><a 
-class="header_item hideInCompactMode" 
-href="../../../readme.html">Home</a><a 
-class="header_item" 
-href="../index_page.html">Index</a><a 
-class="header_item hideInCompactMode" 
-href="https://github.com/down2ground/serbian_study">GitHub</a>
-<a href="../../../doc_src/sections/question_words.txt " class="header_item_source" title="Source text">&lt;/&gt;</a>
+<img id="burger" src="../..//layout/pict/burger.png" 
+onclick="toggleSidebar();return false;" class="toggle_narrow_only_inline" alt="Sidebar">
 
+<a 
+class="header_item "
+href="../../../readme.html"><img 
+class="logo_image" src="../../favicon.png" alt="Logo"></a><a 
+class="header_item toggle_wide_only_inline"
+href="../../../readme.html"><span class="">Home</span></a><a 
+class="header_item toggle_wide_only_inline"
+href="../index_page.html"><span class="">Index</span></a><a 
+class="header_item toggle_narrow_only_inline"
+href="../index_page.html"><img 
+class="header_image index_image" src="../../layout/pict/search.png" alt="Index"></a><a 
+class="header_item toggle_wide_only_inline"
+href="https://github.com/down2ground/serbian_study"><span class="">GitHub</span></a>
+<a href="../../../doc_src/sections/question_words.txt" class="source_file toggle_wide_only_inline" title="Source text">&lt;/&gt;</a>
 
-<a href="verb_to_be.html" title="Previous: Глагол &quot;быть&quot;"><img class="headerNavArrows" src="../../layout/pict/previous_page_h21px.png"/></a>
+<a href="verb_to_be.html" title="Previous: Глагол &quot;быть&quot;"><img class="headerNavArrows"
+src="../../layout/pict/previous_page_h21px.png" alt="Back"></a>
 
-<a href="noun_genders.html" title="Next: Род существительных"><img class="headerNavArrows" src="../../layout/pict/next_page_h21px.png"/></a>
+<a href="noun_genders.html" title="Next: Род существительных"><img class="headerNavArrows"
+src="../../layout/pict/next_page_h21px.png" alt="Next"></a>
 
+<span id="reviewToggler" class="header_image" onclick="toggleReview();" title="Скрыть/показать ответы"></span>
 
 <span class="headerTitle">Вопросительные слова</span>
 
 </div>
 
+<div class="sidebarWrapper">
 <div class="sidebar">
     <table class="sidebarAligner">
-        <tr><td valign="top">
+        <tr><td class="valign_top">
+            <div class="align_right toggle_narrow_only_block">
+            <a class="sidebar_item_inline align_right" href="https://github.com/down2ground/serbian_study">GitHub</a>
             
-            <a class="sidebar_item" href="../../../readme.html">Home</a>
-            <a class="sidebar_item" href="references.html">Источники</a>
-            <a class="sidebar_item" href="alphabet.html">Алфавит</a>
-            <a class="sidebar_item" href="phonetics.html">Фонетика</a>
-            <a class="sidebar_item" href="verb_to_be.html">Глагол &quot;быть&quot;</a>
-            <a class="sidebar_item selected" href="question_words.html">Вопросительные слова</a>
-            <a class="sidebar_item" href="noun_genders.html">Род существительных</a>
-            <a class="sidebar_item" href="posessive_pronouns.html">Притяжательные местоимения</a>
-            <a class="sidebar_item" href="adjectives_and_nouns.html">Прилагательные</a>
-            <a class="sidebar_item" href="numbers.html">Числа</a>
-            <a class="sidebar_item" href="plurals.html">Множественное число</a>
-            <a class="sidebar_item" href="demonstrative_pronouns.html">Указательные местоимения</a>
-            <a class="sidebar_item" href="verb_conjugation.html">Спряжения глаголов</a>
-            <a class="sidebar_item" href="modal_verbs.html">Модальные глаголы</a>
-            <a class="sidebar_item" href="reflexive_verbs.html">Возвратные глаголы</a>
-            <a class="sidebar_item" href="past_tense.html">Прошедшее время</a>
-            <h3> </h3>
-            <a class="sidebar_item" href="https://github.com/down2ground/serbian_study">GitHub</a>
+            <a href="../../../doc_src/sections/question_words.txt" class="sidebar_item_inline source_file align_right" 
+                title="Source text">&lt;/&gt;</a>
+            
+            </div>
+            
+            <a class="sidebar_item " href="../../../readme.html">Home</a>
+            <a class="sidebar_item " href="references.html">Источники</a>
+            <a class="sidebar_item " href="alphabet.html">Алфавит</a>
+            <a class="sidebar_item " href="phonetics.html">Фонетика</a>
+            <a class="sidebar_item " href="verb_to_be.html">Глагол &quot;быть&quot;</a>
+            <a class="sidebar_item selected " href="question_words.html">Вопросительные слова</a>
+            <a class="sidebar_item " href="noun_genders.html">Род существительных</a>
+            <a class="sidebar_item " href="pronouns.html">Местоимения</a>
+            <a class="sidebar_item " href="adjectives_and_nouns.html">Прилагательные</a>
+            <a class="sidebar_item " href="numbers.html">Числа</a>
+            <a class="sidebar_item " href="plurals.html">Множественное число</a>
+            <a class="sidebar_item " href="verb_conjugation.html">Спряжения глаголов</a>
+            <a class="sidebar_item " href="modal_verbs.html">Модальные глаголы</a>
+            <a class="sidebar_item " href="reflexive_verbs.html">Возвратные глаголы</a>
+            <a class="sidebar_item " href="past_tense.html">Прошедшее время</a>
+            <a class="sidebar_item " href="future_tense.html">Будущее время</a>
+            <a class="sidebar_item " href="cases.html">Падежи</a>
+            <a class="sidebar_item " href="prepositions.html">Предлоги</a>
+            <a class="sidebar_item " href="adjective_comparison.html">Степени сравнения прилагательных</a>
+            <a class="sidebar_item " href="subjunctive_mood.html">Сослагательное наклонение</a>
+            <a class="sidebar_item " href="verb_kinds.html">Виды глаголов</a>
+            <a class="sidebar_item " href="imperative_mood.html">Повелительное наклонение</a>
+            <a class="sidebar_item " href="complex_topics.html">Сложные темы</a>
+            <h3>Дополнительно</h3>
+            <a class="sidebar_item " href="sidesteps/lexis.html">Лексика</a>
         </td></tr>
-        <tr><td class="bottom" valign="bottom">
-            Generated by <a href="https://github.com/arctrong/md2html">md2html_py</a> 1.0.5
+        <tr><td class="bottom valign_bottom"><span class="poweredBy">Powered by <a class="poweredByLink"
+            href="https://github.com/arctrong/md2html">md2html_py</a> 1.0.6</span>
         </td></tr>
     </table>
+</div>
 </div>
 
 <p style="font-size:44px;font-weight:bold;margin:0 0 30px 0;">Вопросительные слова</p>
@@ -93,100 +113,101 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </thead>
 <tbody>
 <tr>
-<td>Шта?</td>
+<td><span class="rv">Шта?   </span></td>
 <td>Что?</td>
-<td>Шта jе то?</td>
+<td><span class="rv">Шта jе то?    </span></td>
 <td>Что это?</td>
 </tr>
 <tr>
-<td>Ко?</td>
+<td><span class="rv">Ко?    </span></td>
 <td>Кто?</td>
-<td>Ко jе то?</td>
+<td><span class="rv">Ко jе то?     </span></td>
 <td>Кто это?</td>
 </tr>
 <tr>
-<td>Где?</td>
-<td>Где? Куда?</td>
-<td>Где си ти?</td>
+<td><span class="rv">Где?   </span></td>
+<td>Где? Куда?<sup>1</sup></td>
+<td><span class="rv">Где си ти?    </span></td>
 <td>Где ты?</td>
 </tr>
 <tr>
-<td>КАда?</td>
+<td><span class="rv">КАда?  </span></td>
 <td>Когда?</td>
-<td>КАда jе рУчак?</td>
+<td><span class="rv">КАда jе рУчак?</span></td>
 <td>Когда обед?</td>
 </tr>
 <tr>
-<td>КолИко?</td>
-<td>Сколько?</td>
-<td>КолИко кОшта?</td>
+<td rowspan="2"><span class="rv">КолИко?</span></td>
+<td rowspan="2">Сколько?</td>
+<td><span class="rv">КолИко кОшта? </span></td>
 <td>Сколько стоит?</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td>КолИко jе сАти?</td>
+<td><span class="rv">КолИко jе сАти?</span></td>
 <td>Сколько времени?</td>
+<td class="hide">&nbsp;</td>
+<td class="hide">&nbsp;</td>
 </tr>
 <tr>
-<td>Одакле?</td>
+<td><span class="rv">Одакле?</span></td>
 <td>Откуда?</td>
-<td>Одакле сте?</td>
+<td><span class="rv">Одакле сте?    </span></td>
 <td>Откуда вы?</td>
 </tr>
 <tr>
-<td>ЗАшто?</td>
+<td><span class="rv">ЗАшто? </span></td>
 <td>Почему?</td>
-<td>ЗАшто ћУтиш?</td>
+<td><span class="rv">ЗАшто ћУтиш?   </span></td>
 <td>Почему молчишь?</td>
 </tr>
 <tr>
-<td>КАко?</td>
-<td>Как?</td>
-<td>КАко си дАнас?</td>
+<td rowspan="2"><span class="rv">КАко?  </span></td>
+<td rowspan="2">Как?</td>
+<td><span class="rv">КАко си дАнас? </span></td>
 <td>Как ты (есть) сегодня?</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td>КАко се зОвеш?</td>
+<td><span class="rv">КАко се зОвеш? </span></td>
 <td>Как тебя зовут (как ты себя называешь)?</td>
+<td class="hide">&nbsp;</td>
+<td class="hide">&nbsp;</td>
 </tr>
 <tr>
-<td>КОjи/кОja/кОjе?</td>
+<td><span class="rv">КОjи/кОja/кОjе?   </span></td>
 <td>Какой/какая/какое (из ряда объектов)?</td>
-<td>КОjи ауто jе твоj?</td>
+<td><span class="rv">КОjи ауто jе твоj? </span></td>
 <td>Какой из автомобилей твой?</td>
 </tr>
 <tr>
-<td>КАкав/кАква/кАкво?</td>
+<td><span class="rv">КАкав/кАква/кАкво?</span></td>
 <td>Какой/какая/какое (по качеству)?</td>
-<td>КАкав jе твоj ауто?</td>
+<td><span class="rv">КАкав jе твоj ауто?</span></td>
 <td>Какой у тебя автомобиль?</td>
 </tr>
 <tr>
-<td>ЧИjи/чИja/чИjе?</td>
+<td><span class="rv">ЧИjи/чИja/чИjе?   </span></td>
 <td>Чей/чья/чьё?</td>
-<td>ЧИjи jе то брат? ЧИjа jе то сЕстра? Чиjе jе то пИво?</td>
+<td><span class="rv">ЧИjи jе то брат? ЧИjа jе то сЕстра? Чиjе jе то пИво?</span></td>
 <td>Чей это брат? Чья это сестра? Чьё это пиво?</td>
 </tr>
 </tbody>
 </table>
+<p><sup>1</sup> Формально в сербском языке <strong>где</strong> означает <span class="rv">местоположение</span>,
+а <strong>куда</strong> &mdash; <span class="rv">направление движения</span>. Однако сербы как правило 
+<span class="rv">используют вопросительное слово <strong>где</strong> в обоих смыслах</span>.</p>
 <p>&nbsp;</p>
 <hr />
 
 <p style="margin-top:0px;margin-bottom:0px;text-align:right;"><a href="verb_to_be.html" 
-title="Previous: Глагол &quot;быть&quot;"><img src="../../layout/pict/previous_page.png"/></a>
-
+title="Previous: Глагол &quot;быть&quot;"><img src="../../layout/pict/previous_page.png"
+alt="Back"></a>
 <a href="noun_genders.html" title="Next: Род существительных"><img 
-src="../../layout/pict/next_page.png"/></a>
+src="../../layout/pict/next_page.png" alt="Next"></a>
 </p>
-
-<div style="height: 1000px;"><p>&nbsp;</p></div>
 
 <script>
 function toggleSidebar() {
-    let sidebar = document.getElementsByClassName("sidebar")[0]
+    let sidebar = document.getElementsByClassName("sidebarWrapper")[0]
     let display = sidebar.style.display
     if (!display || display == "none") {
         sidebar.style.display = "block"

@@ -1,79 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head><title>Index</title>
 <meta charset="utf-8">
-<link rel="shortcut icon" type="image/png" href="../favicon.png"/>
-
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<link rel="shortcut icon" type="image/png" href="../favicon.png">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-
-<link rel="stylesheet" type="text/css" href="../layout/styles.css"/>
-<link rel="stylesheet" type="text/css" href="../themes/light_default_content.css"/>
-<link rel="stylesheet" type="text/css" href="../layout/layout.css"/>
-<link rel="stylesheet" type="text/css" href="../themes/light_default_layout.css"/>
+<link rel="stylesheet" type="text/css" href="../layout/content.css">
+<link rel="stylesheet" type="text/css" href="../themes/light/content_theme.css">
+<link rel="stylesheet" type="text/css" href="../layout/layout.css">
+<link rel="stylesheet" type="text/css" href="../themes/light/layout_theme.css">
 <link rel="stylesheet" type="text/css" href="../layout/index.css">
-<link rel="stylesheet" type="text/css" href="../layout/flex.css"/>
-<link rel="stylesheet" type="text/css" href="../custom.css"/>
-<style>
-.headerNavArrows {position: relative; top: 4px;}
-#burger {position: relative; top: 4px; margin-right: 10px;}
-</style>
+<link rel="stylesheet" type="text/css" href="../layout/flex.css">
+<link rel="stylesheet" type="text/css" href="../custom.css">
+<script  src="../review.js"></script>
 </head>
 <body>
 
 <div class="header">
-<img id="burger" src="..//layout/pict/burger.png" onclick="toggleSidebar();return false;" />
-<b><span style="color:#59f;margin-right:7px;">Srpski</span></b><a 
-class="header_item hideInCompactMode" 
-href="../../readme.html">Home</a><a 
-class="header_item selected" 
-href="index_page.html">Index</a><a 
-class="header_item hideInCompactMode" 
-href="https://github.com/down2ground/serbian_study">GitHub</a>
+<img id="burger" src="..//layout/pict/burger.png" 
+onclick="toggleSidebar();return false;" class="toggle_narrow_only_inline" alt="Sidebar">
 
-<span class="header_item_source inactive">&lt;/&gt;</span>
+<a 
+class="header_item "
+href="../../readme.html"><img 
+class="logo_image" src="../favicon.png" alt="Logo"></a><a 
+class="header_item toggle_wide_only_inline"
+href="../../readme.html"><span class="">Home</span></a><a 
+class="header_item selected toggle_wide_only_inline"
+href="index_page.html"><span class="">Index</span></a><a 
+class="header_item selected toggle_narrow_only_inline"
+href="index_page.html"><img 
+class="header_image index_image" src="../layout/pict/search.png" alt="Index"></a><a 
+class="header_item toggle_wide_only_inline"
+href="https://github.com/down2ground/serbian_study"><span class="">GitHub</span></a>
 
+<span class="source_file inactive toggle_wide_only_inline">&lt;/&gt;</span>
 
-<img class="headerNavArrows" src="../layout/pict/previous_page_h21px_inactive.png"/>
+<img class="headerNavArrows" src="../layout/pict/previous_page_h21px_inactive.png"
+alt="No back">
 
-<img class="headerNavArrows" src="../layout/pict/next_page_h21px_inactive.png"/>
+<img class="headerNavArrows" src="../layout/pict/next_page_h21px_inactive.png"
+alt="No next">
+<span id="reviewToggler" class="header_image" onclick="toggleReview();" title="Скрыть/показать ответы"></span>
 
 <span class="headerTitle">Index</span>
 
 </div>
 
+<div class="sidebarWrapper">
 <div class="sidebar">
     <table class="sidebarAligner">
-        <tr><td valign="top">
+        <tr><td class="valign_top">
+            <div class="align_right toggle_narrow_only_block">
+            <a class="sidebar_item_inline align_right" href="https://github.com/down2ground/serbian_study">GitHub</a>
             
-            <a class="sidebar_item" href="../../readme.html">Home</a>
-            <a class="sidebar_item" href="sections/references.html">Источники</a>
-            <a class="sidebar_item" href="sections/alphabet.html">Алфавит</a>
-            <a class="sidebar_item" href="sections/phonetics.html">Фонетика</a>
-            <a class="sidebar_item" href="sections/verb_to_be.html">Глагол &quot;быть&quot;</a>
-            <a class="sidebar_item" href="sections/question_words.html">Вопросительные слова</a>
-            <a class="sidebar_item" href="sections/noun_genders.html">Род существительных</a>
-            <a class="sidebar_item" href="sections/posessive_pronouns.html">Притяжательные местоимения</a>
-            <a class="sidebar_item" href="sections/adjectives_and_nouns.html">Прилагательные</a>
-            <a class="sidebar_item" href="sections/numbers.html">Числа</a>
-            <a class="sidebar_item" href="sections/plurals.html">Множественное число</a>
-            <a class="sidebar_item" href="sections/demonstrative_pronouns.html">Указательные местоимения</a>
-            <a class="sidebar_item" href="sections/verb_conjugation.html">Спряжения глаголов</a>
-            <a class="sidebar_item" href="sections/modal_verbs.html">Модальные глаголы</a>
-            <a class="sidebar_item" href="sections/reflexive_verbs.html">Возвратные глаголы</a>
-            <a class="sidebar_item" href="sections/past_tense.html">Прошедшее время</a>
-            <h3> </h3>
-            <a class="sidebar_item" href="https://github.com/down2ground/serbian_study">GitHub</a>
+            
+            <span class="sidebar_item_inline source_file inactive align_right"
+                >&lt;/&gt;</span>
+            </div>
+            
+            <a class="sidebar_item " href="../../readme.html">Home</a>
+            <a class="sidebar_item " href="sections/references.html">Источники</a>
+            <a class="sidebar_item " href="sections/alphabet.html">Алфавит</a>
+            <a class="sidebar_item " href="sections/phonetics.html">Фонетика</a>
+            <a class="sidebar_item " href="sections/verb_to_be.html">Глагол &quot;быть&quot;</a>
+            <a class="sidebar_item " href="sections/question_words.html">Вопросительные слова</a>
+            <a class="sidebar_item " href="sections/noun_genders.html">Род существительных</a>
+            <a class="sidebar_item " href="sections/pronouns.html">Местоимения</a>
+            <a class="sidebar_item " href="sections/adjectives_and_nouns.html">Прилагательные</a>
+            <a class="sidebar_item " href="sections/numbers.html">Числа</a>
+            <a class="sidebar_item " href="sections/plurals.html">Множественное число</a>
+            <a class="sidebar_item " href="sections/verb_conjugation.html">Спряжения глаголов</a>
+            <a class="sidebar_item " href="sections/modal_verbs.html">Модальные глаголы</a>
+            <a class="sidebar_item " href="sections/reflexive_verbs.html">Возвратные глаголы</a>
+            <a class="sidebar_item " href="sections/past_tense.html">Прошедшее время</a>
+            <a class="sidebar_item " href="sections/future_tense.html">Будущее время</a>
+            <a class="sidebar_item " href="sections/cases.html">Падежи</a>
+            <a class="sidebar_item " href="sections/prepositions.html">Предлоги</a>
+            <a class="sidebar_item " href="sections/adjective_comparison.html">Степени сравнения прилагательных</a>
+            <a class="sidebar_item " href="sections/subjunctive_mood.html">Сослагательное наклонение</a>
+            <a class="sidebar_item " href="sections/verb_kinds.html">Виды глаголов</a>
+            <a class="sidebar_item " href="sections/imperative_mood.html">Повелительное наклонение</a>
+            <a class="sidebar_item " href="sections/complex_topics.html">Сложные темы</a>
+            <h3>Дополнительно</h3>
+            <a class="sidebar_item " href="sections/sidesteps/lexis.html">Лексика</a>
         </td></tr>
-        <tr><td class="bottom" valign="bottom">
-            Generated by <a href="https://github.com/arctrong/md2html">md2html_py</a> 1.0.5
+        <tr><td class="bottom valign_bottom"><span class="poweredBy">Powered by <a class="poweredByLink"
+            href="https://github.com/arctrong/md2html">md2html_py</a> 1.0.6</span>
         </td></tr>
     </table>
+</div>
 </div>
 
 <p style="font-size:44px;font-weight:bold;margin:0 0 30px 0;">Index</p>
 
-<p class="index_letters"><a href="#index_letter_H">H</a> <a href="#index_letter_M">M</a> <a href="#index_letter_S">S</a> <a href="#index_letter_А">А</a> <a href="#index_letter_Б">Б</a> <a href="#index_letter_В">В</a> <a href="#index_letter_Г">Г</a> <a href="#index_letter_И">И</a> <a href="#index_letter_М">М</a> <a href="#index_letter_П">П</a> <a href="#index_letter_Р">Р</a> <a href="#index_letter_С">С</a> <a href="#index_letter_Ф">Ф</a> <a href="#index_letter_Х">Х</a> <a href="#index_letter_Ч">Ч</a> </p>
+<p class="index_letters"><a href="#index_letter_H">H</a> <a href="#index_letter_M">M</a> <a href="#index_letter_S">S</a> <a href="#index_letter_А">А</a> <a href="#index_letter_Б">Б</a> <a href="#index_letter_В">В</a> <a href="#index_letter_Г">Г</a> <a href="#index_letter_Е">Е</a> <a href="#index_letter_Ж">Ж</a> <a href="#index_letter_З">З</a> <a href="#index_letter_И">И</a> <a href="#index_letter_К">К</a> <a href="#index_letter_Л">Л</a> <a href="#index_letter_М">М</a> <a href="#index_letter_О">О</a> <a href="#index_letter_П">П</a> <a href="#index_letter_Р">Р</a> <a href="#index_letter_С">С</a> <a href="#index_letter_Ф">Ф</a> <a href="#index_letter_Х">Х</a> <a href="#index_letter_Ч">Ч</a> </p>
 <div class="index-content">
 <p class="index-letter"><a id="index_letter_H"></a>H</p>
 <p class="index-entry"><a href="sections/modal_verbs.html#index_entry_index_1" title="Модальные глаголы">hoću, глагол</a></p>
@@ -84,37 +104,73 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <p class="index-letter"><a id="index_letter_А"></a>А</p>
 <p class="index-entry"><a href="sections/alphabet.html#index_entry_index_1" title="Алфавит">алфавит</a></p>
 <p class="index-entry"><a href="sections/modal_verbs.html#index_entry_index_2" title="Модальные глаголы">аналитический инфинитив</a></p>
+<p class="index-entry"><a href="sections/complex_topics.html#index_entry_index_2" title="Сложные темы">аорист</a></p>
 <p class="index-letter"><a id="index_letter_Б"></a>Б</p>
+<p class="index-entry"><a href="sections/complex_topics.html#index_entry_index_4" title="Сложные темы">беше, глагол</a></p>
+<p class="index-entry"><a href="sections/future_tense.html#index_entry_index_1" title="Будущее время">будущее время</a></p>
 <p class="index-entry"><a href="sections/verb_to_be.html#index_entry_index_1" title="Глагол &quot;быть&quot;">быть, глагол</a></p>
 <p class="index-letter"><a id="index_letter_В"></a>В</p>
+<p class="index-entry"><a href="sections/sidesteps/lexis.html#index_entry_index_1" title="Лексика">вводные слова, лексика</a></p>
 <p class="index-entry"><a href="sections/reflexive_verbs.html#index_entry_index_1" title="Возвратные глаголы">возвратные глаголы</a></p>
-<p class="index-entry"><a href="sections/verb_conjugation.html#index_entry_index_3" title="Спряжения глаголов">вопросительные предложения</a></p>
+<p class="index-entry"><a href="sections/verb_conjugation.html#index_entry_index_4" title="Спряжения глаголов">вопросительные предложения</a></p>
 <p class="index-entry"><a href="sections/question_words.html#index_entry_index_1" title="Вопросительные слова">вопросительные слова</a></p>
+<p class="index-entry"><a href="sections/sidesteps/lexis.html#index_entry_index_11" title="Лексика">время</a></p>
 <p class="index-letter"><a id="index_letter_Г"></a>Г</p>
 <p class="index-entry"><a href="sections/reflexive_verbs.html#index_entry_index_1" title="Возвратные глаголы">глаголы, возвратные</a></p>
 <p class="index-entry"><a href="sections/verb_conjugation.html#index_entry_index_1" title="Спряжения глаголов">глаголы, спряжения</a></p>
+<p class="index-letter"><a id="index_letter_Е"></a>Е</p>
+<p class="index-entry"><a href="sections/sidesteps/lexis.html#index_entry_index_13" title="Лексика">еда</a></p>
+<p class="index-letter"><a id="index_letter_Ж"></a>Ж</p>
+<p class="index-entry"><a href="sections/sidesteps/lexis.html#index_entry_index_14" title="Лексика">жилье</a></p>
+<p class="index-letter"><a id="index_letter_З"></a>З</p>
+<p class="index-entry"><a href="sections/cases.html#index_entry_index_2" title="Падежи">звательный падеж</a></p>
 <p class="index-letter"><a id="index_letter_И"></a>И</p>
 <p class="index-entry"><a href="sections/verb_conjugation.html#index_entry_index_2" title="Спряжения глаголов">имати, глагол</a></p>
+<p class="index-entry"><a href="sections/complex_topics.html#index_entry_index_3" title="Сложные темы">имперфект</a></p>
 <p class="index-entry"><a href="sections/modal_verbs.html#index_entry_index_2" title="Модальные глаголы">инфинитив, аналитический</a></p>
+<p class="index-letter"><a id="index_letter_К"></a>К</p>
+<p class="index-entry"><a href="sections/sidesteps/lexis.html#index_entry_index_4" title="Лексика">канцелярия</a></p>
+<p class="index-entry"><a href="sections/sidesteps/lexis.html#index_entry_index_8" title="Лексика">качества</a></p>
+<p class="index-letter"><a id="index_letter_Л"></a>Л</p>
+<p class="index-entry"><a href="sections/sidesteps/lexis.html#index_entry_index_3" title="Лексика">лингвистика</a></p>
 <p class="index-letter"><a id="index_letter_М"></a>М</p>
 <p class="index-entry"><a href="sections/verb_to_be.html#index_entry_index_1" title="Глагол &quot;быть&quot;">местоимения, личные</a></p>
-<p class="index-entry"><a href="sections/posessive_pronouns.html#index_entry_index_1" title="Притяжательные местоимения">местоимения, притяжательные</a></p>
-<p class="index-entry"><a href="sections/demonstrative_pronouns.html#index_entry_index_1" title="Указательные местоимения">местоимения, указательные</a></p>
+<p class="index-entry"><a href="sections/pronouns.html#index_entry_index_4" title="Местоимения">местоимения, неопределенные</a></p>
+<p class="index-entry"><a href="sections/pronouns.html#index_entry_index_3" title="Местоимения">местоимения, отрицательные</a></p>
+<p class="index-entry"><a href="sections/pronouns.html#index_entry_index_1" title="Местоимения">местоимения, притяжательные</a></p>
+<p class="index-entry"><a href="sections/pronouns.html#index_entry_index_2" title="Местоимения">местоимения, указательные</a></p>
 <p class="index-entry"><a href="sections/plurals.html#index_entry_index_1" title="Множественное число">множественное число</a></p>
 <p class="index-entry"><a href="sections/modal_verbs.html#index_entry_index_1" title="Модальные глаголы">могу, глагол</a></p>
+<p class="index-letter"><a id="index_letter_О"></a>О</p>
+<p class="index-entry"><a href="sections/sidesteps/lexis.html#index_entry_index_2" title="Лексика">обучение, лексика</a></p>
+<p class="index-entry"><a href="sections/sidesteps/lexis.html#index_entry_index_5" title="Лексика">общение, лексика</a></p>
+<p class="index-entry">общество, лексика: <a href="sections/sidesteps/lexis.html#index_entry_index_6" title="Лексика">1</a>, <a href="sections/sidesteps/lexis.html#index_entry_index_7" title="Лексика">2</a></p>
+<p class="index-entry"><a href="sections/sidesteps/lexis.html#index_entry_index_12" title="Лексика">окружающая среда</a></p>
+<p class="index-entry"><a href="sections/sidesteps/lexis.html#index_entry_index_10" title="Лексика">отношения</a></p>
+<p class="index-entry"><a href="sections/verb_conjugation.html#index_entry_index_3" title="Спряжения глаголов">отрицательные предложения</a></p>
 <p class="index-letter"><a id="index_letter_П"></a>П</p>
+<p class="index-entry"><a href="sections/cases.html#index_entry_index_1" title="Падежи">Падежи</a></p>
 <p class="index-entry"><a href="sections/alphabet.html#index_entry_index_2" title="Алфавит">перевод</a></p>
+<p class="index-entry"><a href="sections/complex_topics.html#index_entry_index_5" title="Сложные темы">плюсквамперфект</a></p>
+<p class="index-entry"><a href="sections/imperative_mood.html#index_entry_index_1" title="Повелительное наклонение">повелительное наклонение</a></p>
+<p class="index-entry"><a href="../../readme.html#index_entry_index_1" title="Home">повторение материала</a></p>
 <p class="index-entry"><a href="sections/numbers.html#index_entry_index_2" title="Числа">порядковые числительные</a></p>
+<p class="index-entry"><a href="sections/prepositions.html#index_entry_index_1" title="Предлоги">Предлоги</a></p>
 <p class="index-entry"><a href="sections/adjectives_and_nouns.html#index_entry_index_1" title="Прилагательные">прилагательные</a></p>
-<p class="index-entry"><a href="sections/posessive_pronouns.html#index_entry_index_1" title="Притяжательные местоимения">притяжательные местоимения</a></p>
+<p class="index-entry"><a href="sections/pronouns.html#index_entry_index_1" title="Местоимения">притяжательные местоимения</a></p>
+<p class="index-entry"><a href="sections/complex_topics.html#index_entry_index_6" title="Сложные темы">причастие</a></p>
 <p class="index-entry"><a href="sections/past_tense.html#index_entry_index_1" title="Прошедшее время">прошедшее время</a></p>
 <p class="index-letter"><a id="index_letter_Р"></a>Р</p>
+<p class="index-entry"><a href="../../readme.html#index_entry_index_1" title="Home">режим повторения</a></p>
 <p class="index-entry"><a href="sections/noun_genders.html#index_entry_index_1" title="Род существительных">род существительных</a></p>
 <p class="index-letter"><a id="index_letter_С"></a>С</p>
 <p class="index-entry"><a href="sections/reflexive_verbs.html#index_entry_index_1" title="Возвратные глаголы">се, частица</a></p>
+<p class="index-entry"><a href="sections/subjunctive_mood.html#index_entry_index_1" title="Сослагательное наклонение">сослагательное наклонение</a></p>
+<p class="index-entry"><a href="sections/sidesteps/lexis.html#index_entry_index_9" title="Лексика">состояния</a></p>
 <p class="index-entry"><a href="sections/verb_conjugation.html#index_entry_index_1" title="Спряжения глаголов">спряжения глаголов</a></p>
 <p class="index-letter"><a id="index_letter_Ф"></a>Ф</p>
 <p class="index-entry"><a href="sections/phonetics.html#index_entry_index_1" title="Фонетика">фонетика</a></p>
+<p class="index-entry"><a href="sections/complex_topics.html#index_entry_index_1" title="Сложные темы">футур 2</a></p>
 <p class="index-letter"><a id="index_letter_Х"></a>Х</p>
 <p class="index-entry"><a href="sections/modal_verbs.html#index_entry_index_1" title="Модальные глаголы">хоћу, глагол</a></p>
 <p class="index-letter"><a id="index_letter_Ч"></a>Ч</p>
@@ -126,11 +182,9 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <hr />
 
 
-<div style="height: 1000px;"><p>&nbsp;</p></div>
-
 <script>
 function toggleSidebar() {
-    let sidebar = document.getElementsByClassName("sidebar")[0]
+    let sidebar = document.getElementsByClassName("sidebarWrapper")[0]
     let display = sidebar.style.display
     if (!display || display == "none") {
         sidebar.style.display = "block"

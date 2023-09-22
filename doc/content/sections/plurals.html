@@ -1,91 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head><title>Множественное число</title>
 <meta charset="utf-8">
-<link rel="shortcut icon" type="image/png" href="../../favicon.png"/>
-
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<link rel="shortcut icon" type="image/png" href="../../favicon.png">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../../layout/content.css">
+<link rel="stylesheet" type="text/css" href="../../themes/light/content_theme.css">
+<link rel="stylesheet" type="text/css" href="../../layout/layout.css">
+<link rel="stylesheet" type="text/css" href="../../themes/light/layout_theme.css">
 
-<link rel="stylesheet" type="text/css" href="../../layout/styles.css"/>
-<link rel="stylesheet" type="text/css" href="../../themes/light_default_content.css"/>
-<link rel="stylesheet" type="text/css" href="../../layout/layout.css"/>
-<link rel="stylesheet" type="text/css" href="../../themes/light_default_layout.css"/>
-
-<link rel="stylesheet" type="text/css" href="../../layout/flex.css"/>
-<link rel="stylesheet" type="text/css" href="../../custom.css"/>
-<style>
-.headerNavArrows {position: relative; top: 4px;}
-#burger {position: relative; top: 4px; margin-right: 10px;}
-</style>
+<link rel="stylesheet" type="text/css" href="../../layout/flex.css">
+<link rel="stylesheet" type="text/css" href="../../custom.css">
+<script  src="../../review.js"></script>
 </head>
 <body>
 
 <div class="header">
-<img id="burger" src="../..//layout/pict/burger.png" onclick="toggleSidebar();return false;" />
-<b><span style="color:#59f;margin-right:7px;">Srpski</span></b><a 
-class="header_item hideInCompactMode" 
-href="../../../readme.html">Home</a><a 
-class="header_item" 
-href="../index_page.html">Index</a><a 
-class="header_item hideInCompactMode" 
-href="https://github.com/down2ground/serbian_study">GitHub</a>
-<a href="../../../doc_src/sections/plurals.txt " class="header_item_source" title="Source text">&lt;/&gt;</a>
+<img id="burger" src="../..//layout/pict/burger.png" 
+onclick="toggleSidebar();return false;" class="toggle_narrow_only_inline" alt="Sidebar">
 
+<a 
+class="header_item "
+href="../../../readme.html"><img 
+class="logo_image" src="../../favicon.png" alt="Logo"></a><a 
+class="header_item toggle_wide_only_inline"
+href="../../../readme.html"><span class="">Home</span></a><a 
+class="header_item toggle_wide_only_inline"
+href="../index_page.html"><span class="">Index</span></a><a 
+class="header_item toggle_narrow_only_inline"
+href="../index_page.html"><img 
+class="header_image index_image" src="../../layout/pict/search.png" alt="Index"></a><a 
+class="header_item toggle_wide_only_inline"
+href="https://github.com/down2ground/serbian_study"><span class="">GitHub</span></a>
+<a href="../../../doc_src/sections/plurals.txt" class="source_file toggle_wide_only_inline" title="Source text">&lt;/&gt;</a>
 
-<a href="numbers.html" title="Previous: Числа"><img class="headerNavArrows" src="../../layout/pict/previous_page_h21px.png"/></a>
+<a href="numbers.html" title="Previous: Числа"><img class="headerNavArrows"
+src="../../layout/pict/previous_page_h21px.png" alt="Back"></a>
 
-<a href="demonstrative_pronouns.html" title="Next: Указательные местоимения"><img class="headerNavArrows" src="../../layout/pict/next_page_h21px.png"/></a>
+<a href="verb_conjugation.html" title="Next: Спряжения глаголов"><img class="headerNavArrows"
+src="../../layout/pict/next_page_h21px.png" alt="Next"></a>
 
+<span id="reviewToggler" class="header_image" onclick="toggleReview();" title="Скрыть/показать ответы"></span>
 
 <span class="headerTitle">Множественное число</span>
 
 </div>
 
+<div class="sidebarWrapper">
 <div class="sidebar">
     <table class="sidebarAligner">
-        <tr><td valign="top">
+        <tr><td class="valign_top">
+            <div class="align_right toggle_narrow_only_block">
+            <a class="sidebar_item_inline align_right" href="https://github.com/down2ground/serbian_study">GitHub</a>
             
-            <a class="sidebar_item" href="../../../readme.html">Home</a>
-            <a class="sidebar_item" href="references.html">Источники</a>
-            <a class="sidebar_item" href="alphabet.html">Алфавит</a>
-            <a class="sidebar_item" href="phonetics.html">Фонетика</a>
-            <a class="sidebar_item" href="verb_to_be.html">Глагол &quot;быть&quot;</a>
-            <a class="sidebar_item" href="question_words.html">Вопросительные слова</a>
-            <a class="sidebar_item" href="noun_genders.html">Род существительных</a>
-            <a class="sidebar_item" href="posessive_pronouns.html">Притяжательные местоимения</a>
-            <a class="sidebar_item" href="adjectives_and_nouns.html">Прилагательные</a>
-            <a class="sidebar_item" href="numbers.html">Числа</a>
-            <a class="sidebar_item selected" href="plurals.html">Множественное число</a>
-            <a class="sidebar_item" href="demonstrative_pronouns.html">Указательные местоимения</a>
-            <a class="sidebar_item" href="verb_conjugation.html">Спряжения глаголов</a>
-            <a class="sidebar_item" href="modal_verbs.html">Модальные глаголы</a>
-            <a class="sidebar_item" href="reflexive_verbs.html">Возвратные глаголы</a>
-            <a class="sidebar_item" href="past_tense.html">Прошедшее время</a>
-            <h3> </h3>
-            <a class="sidebar_item" href="https://github.com/down2ground/serbian_study">GitHub</a>
+            <a href="../../../doc_src/sections/plurals.txt" class="sidebar_item_inline source_file align_right" 
+                title="Source text">&lt;/&gt;</a>
+            
+            </div>
+            
+            <a class="sidebar_item " href="../../../readme.html">Home</a>
+            <a class="sidebar_item " href="references.html">Источники</a>
+            <a class="sidebar_item " href="alphabet.html">Алфавит</a>
+            <a class="sidebar_item " href="phonetics.html">Фонетика</a>
+            <a class="sidebar_item " href="verb_to_be.html">Глагол &quot;быть&quot;</a>
+            <a class="sidebar_item " href="question_words.html">Вопросительные слова</a>
+            <a class="sidebar_item " href="noun_genders.html">Род существительных</a>
+            <a class="sidebar_item " href="pronouns.html">Местоимения</a>
+            <a class="sidebar_item " href="adjectives_and_nouns.html">Прилагательные</a>
+            <a class="sidebar_item " href="numbers.html">Числа</a>
+            <a class="sidebar_item selected " href="plurals.html">Множественное число</a>
+            <a class="sidebar_item " href="verb_conjugation.html">Спряжения глаголов</a>
+            <a class="sidebar_item " href="modal_verbs.html">Модальные глаголы</a>
+            <a class="sidebar_item " href="reflexive_verbs.html">Возвратные глаголы</a>
+            <a class="sidebar_item " href="past_tense.html">Прошедшее время</a>
+            <a class="sidebar_item " href="future_tense.html">Будущее время</a>
+            <a class="sidebar_item " href="cases.html">Падежи</a>
+            <a class="sidebar_item " href="prepositions.html">Предлоги</a>
+            <a class="sidebar_item " href="adjective_comparison.html">Степени сравнения прилагательных</a>
+            <a class="sidebar_item " href="subjunctive_mood.html">Сослагательное наклонение</a>
+            <a class="sidebar_item " href="verb_kinds.html">Виды глаголов</a>
+            <a class="sidebar_item " href="imperative_mood.html">Повелительное наклонение</a>
+            <a class="sidebar_item " href="complex_topics.html">Сложные темы</a>
+            <h3>Дополнительно</h3>
+            <a class="sidebar_item " href="sidesteps/lexis.html">Лексика</a>
         </td></tr>
-        <tr><td class="bottom" valign="bottom">
-            Generated by <a href="https://github.com/arctrong/md2html">md2html_py</a> 1.0.5
+        <tr><td class="bottom valign_bottom"><span class="poweredBy">Powered by <a class="poweredByLink"
+            href="https://github.com/arctrong/md2html">md2html_py</a> 1.0.6</span>
         </td></tr>
     </table>
+</div>
 </div>
 
 <p style="font-size:44px;font-weight:bold;margin:0 0 30px 0;">Множественное число</p>
 
 <div class="toc">
 <ul>
+<li><a href="#_1">Примечание</a></li>
 <li><a href="#15">Урок 15. Множественное число мужского рода</a></li>
 <li><a href="#16">Урок 16. Множественное число женского рода</a></li>
 <li><a href="#17">Урок 17. Множественное число среднего рода</a></li>
 </ul>
 </div>
-<p><a name="index_entry_index_1"></a></p>
 <hr />
+<h1 id="_1">Примечание</h1>
+<p>В этом разделе рассмотрено множественное число существительных, прилагательных и
+притяжательных местоимений.</p>
+<hr />
+<p><a name="index_entry_index_1"></a><a name="plural_masculine"></a></p>
 <h1 id="15">Урок 15. Множественное число мужского рода</h1>
 <p>[<a href="references.html#ref_1_16">1.16</a>]</p>
 <p>Существительные, прилагательные и притяжательные местоимения мужского рода во множественном
-числе имеют окончания <em>-и</em>. Примеры:</p>
+числе имеют окончания <strong>-и</strong>. Примеры:</p>
 <table>
 <thead>
 <tr>
@@ -108,7 +133,7 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </tbody>
 </table>
 <p>Короткие существительные, <strong>только мужского рода</strong>, в множественном числе могут иметь окончания
-<em>-ови</em>/<em>-еви</em>:</p>
+<strong>-ови</strong>/<strong>-еви</strong>:</p>
 <table>
 <thead>
 <tr>
@@ -135,7 +160,7 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </tr>
 </tbody>
 </table>
-<p>Окончание <em>-еви</em> используется, если существительное оканчивается на согласные
+<p>Окончание <strong>-еви</strong> используется, если существительное оканчивается на согласные
 <strong>љ</strong>, <strong>њ</strong>, <strong>j</strong>, <strong>ч</strong>, <strong>ћ</strong>, <strong>ђ</strong>, <strong>џ</strong>, <strong>ш</strong>,  <strong>ж</strong>,  <strong>ц</strong>:</p>
 <table>
 <thead>
@@ -187,9 +212,27 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <td>собаки</td>
 <td>не пАс<strong>ови</strong></td>
 </tr>
+<tr>
+<td>мрав</td>
+<td>мрАв<strong>и</strong></td>
+<td>муравьи</td>
+<td></td>
+</tr>
+<tr>
+<td>црв</td>
+<td>цРв<strong>и</strong></td>
+<td>черви</td>
+<td></td>
+</tr>
+<tr>
+<td>зуб</td>
+<td>зУб<strong>и</strong></td>
+<td>зубы</td>
+<td></td>
+</tr>
 </tbody>
 </table>
-<p>Помимо добавления <em>-и</em> в существительных мужского рода мн.ч. меняются следующие согласные:</p>
+<p>Помимо добавления <strong>-и</strong> в существительных мужского рода мн.ч. меняются следующие согласные:</p>
 <table>
 <thead>
 <tr>
@@ -252,8 +295,8 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </tr>
 </tbody>
 </table>
-<p>Существительные мужского рода, оканчивающиеся на <em>-лац</em> в множественном числе меняют
-это окончание на <em>-оци</em>:</p>
+<p>Существительные мужского рода, оканчивающиеся на <strong>-лац</strong> в множественном числе меняют
+это окончание на <strong>-оци</strong>:</p>
 <table>
 <thead>
 <tr>
@@ -280,7 +323,7 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </tr>
 </tbody>
 </table>
-<p>Исключения и сложные случаи</p>
+<p>Исключения и сложные случаи:</p>
 <table>
 <thead>
 <tr>
@@ -296,7 +339,7 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <td>люди (ед.ч. &mdash; человек)</td>
 </tr>
 <tr>
-<td>сат*</td>
+<td>сат<sup>1</sup></td>
 <td>сАт<strong>и</strong></td>
 <td>часы (об интервалах времени)</td>
 </tr>
@@ -315,11 +358,20 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <td>пОс<strong>лови</strong></td>
 <td>рабочие места, сделки</td>
 </tr>
+<tr>
+<td>брат</td>
+<td>бра<strong>ћа</strong><sup>2</sup></td>
+<td>братья</td>
+</tr>
 </tbody>
 </table>
-<p>* Слово <em>сат</em> в сербском языке обозначает либо "час" (60 мин.), либо одни "часы".
+<p><sup>1</sup> Слово <strong>сат</strong> в сербском языке обозначает либо "час" (60 мин.), либо одни "часы".
 В последнем случае оно является существительным в ед.ч.
-Слово <em>сАтови</em> обозначает, например, несколько наручных часов.</p>
+Слово <strong>сАтови</strong> обозначает, например, несколько наручных часов.</p>
+<p><sup>2</sup> Слово <strong>браћа</strong> является собирательным и в предложении проявляет себя особым образом:</p>
+<p>Мој<strong>а</strong> браћа <strong>су</strong> бил<strong>а</strong> добр<strong>а</strong>. &mdash; <em>Мои браться были хорошими.</em></p>
+<p>Здесь глагол <strong>су</strong> указывает на мн.ч., при этом окончание <strong>-а</strong> указывает на мн.ч.
+<strong>среднего рода</strong>, хотя слово <strong>брат</strong> имеет <strong>мужской род</strong>.</p>
 <p><strong>Упражнения</strong></p>
 <table>
 <thead>
@@ -337,7 +389,7 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </tr>
 <tr>
 <td>тЕжак трЕнинг</td>
-<td>тЕшки трЕнинги</td>
+<td>тЕшки трЕнинзи</td>
 <td>тяжелые тренировки</td>
 </tr>
 <tr>
@@ -381,7 +433,7 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <h1 id="16">Урок 16. Множественное число женского рода</h1>
 <p>[<a href="references.html#ref_1_17">1.17</a>]</p>
 <p>Существительные, прилагательные и притяжательные местоимения женского рода во множественном
-числе имеют окончания <em>-е</em>. Примеры:</p>
+числе имеют окончания <strong>-е</strong>. Примеры:</p>
 <table>
 <thead>
 <tr>
@@ -409,7 +461,7 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </tbody>
 </table>
 <p>Для существительных женского рода, оканчивающихся на согласную, к прилагательному и/или
-притяжательному местоимению так же добавляется <em>-е</em>, а к существительному &mdash; <em>-и</em>:</p>
+притяжательному местоимению так же добавляется <strong>-е</strong>, а к существительному &mdash; <strong>-и</strong>:</p>
 <table>
 <thead>
 <tr>
@@ -492,7 +544,7 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <h1 id="17">Урок 17. Множественное число среднего рода</h1>
 <p>[<a href="references.html#ref_1_18">1.18</a>]</p>
 <p>Существительные, прилагательные и притяжательные местоимения среднего рода во множественном
-числе имеют окончания <em>-а</em>. Примеры:</p>
+числе имеют окончания <strong>-а</strong>. Примеры:</p>
 <table>
 <thead>
 <tr>
@@ -530,7 +582,7 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </thead>
 <tbody>
 <tr>
-<td>дЕте</td>
+<td>дЕте<sup>1</sup></td>
 <td>дЕца</td>
 <td>дети</td>
 </tr>
@@ -559,8 +611,26 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <td>времЕна</td>
 <td>времена</td>
 </tr>
+<tr>
+<td>дрво</td>
+<td>дрвеће</td>
+<td>деревья</td>
+</tr>
+<tr>
+<td>цвет</td>
+<td>цвеће</td>
+<td>цветы</td>
+</tr>
+<tr>
+<td>лист</td>
+<td>лишће</td>
+<td>листья</td>
+</tr>
 </tbody>
 </table>
+<p><sup>1</sup> Слово <strong>дЕца</strong> является собирательным и в предложении проявляет себя так:</p>
+<p>Мал<strong>а</strong> деца <strong>су</strong> се играл<strong>а</strong> у парку. &mdash; <em>Маленькие дети играли в парке.</em></p>
+<p>Здесь глагол <strong>су</strong> указывает на мн.ч., при этом окончание <strong>-а</strong> указывает на мн.ч. среднего рода.</p>
 <p><strong>Упражнения</strong></p>
 <table>
 <thead>
@@ -607,17 +677,15 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <hr />
 
 <p style="margin-top:0px;margin-bottom:0px;text-align:right;"><a href="numbers.html" 
-title="Previous: Числа"><img src="../../layout/pict/previous_page.png"/></a>
-
-<a href="demonstrative_pronouns.html" title="Next: Указательные местоимения"><img 
-src="../../layout/pict/next_page.png"/></a>
+title="Previous: Числа"><img src="../../layout/pict/previous_page.png"
+alt="Back"></a>
+<a href="verb_conjugation.html" title="Next: Спряжения глаголов"><img 
+src="../../layout/pict/next_page.png" alt="Next"></a>
 </p>
-
-<div style="height: 1000px;"><p>&nbsp;</p></div>
 
 <script>
 function toggleSidebar() {
-    let sidebar = document.getElementsByClassName("sidebar")[0]
+    let sidebar = document.getElementsByClassName("sidebarWrapper")[0]
     let display = sidebar.style.display
     if (!display || display == "none") {
         sidebar.style.display = "block"

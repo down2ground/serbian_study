@@ -1,74 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head><title>Описание курса</title>
 <meta charset="utf-8">
-<link rel="shortcut icon" type="image/png" href="doc/favicon.png"/>
-
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<link rel="shortcut icon" type="image/png" href="doc/favicon.png">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="doc/layout/content.css">
+<link rel="stylesheet" type="text/css" href="doc/themes/light/content_theme.css">
+<link rel="stylesheet" type="text/css" href="doc/layout/layout.css">
+<link rel="stylesheet" type="text/css" href="doc/themes/light/layout_theme.css">
 
-<link rel="stylesheet" type="text/css" href="doc/layout/styles.css"/>
-<link rel="stylesheet" type="text/css" href="doc/themes/light_default_content.css"/>
-<link rel="stylesheet" type="text/css" href="doc/layout/layout.css"/>
-<link rel="stylesheet" type="text/css" href="doc/themes/light_default_layout.css"/>
-
-<link rel="stylesheet" type="text/css" href="doc/layout/flex.css"/>
-<link rel="stylesheet" type="text/css" href="doc/custom.css"/>
-<style>
-.headerNavArrows {position: relative; top: 4px;}
-#burger {position: relative; top: 4px; margin-right: 10px;}
-</style>
+<link rel="stylesheet" type="text/css" href="doc/layout/flex.css">
+<link rel="stylesheet" type="text/css" href="doc/custom.css">
+<script  src="doc/review.js"></script>
 </head>
 <body>
 
 <div class="header">
-<img id="burger" src="doc//layout/pict/burger.png" onclick="toggleSidebar();return false;" />
-<b><span style="color:#59f;margin-right:7px;">Srpski</span></b><a 
-class="header_item selected hideInCompactMode" 
-href="readme.html">Home</a><a 
-class="header_item" 
-href="doc/content/index_page.html">Index</a><a 
-class="header_item hideInCompactMode" 
-href="https://github.com/down2ground/serbian_study">GitHub</a>
-<a href="readme.txt " class="header_item_source" title="Source text">&lt;/&gt;</a>
+<img id="burger" src="doc//layout/pict/burger.png" 
+onclick="toggleSidebar();return false;" class="toggle_narrow_only_inline" alt="Sidebar">
+
+<a 
+class="header_item selected "
+href="readme.html"><img 
+class="logo_image" src="doc/favicon.png" alt="Logo"></a><a 
+class="header_item selected toggle_wide_only_inline"
+href="readme.html"><span class="">Home</span></a><a 
+class="header_item toggle_wide_only_inline"
+href="doc/content/index_page.html"><span class="">Index</span></a><a 
+class="header_item toggle_narrow_only_inline"
+href="doc/content/index_page.html"><img 
+class="header_image index_image" src="doc/layout/pict/search.png" alt="Index"></a><a 
+class="header_item toggle_wide_only_inline"
+href="https://github.com/down2ground/serbian_study"><span class="">GitHub</span></a>
+<a href="readme.txt" class="source_file toggle_wide_only_inline" title="Source text">&lt;/&gt;</a>
 
 
+<img class="headerNavArrows" src="doc/layout/pict/previous_page_h21px_inactive.png"
+alt="No back">
+<a href="doc/content/sections/references.html" title="Next: Источники"><img class="headerNavArrows"
+src="doc/layout/pict/next_page_h21px.png" alt="Next"></a>
 
-<img class="headerNavArrows" src="doc/layout/pict/previous_page_h21px_inactive.png"/>
-<a href="doc/content/sections/references.html" title="Next: Источники"><img class="headerNavArrows" src="doc/layout/pict/next_page_h21px.png"/></a>
-
+<span id="reviewToggler" class="header_image" onclick="toggleReview();" title="Скрыть/показать ответы"></span>
 
 <span class="headerTitle">Описание курса</span>
 
 </div>
 
+<div class="sidebarWrapper">
 <div class="sidebar">
     <table class="sidebarAligner">
-        <tr><td valign="top">
+        <tr><td class="valign_top">
+            <div class="align_right toggle_narrow_only_block">
+            <a class="sidebar_item_inline align_right" href="https://github.com/down2ground/serbian_study">GitHub</a>
             
-            <a class="sidebar_item selected" href="readme.html">Home</a>
-            <a class="sidebar_item" href="doc/content/sections/references.html">Источники</a>
-            <a class="sidebar_item" href="doc/content/sections/alphabet.html">Алфавит</a>
-            <a class="sidebar_item" href="doc/content/sections/phonetics.html">Фонетика</a>
-            <a class="sidebar_item" href="doc/content/sections/verb_to_be.html">Глагол &quot;быть&quot;</a>
-            <a class="sidebar_item" href="doc/content/sections/question_words.html">Вопросительные слова</a>
-            <a class="sidebar_item" href="doc/content/sections/noun_genders.html">Род существительных</a>
-            <a class="sidebar_item" href="doc/content/sections/posessive_pronouns.html">Притяжательные местоимения</a>
-            <a class="sidebar_item" href="doc/content/sections/adjectives_and_nouns.html">Прилагательные</a>
-            <a class="sidebar_item" href="doc/content/sections/numbers.html">Числа</a>
-            <a class="sidebar_item" href="doc/content/sections/plurals.html">Множественное число</a>
-            <a class="sidebar_item" href="doc/content/sections/demonstrative_pronouns.html">Указательные местоимения</a>
-            <a class="sidebar_item" href="doc/content/sections/verb_conjugation.html">Спряжения глаголов</a>
-            <a class="sidebar_item" href="doc/content/sections/modal_verbs.html">Модальные глаголы</a>
-            <a class="sidebar_item" href="doc/content/sections/reflexive_verbs.html">Возвратные глаголы</a>
-            <a class="sidebar_item" href="doc/content/sections/past_tense.html">Прошедшее время</a>
-            <h3> </h3>
-            <a class="sidebar_item" href="https://github.com/down2ground/serbian_study">GitHub</a>
+            <a href="readme.txt" class="sidebar_item_inline source_file align_right" 
+                title="Source text">&lt;/&gt;</a>
+            
+            </div>
+            
+            <a class="sidebar_item selected " href="readme.html">Home</a>
+            <a class="sidebar_item " href="doc/content/sections/references.html">Источники</a>
+            <a class="sidebar_item " href="doc/content/sections/alphabet.html">Алфавит</a>
+            <a class="sidebar_item " href="doc/content/sections/phonetics.html">Фонетика</a>
+            <a class="sidebar_item " href="doc/content/sections/verb_to_be.html">Глагол &quot;быть&quot;</a>
+            <a class="sidebar_item " href="doc/content/sections/question_words.html">Вопросительные слова</a>
+            <a class="sidebar_item " href="doc/content/sections/noun_genders.html">Род существительных</a>
+            <a class="sidebar_item " href="doc/content/sections/pronouns.html">Местоимения</a>
+            <a class="sidebar_item " href="doc/content/sections/adjectives_and_nouns.html">Прилагательные</a>
+            <a class="sidebar_item " href="doc/content/sections/numbers.html">Числа</a>
+            <a class="sidebar_item " href="doc/content/sections/plurals.html">Множественное число</a>
+            <a class="sidebar_item " href="doc/content/sections/verb_conjugation.html">Спряжения глаголов</a>
+            <a class="sidebar_item " href="doc/content/sections/modal_verbs.html">Модальные глаголы</a>
+            <a class="sidebar_item " href="doc/content/sections/reflexive_verbs.html">Возвратные глаголы</a>
+            <a class="sidebar_item " href="doc/content/sections/past_tense.html">Прошедшее время</a>
+            <a class="sidebar_item " href="doc/content/sections/future_tense.html">Будущее время</a>
+            <a class="sidebar_item " href="doc/content/sections/cases.html">Падежи</a>
+            <a class="sidebar_item " href="doc/content/sections/prepositions.html">Предлоги</a>
+            <a class="sidebar_item " href="doc/content/sections/adjective_comparison.html">Степени сравнения прилагательных</a>
+            <a class="sidebar_item " href="doc/content/sections/subjunctive_mood.html">Сослагательное наклонение</a>
+            <a class="sidebar_item " href="doc/content/sections/verb_kinds.html">Виды глаголов</a>
+            <a class="sidebar_item " href="doc/content/sections/imperative_mood.html">Повелительное наклонение</a>
+            <a class="sidebar_item " href="doc/content/sections/complex_topics.html">Сложные темы</a>
+            <h3>Дополнительно</h3>
+            <a class="sidebar_item " href="doc/content/sections/sidesteps/lexis.html">Лексика</a>
         </td></tr>
-        <tr><td class="bottom" valign="bottom">
-            Generated by <a href="https://github.com/arctrong/md2html">md2html_py</a> 1.0.5
+        <tr><td class="bottom valign_bottom"><span class="poweredBy">Powered by <a class="poweredByLink"
+            href="https://github.com/arctrong/md2html">md2html_py</a> 1.0.6</span>
         </td></tr>
     </table>
+</div>
 </div>
 
 <p style="font-size:44px;font-weight:bold;margin:0 0 30px 0;">Описание курса</p>
@@ -77,7 +97,8 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <ul>
 <li><a href="#_1">Описание курса</a></li>
 <li><a href="#_2">Условные обозначения</a></li>
-<li><a href="#_3">Материалы</a></li>
+<li><a href="#_3">Режим повторения</a></li>
+<li><a href="#_4">Материалы</a></li>
 </ul>
 </div>
 <hr />
@@ -89,23 +110,35 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <h1 id="_2">Условные обозначения</h1>
 <p>Ударение обозначается заглавной гласной буквой. Например: <em>мАчка</em> &mdash; ударение на первый слог.</p>
 <hr />
-<h1 id="_3">Материалы</h1>
-<p><a href="https://www.dict.com/%D1%81%D0%B5%D1%80%D0%B1%D1%81%D0%BA%D0%BE-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B8/">Сербско-русский словарь | Lingea</a></p>
-<p><a href="https://classes.ru/all-serbian/">Сербско-русский словарь | classes.ru</a></p>
+<p><a name="index_entry_index_1"></a></p>
+<h1 id="_3">Режим повторения</h1>
+<p>Иконка <span class="reviewTogglerClass"></span> в заголовке страницы включает и отключает
+<em>режим повторения</em>. В этом режиме часть содержимого страницы скрывается, что дает возможно
+вспомнить и повторить материал. Ниже представлен пример:</p>
+<p>лодка &mdash; <b class="rv">чАмац</b>  <br />
+карандаш &mdash; <b class="rv">оловка</b>  <br />
+утро &mdash; <b class="rv">јутро</b>    </p>
+<hr />
+<h1 id="_4">Материалы</h1>
+<p>Сайт <a href="https://www.serblang.ru/grammatika-s-nulya/">Сербский язык с Юлией Сопильняк</a></p>
+<p><a href="https://www.dict.com/%D1%81%D0%B5%D1%80%D0%B1%D1%81%D0%BA%D0%BE-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B8/">Сербско-русский словарь | Lingea</a> &mdash; 
+достаточно удобен, показывает парадигмы слов.</p>
+<p><a href="https://classes.ru/all-serbian/">Сербско-русский словарь | classes.ru</a> &mdash;
+менее удобен в использовании, но имеет достаточно большое количество слов.</p>
+<p><a href="https://ru.glosbe.com/sh/ru">Glosbe</a> &mdash; словарь большого количества языковых пар.</p>
+<p>LingoHut: <a href="https://www.lingohut.com/ru/l90/%D1%83%D1%87%D0%B8%D1%82%D1%8C-%D1%81%D0%B5%D1%80%D0%B1%D1%81%D0%BA%D0%B8%D0%B9">Бесплатные уроки сербского языка</a>.</p>
 <p>&nbsp;</p>
 <hr />
 
-<p style="margin-top:0px;margin-bottom:0px;text-align:right;">
-<img src="doc/layout/pict/previous_page_inactive.png"/>
+<p style="margin-top:0px;margin-bottom:0px;text-align:right;"><img src="doc/layout/pict/previous_page_inactive.png"
+alt="No back">
 <a href="doc/content/sections/references.html" title="Next: Источники"><img 
-src="doc/layout/pict/next_page.png"/></a>
+src="doc/layout/pict/next_page.png" alt="Next"></a>
 </p>
-
-<div style="height: 1000px;"><p>&nbsp;</p></div>
 
 <script>
 function toggleSidebar() {
-    let sidebar = document.getElementsByClassName("sidebar")[0]
+    let sidebar = document.getElementsByClassName("sidebarWrapper")[0]
     let display = sidebar.style.display
     if (!display || display == "none") {
         sidebar.style.display = "block"

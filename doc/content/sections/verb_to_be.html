@@ -1,74 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head><title>Глагол &quot;быть&quot;</title>
 <meta charset="utf-8">
-<link rel="shortcut icon" type="image/png" href="../../favicon.png"/>
-
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<link rel="shortcut icon" type="image/png" href="../../favicon.png">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../../layout/content.css">
+<link rel="stylesheet" type="text/css" href="../../themes/light/content_theme.css">
+<link rel="stylesheet" type="text/css" href="../../layout/layout.css">
+<link rel="stylesheet" type="text/css" href="../../themes/light/layout_theme.css">
 
-<link rel="stylesheet" type="text/css" href="../../layout/styles.css"/>
-<link rel="stylesheet" type="text/css" href="../../themes/light_default_content.css"/>
-<link rel="stylesheet" type="text/css" href="../../layout/layout.css"/>
-<link rel="stylesheet" type="text/css" href="../../themes/light_default_layout.css"/>
-
-<link rel="stylesheet" type="text/css" href="../../layout/flex.css"/>
-<link rel="stylesheet" type="text/css" href="../../custom.css"/>
-<style>
-.headerNavArrows {position: relative; top: 4px;}
-#burger {position: relative; top: 4px; margin-right: 10px;}
-</style>
+<link rel="stylesheet" type="text/css" href="../../layout/flex.css">
+<link rel="stylesheet" type="text/css" href="../../custom.css">
+<script  src="../../review.js"></script>
 </head>
 <body>
 
 <div class="header">
-<img id="burger" src="../..//layout/pict/burger.png" onclick="toggleSidebar();return false;" />
-<b><span style="color:#59f;margin-right:7px;">Srpski</span></b><a 
-class="header_item hideInCompactMode" 
-href="../../../readme.html">Home</a><a 
-class="header_item" 
-href="../index_page.html">Index</a><a 
-class="header_item hideInCompactMode" 
-href="https://github.com/down2ground/serbian_study">GitHub</a>
-<a href="../../../doc_src/sections/verb_to_be.txt " class="header_item_source" title="Source text">&lt;/&gt;</a>
+<img id="burger" src="../..//layout/pict/burger.png" 
+onclick="toggleSidebar();return false;" class="toggle_narrow_only_inline" alt="Sidebar">
 
+<a 
+class="header_item "
+href="../../../readme.html"><img 
+class="logo_image" src="../../favicon.png" alt="Logo"></a><a 
+class="header_item toggle_wide_only_inline"
+href="../../../readme.html"><span class="">Home</span></a><a 
+class="header_item toggle_wide_only_inline"
+href="../index_page.html"><span class="">Index</span></a><a 
+class="header_item toggle_narrow_only_inline"
+href="../index_page.html"><img 
+class="header_image index_image" src="../../layout/pict/search.png" alt="Index"></a><a 
+class="header_item toggle_wide_only_inline"
+href="https://github.com/down2ground/serbian_study"><span class="">GitHub</span></a>
+<a href="../../../doc_src/sections/verb_to_be.txt" class="source_file toggle_wide_only_inline" title="Source text">&lt;/&gt;</a>
 
-<a href="phonetics.html" title="Previous: Фонетика"><img class="headerNavArrows" src="../../layout/pict/previous_page_h21px.png"/></a>
+<a href="phonetics.html" title="Previous: Фонетика"><img class="headerNavArrows"
+src="../../layout/pict/previous_page_h21px.png" alt="Back"></a>
 
-<a href="question_words.html" title="Next: Вопросительные слова"><img class="headerNavArrows" src="../../layout/pict/next_page_h21px.png"/></a>
+<a href="question_words.html" title="Next: Вопросительные слова"><img class="headerNavArrows"
+src="../../layout/pict/next_page_h21px.png" alt="Next"></a>
 
+<span id="reviewToggler" class="header_image" onclick="toggleReview();" title="Скрыть/показать ответы"></span>
 
 <span class="headerTitle">Глагол &quot;быть&quot;</span>
 
 </div>
 
+<div class="sidebarWrapper">
 <div class="sidebar">
     <table class="sidebarAligner">
-        <tr><td valign="top">
+        <tr><td class="valign_top">
+            <div class="align_right toggle_narrow_only_block">
+            <a class="sidebar_item_inline align_right" href="https://github.com/down2ground/serbian_study">GitHub</a>
             
-            <a class="sidebar_item" href="../../../readme.html">Home</a>
-            <a class="sidebar_item" href="references.html">Источники</a>
-            <a class="sidebar_item" href="alphabet.html">Алфавит</a>
-            <a class="sidebar_item" href="phonetics.html">Фонетика</a>
-            <a class="sidebar_item selected" href="verb_to_be.html">Глагол &quot;быть&quot;</a>
-            <a class="sidebar_item" href="question_words.html">Вопросительные слова</a>
-            <a class="sidebar_item" href="noun_genders.html">Род существительных</a>
-            <a class="sidebar_item" href="posessive_pronouns.html">Притяжательные местоимения</a>
-            <a class="sidebar_item" href="adjectives_and_nouns.html">Прилагательные</a>
-            <a class="sidebar_item" href="numbers.html">Числа</a>
-            <a class="sidebar_item" href="plurals.html">Множественное число</a>
-            <a class="sidebar_item" href="demonstrative_pronouns.html">Указательные местоимения</a>
-            <a class="sidebar_item" href="verb_conjugation.html">Спряжения глаголов</a>
-            <a class="sidebar_item" href="modal_verbs.html">Модальные глаголы</a>
-            <a class="sidebar_item" href="reflexive_verbs.html">Возвратные глаголы</a>
-            <a class="sidebar_item" href="past_tense.html">Прошедшее время</a>
-            <h3> </h3>
-            <a class="sidebar_item" href="https://github.com/down2ground/serbian_study">GitHub</a>
+            <a href="../../../doc_src/sections/verb_to_be.txt" class="sidebar_item_inline source_file align_right" 
+                title="Source text">&lt;/&gt;</a>
+            
+            </div>
+            
+            <a class="sidebar_item " href="../../../readme.html">Home</a>
+            <a class="sidebar_item " href="references.html">Источники</a>
+            <a class="sidebar_item " href="alphabet.html">Алфавит</a>
+            <a class="sidebar_item " href="phonetics.html">Фонетика</a>
+            <a class="sidebar_item selected " href="verb_to_be.html">Глагол &quot;быть&quot;</a>
+            <a class="sidebar_item " href="question_words.html">Вопросительные слова</a>
+            <a class="sidebar_item " href="noun_genders.html">Род существительных</a>
+            <a class="sidebar_item " href="pronouns.html">Местоимения</a>
+            <a class="sidebar_item " href="adjectives_and_nouns.html">Прилагательные</a>
+            <a class="sidebar_item " href="numbers.html">Числа</a>
+            <a class="sidebar_item " href="plurals.html">Множественное число</a>
+            <a class="sidebar_item " href="verb_conjugation.html">Спряжения глаголов</a>
+            <a class="sidebar_item " href="modal_verbs.html">Модальные глаголы</a>
+            <a class="sidebar_item " href="reflexive_verbs.html">Возвратные глаголы</a>
+            <a class="sidebar_item " href="past_tense.html">Прошедшее время</a>
+            <a class="sidebar_item " href="future_tense.html">Будущее время</a>
+            <a class="sidebar_item " href="cases.html">Падежи</a>
+            <a class="sidebar_item " href="prepositions.html">Предлоги</a>
+            <a class="sidebar_item " href="adjective_comparison.html">Степени сравнения прилагательных</a>
+            <a class="sidebar_item " href="subjunctive_mood.html">Сослагательное наклонение</a>
+            <a class="sidebar_item " href="verb_kinds.html">Виды глаголов</a>
+            <a class="sidebar_item " href="imperative_mood.html">Повелительное наклонение</a>
+            <a class="sidebar_item " href="complex_topics.html">Сложные темы</a>
+            <h3>Дополнительно</h3>
+            <a class="sidebar_item " href="sidesteps/lexis.html">Лексика</a>
         </td></tr>
-        <tr><td class="bottom" valign="bottom">
-            Generated by <a href="https://github.com/arctrong/md2html">md2html_py</a> 1.0.5
+        <tr><td class="bottom valign_bottom"><span class="poweredBy">Powered by <a class="poweredByLink"
+            href="https://github.com/arctrong/md2html">md2html_py</a> 1.0.6</span>
         </td></tr>
     </table>
+</div>
 </div>
 
 <p style="font-size:44px;font-weight:bold;margin:0 0 30px 0;">Глагол &quot;быть&quot;</p>
@@ -98,69 +118,72 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <tbody>
 <tr>
 <td>я</td>
-<td>jа</td>
-<td>сам</td>
-<td>Jа сам стУдент.</td>
+<td><span class="rv">jа</span></td>
+<td><span class="rv">сам </span></td>
+<td><span class="rv">Jа сам стУдент.  </span></td>
 <td>Я студент.</td>
 </tr>
 <tr>
 <td>мы</td>
-<td>ми</td>
-<td>смо</td>
-<td>Ми смо мЕнаџери.</td>
+<td><span class="rv">ми</span></td>
+<td><span class="rv">смо </span></td>
+<td><span class="rv">Ми смо мЕнаџери. </span></td>
 <td>Мы менеджеры.</td>
 </tr>
 <tr>
 <td>ты</td>
-<td>ти</td>
-<td>си</td>
-<td>Ти си нОвинар.</td>
+<td><span class="rv">ти</span></td>
+<td><span class="rv">си  </span></td>
+<td><span class="rv">Ти си нОвинар.   </span></td>
 <td>Ты журналист.</td>
 </tr>
 <tr>
 <td>вы</td>
-<td>ви</td>
-<td>сте</td>
-<td>Ви сте прОфесори.</td>
+<td><span class="rv">ви</span></td>
+<td><span class="rv">сте </span></td>
+<td><span class="rv">Ви сте прОфесори.</span></td>
 <td>Вы учителя.</td>
 </tr>
 <tr>
-<td>он/она/оно</td>
-<td>он/Она/Оно</td>
-<td>jе</td>
-<td>Он jе прАвник.</td>
+<td rowspan="2">он/она/оно</td>
+<td rowspan="2"><span class="rv">он/Она/Оно</span></td>
+<td rowspan="2"><span class="rv">jе</span></td>
+<td><span class="rv">Он jе прАвник.</span></td>
 <td>Он юрист.</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td>Она jе шЕфица.</td>
+<td><span class="rv">Она jе шЕфица.</span></td>
 <td>Она начальница.</td>
+<td class="hide">&nbsp;</td>
+<td class="hide">&nbsp;</td>
+<td class="hide">&nbsp;</td>
 </tr>
 <tr>
-<td>они</td>
-<td>Они/Оне/Она*</td>
-<td>су</td>
-<td>Они су лекАри.</td>
+<td rowspan="2">они</td>
+<td rowspan="2"><span class="rv">Они/Оне/Она<sup>1</sup></span></td>
+<td rowspan="2"><span class="rv">су</span></td>
+<td><span class="rv">Они су лекАри.</td>
 <td>Они врачи (мужчины и/или женщины).</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td>Оне су лЕкарке.</td>
+<td><span class="rv">Оне су лЕкарке.</span></td>
 <td>Они женщины-врачи.</td>
+<td class="hide">&nbsp;</td>
+<td class="hide">&nbsp;</td>
+<td class="hide">&nbsp;</td>
 </tr>
 </tbody>
 </table>
 <p><a name="personal_pronouns_plural"></a>
-* <em>Они</em> &mdash; совокупность объектов мужского рода или различного рода; <em>оне</em> &mdash; совокупность
-объектов только женского рода; <em>она</em> &mdash; совокупность объектов только среднего рода.</p>
+<sup>1</sup> <span class="rv"><strong>Они</strong></span> &mdash; совокупность объектов мужского рода или различного рода;
+<span class="rv"><strong>оне</strong></span> &mdash; совокупность объектов только женского рода;
+<span class="rv"><strong>она</strong></span> &mdash; совокупность объектов только среднего рода.</p>
 <hr />
+<p><a name="verb_to_be_negative"></a></p>
 <h1 id="5">Урок 5. Глагол "быть": отрицание</h1>
 <p>[<a href="references.html#ref_1_6">1.6</a>]</p>
-<p>К глаголу "быть" в нужной форме добавляется приставка <em>ни</em>, которая становится ударной.</p>
+<p>Правило: <span class="rv">К глаголу "быть" в нужной форме добавляется приставка <em>ни</em>, которая
+становится ударной.</span></p>
 <table>
 <thead>
 <tr>
@@ -170,35 +193,35 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </thead>
 <tbody>
 <tr>
-<td>Jа нИсам стУдент.</td>
+<td><span class="rv">Jа <strong>нИ</strong>сам стУдент.  </span></td>
 <td>Я не студент.</td>
 </tr>
 <tr>
-<td>Ми нИсмо мЕнаџери.</td>
+<td><span class="rv">Ми <strong>нИ</strong>смо мЕнаџери. </span></td>
 <td>Мы не менеджеры.</td>
 </tr>
 <tr>
-<td>Ти нИси нОвинар.</td>
+<td><span class="rv">Ти <strong>нИ</strong>си нОвинар.   </span></td>
 <td>Ты не журналист.</td>
 </tr>
 <tr>
-<td>Ви нИсте прОфесори.</td>
+<td><span class="rv">Ви <strong>нИ</strong>сте прОфесори.</span></td>
 <td>Вы не учителя.</td>
 </tr>
 <tr>
-<td>Он нИjе прАвник.</td>
+<td><span class="rv">Он <strong>нИ</strong>jе прАвник.   </span></td>
 <td>Он не юрист.</td>
 </tr>
 <tr>
-<td>Она нИjе шЕфица.</td>
+<td><span class="rv">Она <strong>нИ</strong>jе шЕфица.   </span></td>
 <td>Она не начальница.</td>
 </tr>
 <tr>
-<td>Они нИсу лекАри.</td>
+<td><span class="rv">Они <strong>нИ</strong>су лекАри.   </span></td>
 <td>Они не врачи (мужчины и/или женщины).</td>
 </tr>
 <tr>
-<td>Оне нИсу лЕкарке.</td>
+<td><span class="rv">Оне <strong>нИ</strong>су лЕкарке.  </span></td>
 <td>Они не женщины-врачи.</td>
 </tr>
 </tbody>
@@ -206,8 +229,8 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <hr />
 <h1 id="6-7">Урок 6, 7. Глагол "быть": вопросы</h1>
 <p>[<a href="references.html#ref_1_7">1.7</a>, <a href="references.html#ref_1_8">1.8</a>]</p>
-<p>1-й вариант: <code>Да ли &lt;глагол "быть"&gt; [&lt;подлежащее&gt;] ...?</code>   <br />
-2-й вариант: <code>&lt;глагол "быть" с частицей jе&gt; ли [&lt;подлежащее&gt;] ...?</code>   <br />
+<p>1-й вариант: <span class="rv"><strong>Да ли</strong> + <strong>&lt;глагол "быть"&gt;</strong> + [&lt;подлежащее&gt;] ...?</span>   <br />
+2-й вариант: <span class="rv"><strong>&lt;глагол "быть" с частицей jе&gt;</strong> + <strong>ли</strong> + [&lt;подлежащее&gt;] ...?</span>   <br />
 Примеры:</p>
 <table>
 <thead>
@@ -219,53 +242,58 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </thead>
 <tbody>
 <tr>
-<td>Да ли сам* шеф?</td>
-<td>Jесам ли jа шеф?</td>
+<td><span class="rv"><strong>Да ли</strong> сам<sup>1</sup> шеф?</span></td>
+<td><span class="rv"><strong>Jесам ли</strong> (jа) шеф?                </span></td>
 <td>Я начальник?</td>
 </tr>
 <tr>
-<td>Да ли си стУдент?</td>
-<td>Jеси ли* стУдент?</td>
+<td><span class="rv"><strong>Да ли</strong> си стУдент?         </span></td>
+<td><span class="rv"><strong>Jеси ли</strong><sup>1</sup> стУдент?      </span></td>
 <td>Ты студент?</td>
 </tr>
 <tr>
-<td>Да ли jе он у РУсиjи?</td>
-<td>Jе** ли он у РУсиjи?</td>
+<td><span class="rv"><strong>Да ли</strong> jе он у РУсиjи?     </span></td>
+<td><span class="rv"><strong>Jе</strong><sup>2</sup> <strong>ли</strong> он у РУсиjи?</span></td>
 <td>Он в России?</td>
 </tr>
 <tr>
-<td>Да ли jе она из НЕмачке?</td>
-<td>Jе ли она из НЕмачке?</td>
+<td><span class="rv"><strong>Да ли</strong> jе она из НЕмачке?  </span></td>
+<td><span class="rv"><strong>Jе ли</strong> она из НЕмачке?             </span></td>
 <td>Она из Германии?</td>
 </tr>
 <tr>
-<td>Да ли смо сУседи?</td>
-<td>Jесмо ли ми сУседи?</td>
+<td><span class="rv"><strong>Да ли</strong> смо сУседи?         </span></td>
+<td><span class="rv"><strong>Jесмо ли</strong> (ми) сУседи?             </span></td>
 <td>Мы соседи?</td>
 </tr>
 <tr>
-<td>Да ли сте брат и сЕстра?</td>
-<td>Jесте ли ви брат и сЕстра?</td>
+<td><span class="rv"><strong>Да ли</strong> сте брат и сЕстра?  </span></td>
+<td><span class="rv"><strong>Jесте ли</strong> (ви) брат и сЕстра?      </span></td>
 <td>Вы брат и сестра?</td>
 </tr>
 <tr>
-<td>Да ли су они прИјатељи?</td>
-<td>Jесу ли они прИјатељи?</td>
+<td><span class="rv"><strong>Да ли</strong> су они прИјатељи?   </span></td>
+<td><span class="rv"><strong>Jесу ли</strong> они прИјатељи?            </span></td>
 <td>Они друзья?</td>
 </tr>
 <tr>
-<td>Да ли су оне пријатЕљице?</td>
-<td>Jесу ли оне пријатЕљице?</td>
+<td><span class="rv"><strong>Да ли</strong> су оне пријатЕљице? </span></td>
+<td><span class="rv"><strong>Jесу ли</strong> оне пријатЕљице?          </span></td>
 <td>Они подруги?</td>
 </tr>
 </tbody>
 </table>
-<p>* В обоих вариантах местоимение может опускаться, если по глаголу понятно, о ком/чем идет речь.</p>
-<p>** Для 3-го лица ед.ч. частица <em>jе</em> не добавляется, потому, что она уже есть.</p>
+<p><sup>1</sup> <span class="rv">В обоих вариантах местоимение может опускаться, если по глаголу
+понятно, о ком/чем идет речь.</span></p>
+<p><sup>2</sup> <span class="rv">Для 3-го лица ед.ч. частица <strong>jе</strong> не добавляется, потому, что
+она уже есть.</span></p>
 <hr />
+<p><a name="verb_to_be_answers"></a></p>
 <h1 id="8">Урок 8. Глагол "быть": ответы</h1>
 <p>[<a href="references.html#ref_1_9">1.9</a>]</p>
-<p>К глаголу "быть" добавляется префикс <em>jе</em>/<em>ни</em> для короткого положительного/отрицательного ответов. Примеры:</p>
+<p>Правило: <span class="rv">К глаголу "быть" добавляется префикс <strong>jе</strong>/<strong>ни</strong> для короткого
+положительного/отрицательного ответов.</span></p>
+<p><strong>Примеры:</strong></p>
 <table>
 <thead>
 <tr>
@@ -277,53 +305,52 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </thead>
 <tbody>
 <tr>
-<td>Jеси ли студент?</td>
+<td><span class="rv">Jеси ли студент?                      </span></td>
 <td>Ты студент?</td>
-<td>Jесам</td>
-<td>Нисам</td>
+<td><span class="rv">Jесам            </span></td>
+<td><span class="rv">Нисам</span></td>
 </tr>
 <tr>
-<td>Да ли су твОји бАка и дЕда пЕнзионери?</td>
+<td><span class="rv">Да ли су твОји бАка и дЕда пЕнзионери?</span></td>
 <td>Твои бабушка и дедушка пенсионеры?</td>
-<td>Jесу</td>
-<td>Нису</td>
+<td><span class="rv">Jесу             </span></td>
+<td><span class="rv">Нису </span></td>
 </tr>
 <tr>
-<td>Je ли хлАдно у МОскви?</td>
-<td>В Москве холодно? (подлежащее &mdash; "оно")</td>
-<td>Jесте*</td>
-<td>Ниje</td>
+<td><span class="rv">Je ли хлАдно у МОскви?                </span></td>
+<td>В Москве холодно? (подлежащее &mdash; <span class="rv">"оно"</span>)</td>
+<td><span class="rv">Jесте<sup>1</sup></span></td>
+<td><span class="rv">Ниje </span></td>
 </tr>
 <tr>
-<td>Да ли смо прИјатељи?</td>
+<td><span class="rv">Да ли смо прИјатељи?                  </span></td>
 <td>Мы друзья?</td>
-<td>Jесмо</td>
-<td>Нисмо</td>
+<td><span class="rv">Jесмо            </span></td>
+<td><span class="rv">Нисмо</span></td>
 </tr>
 <tr>
-<td>Je ли МАрија твОја дЕвојка?</td>
+<td><span class="rv">Je ли МАрија твОја дЕвојка?           </span></td>
 <td>Мария твоя девушка?</td>
-<td>Jесте</td>
-<td>Ниje</td>
+<td><span class="rv">Jесте            </span></td>
+<td><span class="rv">Ниje </span></td>
 </tr>
 </tbody>
 </table>
-<p>* Для подлежащего 3-го лица ед.ч. положительный ответ &mdash; <em>Jесте</em>.</p>
+<p><sup>1</sup> Для подлежащего 3-го лица ед.ч. положительный ответ &mdash;
+<span class="rv"><strong>Jесте</strong></span>.</p>
 <p>&nbsp;</p>
 <hr />
 
 <p style="margin-top:0px;margin-bottom:0px;text-align:right;"><a href="phonetics.html" 
-title="Previous: Фонетика"><img src="../../layout/pict/previous_page.png"/></a>
-
+title="Previous: Фонетика"><img src="../../layout/pict/previous_page.png"
+alt="Back"></a>
 <a href="question_words.html" title="Next: Вопросительные слова"><img 
-src="../../layout/pict/next_page.png"/></a>
+src="../../layout/pict/next_page.png" alt="Next"></a>
 </p>
-
-<div style="height: 1000px;"><p>&nbsp;</p></div>
 
 <script>
 function toggleSidebar() {
-    let sidebar = document.getElementsByClassName("sidebar")[0]
+    let sidebar = document.getElementsByClassName("sidebarWrapper")[0]
     let display = sidebar.style.display
     if (!display || display == "none") {
         sidebar.style.display = "block"

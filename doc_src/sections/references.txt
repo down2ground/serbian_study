@@ -1,4 +1,5 @@
-<!--VARIABLES {"title": "Источники", "SORT_ORDER": "020", "code": "refs"}-->
+<!--VARIABLES {"title": "Источники", "SORT_ORDER": "020", "code": "refs",
+"controls": []}-->
 
 <a name="ref_1"></a>**[1]** Youtube playlist:
 [Сербский шаг за шагом](https://www.youtube.com/playlist?list=PL7VE12dMfuDwu0-lnNGdY1AGSVlcKw5h6)

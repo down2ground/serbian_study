@@ -1,74 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head><title>Спряжения глаголов</title>
 <meta charset="utf-8">
-<link rel="shortcut icon" type="image/png" href="../../favicon.png"/>
-
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<link rel="shortcut icon" type="image/png" href="../../favicon.png">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../../layout/content.css">
+<link rel="stylesheet" type="text/css" href="../../themes/light/content_theme.css">
+<link rel="stylesheet" type="text/css" href="../../layout/layout.css">
+<link rel="stylesheet" type="text/css" href="../../themes/light/layout_theme.css">
 
-<link rel="stylesheet" type="text/css" href="../../layout/styles.css"/>
-<link rel="stylesheet" type="text/css" href="../../themes/light_default_content.css"/>
-<link rel="stylesheet" type="text/css" href="../../layout/layout.css"/>
-<link rel="stylesheet" type="text/css" href="../../themes/light_default_layout.css"/>
-
-<link rel="stylesheet" type="text/css" href="../../layout/flex.css"/>
-<link rel="stylesheet" type="text/css" href="../../custom.css"/>
-<style>
-.headerNavArrows {position: relative; top: 4px;}
-#burger {position: relative; top: 4px; margin-right: 10px;}
-</style>
+<link rel="stylesheet" type="text/css" href="../../layout/flex.css">
+<link rel="stylesheet" type="text/css" href="../../custom.css">
+<script  src="../../review.js"></script>
 </head>
 <body>
 
 <div class="header">
-<img id="burger" src="../..//layout/pict/burger.png" onclick="toggleSidebar();return false;" />
-<b><span style="color:#59f;margin-right:7px;">Srpski</span></b><a 
-class="header_item hideInCompactMode" 
-href="../../../readme.html">Home</a><a 
-class="header_item" 
-href="../index_page.html">Index</a><a 
-class="header_item hideInCompactMode" 
-href="https://github.com/down2ground/serbian_study">GitHub</a>
-<a href="../../../doc_src/sections/verb_conjugation.txt " class="header_item_source" title="Source text">&lt;/&gt;</a>
+<img id="burger" src="../..//layout/pict/burger.png" 
+onclick="toggleSidebar();return false;" class="toggle_narrow_only_inline" alt="Sidebar">
 
+<a 
+class="header_item "
+href="../../../readme.html"><img 
+class="logo_image" src="../../favicon.png" alt="Logo"></a><a 
+class="header_item toggle_wide_only_inline"
+href="../../../readme.html"><span class="">Home</span></a><a 
+class="header_item toggle_wide_only_inline"
+href="../index_page.html"><span class="">Index</span></a><a 
+class="header_item toggle_narrow_only_inline"
+href="../index_page.html"><img 
+class="header_image index_image" src="../../layout/pict/search.png" alt="Index"></a><a 
+class="header_item toggle_wide_only_inline"
+href="https://github.com/down2ground/serbian_study"><span class="">GitHub</span></a>
+<a href="../../../doc_src/sections/verb_conjugation.txt" class="source_file toggle_wide_only_inline" title="Source text">&lt;/&gt;</a>
 
-<a href="demonstrative_pronouns.html" title="Previous: Указательные местоимения"><img class="headerNavArrows" src="../../layout/pict/previous_page_h21px.png"/></a>
+<a href="plurals.html" title="Previous: Множественное число"><img class="headerNavArrows"
+src="../../layout/pict/previous_page_h21px.png" alt="Back"></a>
 
-<a href="modal_verbs.html" title="Next: Модальные глаголы"><img class="headerNavArrows" src="../../layout/pict/next_page_h21px.png"/></a>
+<a href="modal_verbs.html" title="Next: Модальные глаголы"><img class="headerNavArrows"
+src="../../layout/pict/next_page_h21px.png" alt="Next"></a>
 
+<span id="reviewToggler" class="header_image" onclick="toggleReview();" title="Скрыть/показать ответы"></span>
 
 <span class="headerTitle">Спряжения глаголов</span>
 
 </div>
 
+<div class="sidebarWrapper">
 <div class="sidebar">
     <table class="sidebarAligner">
-        <tr><td valign="top">
+        <tr><td class="valign_top">
+            <div class="align_right toggle_narrow_only_block">
+            <a class="sidebar_item_inline align_right" href="https://github.com/down2ground/serbian_study">GitHub</a>
             
-            <a class="sidebar_item" href="../../../readme.html">Home</a>
-            <a class="sidebar_item" href="references.html">Источники</a>
-            <a class="sidebar_item" href="alphabet.html">Алфавит</a>
-            <a class="sidebar_item" href="phonetics.html">Фонетика</a>
-            <a class="sidebar_item" href="verb_to_be.html">Глагол &quot;быть&quot;</a>
-            <a class="sidebar_item" href="question_words.html">Вопросительные слова</a>
-            <a class="sidebar_item" href="noun_genders.html">Род существительных</a>
-            <a class="sidebar_item" href="posessive_pronouns.html">Притяжательные местоимения</a>
-            <a class="sidebar_item" href="adjectives_and_nouns.html">Прилагательные</a>
-            <a class="sidebar_item" href="numbers.html">Числа</a>
-            <a class="sidebar_item" href="plurals.html">Множественное число</a>
-            <a class="sidebar_item" href="demonstrative_pronouns.html">Указательные местоимения</a>
-            <a class="sidebar_item selected" href="verb_conjugation.html">Спряжения глаголов</a>
-            <a class="sidebar_item" href="modal_verbs.html">Модальные глаголы</a>
-            <a class="sidebar_item" href="reflexive_verbs.html">Возвратные глаголы</a>
-            <a class="sidebar_item" href="past_tense.html">Прошедшее время</a>
-            <h3> </h3>
-            <a class="sidebar_item" href="https://github.com/down2ground/serbian_study">GitHub</a>
+            <a href="../../../doc_src/sections/verb_conjugation.txt" class="sidebar_item_inline source_file align_right" 
+                title="Source text">&lt;/&gt;</a>
+            
+            </div>
+            
+            <a class="sidebar_item " href="../../../readme.html">Home</a>
+            <a class="sidebar_item " href="references.html">Источники</a>
+            <a class="sidebar_item " href="alphabet.html">Алфавит</a>
+            <a class="sidebar_item " href="phonetics.html">Фонетика</a>
+            <a class="sidebar_item " href="verb_to_be.html">Глагол &quot;быть&quot;</a>
+            <a class="sidebar_item " href="question_words.html">Вопросительные слова</a>
+            <a class="sidebar_item " href="noun_genders.html">Род существительных</a>
+            <a class="sidebar_item " href="pronouns.html">Местоимения</a>
+            <a class="sidebar_item " href="adjectives_and_nouns.html">Прилагательные</a>
+            <a class="sidebar_item " href="numbers.html">Числа</a>
+            <a class="sidebar_item " href="plurals.html">Множественное число</a>
+            <a class="sidebar_item selected " href="verb_conjugation.html">Спряжения глаголов</a>
+            <a class="sidebar_item " href="modal_verbs.html">Модальные глаголы</a>
+            <a class="sidebar_item " href="reflexive_verbs.html">Возвратные глаголы</a>
+            <a class="sidebar_item " href="past_tense.html">Прошедшее время</a>
+            <a class="sidebar_item " href="future_tense.html">Будущее время</a>
+            <a class="sidebar_item " href="cases.html">Падежи</a>
+            <a class="sidebar_item " href="prepositions.html">Предлоги</a>
+            <a class="sidebar_item " href="adjective_comparison.html">Степени сравнения прилагательных</a>
+            <a class="sidebar_item " href="subjunctive_mood.html">Сослагательное наклонение</a>
+            <a class="sidebar_item " href="verb_kinds.html">Виды глаголов</a>
+            <a class="sidebar_item " href="imperative_mood.html">Повелительное наклонение</a>
+            <a class="sidebar_item " href="complex_topics.html">Сложные темы</a>
+            <h3>Дополнительно</h3>
+            <a class="sidebar_item " href="sidesteps/lexis.html">Лексика</a>
         </td></tr>
-        <tr><td class="bottom" valign="bottom">
-            Generated by <a href="https://github.com/arctrong/md2html">md2html_py</a> 1.0.5
+        <tr><td class="bottom valign_bottom"><span class="poweredBy">Powered by <a class="poweredByLink"
+            href="https://github.com/arctrong/md2html">md2html_py</a> 1.0.6</span>
         </td></tr>
     </table>
+</div>
 </div>
 
 <p style="font-size:44px;font-weight:bold;margin:0 0 30px 0;">Спряжения глаголов</p>
@@ -78,6 +98,7 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <li><a href="#19">Урок 19. Спряжения глаголов</a></li>
 <li><a href="#_1">Глаголы группы А</a></li>
 <li><a href="#20">Урок 20. Глагол ИМАТИ</a></li>
+<li><a href="#21">Урок 21. Отрицательные предложения</a></li>
 <li><a href="#22">Урок 22. Вопросы в настоящем времени</a></li>
 <li><a href="#23">Урок 23. Спряжение глаголов группы И</a></li>
 <li><a href="#24-1">Урок 24. Спряжение глаголов группы Е (ч1)</a></li>
@@ -85,11 +106,13 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <li><a href="#26-3">Урок 26. Спряжение глаголов группы Е (часть 3)</a></li>
 </ul>
 </div>
-<p><a name="index_entry_index_1"></a></p>
 <hr />
+<p>Jul 28, 2023</p>
+<p><a name="index_entry_index_1"></a></p>
 <h1 id="19">Урок 19. Спряжения глаголов</h1>
 <p>[<a href="references.html#ref_1_20">1.20</a>]</p>
-<p><strong>Спряжение</strong> &mdash; это набор окончаний в настоящем времени глагола. Спряжения есть только в настоящем времени.</p>
+<p><strong>Спряжение</strong> &mdash; это набор окончаний в настоящем времени глагола. Спряжения есть только в
+настоящем времени.</p>
 <p>Условно выделяют три спряжения: <strong>А</strong>, <strong>И</strong>, <strong>Е</strong>.</p>
 <p><strong>Инфинитивы</strong> имеют окончания <em>-ти</em>, <em>-сти</em>, <em>ћи</em>.</p>
 <p>Когда есть другой глагол, глагол <em>быть</em> не нужен!</p>
@@ -216,7 +239,7 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <p><a name="index_entry_index_2"></a></p>
 <h1 id="20">Урок 20. Глагол ИМАТИ</h1>
 <p>[<a href="references.html#ref_1_21">1.21</a>]</p>
-<p>Выражает значение "у <em>кого-то</em> есть ...". Склоняется так же, как и другие глаголы группы А.</p>
+<p>Выражает значение "у <em>кого-то</em> есть <em>что-то</em>". Склоняется так же, как и другие глаголы группы А.</p>
 <table>
 <thead>
 <tr>
@@ -327,6 +350,123 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </table>
 <hr />
 <p><a name="index_entry_index_3"></a></p>
+<h1 id="21">Урок 21. Отрицательные предложения</h1>
+<p>[<a href="references.html#ref_1_34">1.34</a>]</p>
+<p>Для образования отрицательного предложения в настоящем времени перед смысловым глаголом ставится 
+частица <strong>не</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Утвердительное предложение</th>
+<th>Отрицательное предложение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Знам тебе.</td>
+<td><strong>Не</strong> знам тебе.</td>
+</tr>
+<tr>
+<td>Гледамо филм.</td>
+<td><strong>Не</strong> гледамо филм.</td>
+</tr>
+</tbody>
+</table>
+<p>Глагол <strong>имати</strong> образует отрицательную форму особым образом:</p>
+<table>
+<thead>
+<tr>
+<th>Предложение</th>
+<th>Перевод</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ја <strong>немам</strong>...</td>
+<td>У меня нет...</td>
+</tr>
+<tr>
+<td>Ти <strong>немаш</strong>...</td>
+<td>У тебя нет...</td>
+</tr>
+<tr>
+<td>Он <strong>нема</strong>...</td>
+<td>У него нет...</td>
+</tr>
+<tr>
+<td>Ми <strong>немамо</strong>...</td>
+<td>У нас нет...</td>
+</tr>
+<tr>
+<td>Ви <strong>немате</strong>...</td>
+<td>У вас нет...</td>
+</tr>
+<tr>
+<td>Они <strong>немају</strong>...</td>
+<td>У них нет...</td>
+</tr>
+</tbody>
+</table>
+<p>Примеры:</p>
+<table>
+<thead>
+<tr>
+<th>Пример</th>
+<th>Перевод</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Немам</strong> пса.</td>
+<td>У меня нет собаки.</td>
+</tr>
+<tr>
+<td><strong>Немаш</strong> мачку.</td>
+<td>У тебя нет кошки.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Упражнение</strong></p>
+<table>
+<thead>
+<tr>
+<th>Фраза</th>
+<th>Перевод</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Я не сплю.</td>
+<td>Не спавам.</td>
+</tr>
+<tr>
+<td>Ты не читаешь книгу.</td>
+<td>Не читаш књнгу.</td>
+</tr>
+<tr>
+<td>У нас нет проблем.</td>
+<td>Немамо проблеме.</td>
+</tr>
+<tr>
+<td>Они не ждут вас.</td>
+<td>Они не чекају вас.</td>
+</tr>
+<tr>
+<td>Вы не варите суп.</td>
+<td>Не кувате супу.</td>
+</tr>
+<tr>
+<td>У меня нет брата.</td>
+<td>Немам брата.</td>
+</tr>
+<tr>
+<td>Я не знаю.</td>
+<td>Не знам.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a name="index_entry_index_4"></a></p>
 <h1 id="22">Урок 22. Вопросы в настоящем времени</h1>
 <p>[<a href="references.html#ref_1_22">1.22</a>]</p>
 <p>Способы:</p>
@@ -348,78 +488,79 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </thead>
 <tbody>
 <tr>
-<td><strong>Да ли</strong> (ти)* знаш ту девојку?</td>
+<td><span class="rv"><strong>Да ли</strong> (ти)<sup>1</sup> знаш ту девојку? </span></td>
 <td>Ты знаешь эту девушку?</td>
 </tr>
 <tr>
-<td>Имате <strong>ли</strong> (ви) влажне марамице?</td>
+<td><span class="rv">Имате <strong>ли</strong> (ви) влажне марамице?          </span></td>
 <td>У вас есть влажные салфетки?</td>
 </tr>
 <tr>
-<td><strong>Коју</strong> књигу (ти) читаш?</td>
+<td><span class="rv"><strong>Коју</strong> књигу (ти) читаш?                  </span></td>
 <td>Какую книгу ты читаешь?</td>
 </tr>
 <tr>
-<td><strong>Шта</strong> (ви) радите?</td>
+<td><span class="rv"><strong>Шта</strong> (ви) радите?                        </span></td>
 <td>Что (вы) делаете?</td>
 </tr>
 <tr>
-<td><strong>Да ли</strong> твоји родитељи живе у Москви?</td>
+<td><span class="rv"><strong>Да ли</strong> твоји родитељи живе у Москви?     </span></td>
 <td>Твои родители живут в Москве?</td>
 </tr>
 <tr>
-<td><strong>Је л'</strong> радиш негде?**</td>
+<td><span class="rv"><strong>Је л'</strong> радиш негде?<sup>2</sup>          </span></td>
 <td>Ты где-то работаешь?</td>
 </tr>
 <tr>
-<td>Радите заједно?***</td>
+<td><span class="rv">Радите заједно?<sup>3</sup>                 </span></td>
 <td>Вы работаете вместе?</td>
 </tr>
 </tbody>
 </table>
-<p>* Местоимения как правило не используются, но если используются, то в указанных позициях.</p>
-<p>** Кто-то считает эту конструкцию неграмотной, но она все равно используется часто.</p>
-<p>*** Такая форма чаще всего используется для уточнения когда ответ более или менее известен. </p>
+<p><sup>1</sup> Местоимения как правило не используются, но если используются, то в указанных позициях.</p>
+<p><sup>2</sup> Кто-то считает эту конструкцию неграмотной, но она все равно используется часто.</p>
+<p><sup>3</sup> Такая форма чаще всего используется для уточнения когда ответ более или менее известен. </p>
 <p><strong>Упражнение</strong></p>
+<p>Задать вопросы к заданным утверждениям.</p>
 <table>
 <thead>
 <tr>
+<th>Утверждение</th>
+<th>Перевод</th>
 <th>Вопрос</th>
-<th>Ответ</th>
-<th>Перевод вопроса</th>
-<th>Перевод ответа</th>
+<th>Перевод</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Где радите?</td>
 <td>Радим у фирми.</td>
-<td>Где работаете?</td>
-<td>Работаю в компании.</td>
+<td><span class="rv">Работаю в компании.  </span></td>
+<td><span class="rv">Где радиш?           </span></td>
+<td>Где работаешь?</td>
 </tr>
 <tr>
-<td>Шта радиш?</td>
 <td>Читам досадну књигу.</td>
-<td>Что делаете?</td>
-<td>Читаю скучную книгу.</td>
+<td><span class="rv">Читаю скучную книгу. </span></td>
+<td><span class="rv">Шта радиш?           </span></td>
+<td>Что делаешь?</td>
 </tr>
 <tr>
-<td>Да ли Ана пије пиво?</td>
 <td>Ана не пије пиво.</td>
+<td><span class="rv">Анна не пьет пиво.   </span></td>
+<td><span class="rv">Да ли Ана пије пиво? </span></td>
 <td>Анна пьет пиво?</td>
-<td>Анна не пьет пиво.</td>
 </tr>
 <tr>
-<td>Да ли идете на шетњу?</td>
 <td>Немамо времена.</td>
+<td><span class="rv">Нет времени.         </span></td>
+<td><span class="rv">Да ли идете у шетњу? </span></td>
 <td>Идете на прогулку?</td>
-<td>Нет времени.</td>
 </tr>
 <tr>
-<td>Где он живи?</td>
 <td>Он живи у Немачкој.</td>
+<td><span class="rv">Он живет в Германии. </span></td>
+<td><span class="rv">Где он живи?         </span></td>
 <td>Где он живет?</td>
-<td>Он живет в Германии.</td>
 </tr>
 </tbody>
 </table>
@@ -615,7 +756,7 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </tbody>
 </table>
 <p>Другие замены конечных согласных в корне:</p>
-<p><strong>к</strong>, <strong>ц</strong> --&gt; <strong>ч</strong></p>
+<p>Чередование <strong>к</strong>, <strong>ц</strong> // <strong>ч</strong></p>
 <table>
 <thead>
 <tr>
@@ -654,7 +795,7 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </tr>
 </tbody>
 </table>
-<p><strong>г</strong>, <strong>з</strong> --&gt; <strong>ж</strong></p>
+<p>Чередование <strong>г</strong>, <strong>з</strong> // <strong>ж</strong></p>
 <table>
 <thead>
 <tr>
@@ -693,7 +834,7 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </tr>
 </tbody>
 </table>
-<p><strong>х</strong>, <strong>с</strong> --&gt; <strong>ш</strong></p>
+<p>Чередование <strong>х</strong>, <strong>с</strong> // <strong>ш</strong></p>
 <table>
 <thead>
 <tr>
@@ -732,7 +873,7 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 </tr>
 </tbody>
 </table>
-<p><strong>т</strong> --&gt; <strong>ћ</strong></p>
+<p>Чередование <strong>т</strong> // <strong>ћ</strong></p>
 <table>
 <thead>
 <tr>
@@ -1121,18 +1262,16 @@ href="https://github.com/down2ground/serbian_study">GitHub</a>
 <p>&nbsp;</p>
 <hr />
 
-<p style="margin-top:0px;margin-bottom:0px;text-align:right;"><a href="demonstrative_pronouns.html" 
-title="Previous: Указательные местоимения"><img src="../../layout/pict/previous_page.png"/></a>
-
+<p style="margin-top:0px;margin-bottom:0px;text-align:right;"><a href="plurals.html" 
+title="Previous: Множественное число"><img src="../../layout/pict/previous_page.png"
+alt="Back"></a>
 <a href="modal_verbs.html" title="Next: Модальные глаголы"><img 
-src="../../layout/pict/next_page.png"/></a>
+src="../../layout/pict/next_page.png" alt="Next"></a>
 </p>
-
-<div style="height: 1000px;"><p>&nbsp;</p></div>
 
 <script>
 function toggleSidebar() {
-    let sidebar = document.getElementsByClassName("sidebar")[0]
+    let sidebar = document.getElementsByClassName("sidebarWrapper")[0]
     let display = sidebar.style.display
     if (!display || display == "none") {
         sidebar.style.display = "block"

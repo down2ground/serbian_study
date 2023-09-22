@@ -14,9 +14,16 @@
             "page-flows": ["sections", "nav"] },
         { "input-glob": "sections/*.txt", "page-flows": ["sections", "nav"], 
             "title-from-variable": "title", "code-from-variable": "code", 
+            "sort-by-variable": "SORT_ORDER" },
+        { "input-glob": "sections/sidesteps/*.txt", "page-flows": ["sidesteps", "nav"], 
+            "title-from-variable": "title", "code-from-variable": "code", 
             "sort-by-variable": "SORT_ORDER" }
     ],
     "plugins": {
+        "variables": { "html_lang": "ru", "show_source_link": true, "theme": "light",
+            "link_js": [{"src": "review.js", "defer": false}],
+            "controls": ["<span id=\"reviewToggler\" class=\"header_image\" onclick=\"toggleReview();\" title=\"Скрыть/показать ответы\"></span>"]
+        },
         "page-variables": {},
         "relative-paths": {
             "markers": ["path"],
@@ -26,25 +33,21 @@
             }
         },
         "page-flows": {
-            "sections": { "groups": ["sidebar"] },
             "header": [
-                { "link": "doc/content/index_page.html", "title": "Index" }
+                { "link": "readme.html", "title": "", "image": "favicon.png",
+                    "image_class": "logo_image", "image_alt": "Logo" },
+                { "link": "readme.html", "title": "Home", "class": "toggle_wide_only_inline" },
+                { "link": "doc/content/index_page.html", "title": "Index", "class": "toggle_wide_only_inline" },
+                { "link": "doc/content/index_page.html", "title": "", "class": "toggle_narrow_only_inline",
+                    "image": "layout/pict/search.png", "image_class": "header_image index_image",
+                    "image_alt": "Index" }
             ],
-             "header_page_links": [
-                { "link": "readme.html", "title": "Home" }
+            "header_wide_only": [
+                { "link": "https://github.com/down2ground/serbian_study", "title": "GitHub",
+                    "external": true }
             ],
-            "header_additional_links": { "title": " ", "groups": ["sidebar"], "items": [
-                { "link": "https://github.com/down2ground/serbian_study", "title": "GitHub", "external": true }
-            ]}
-#            ,
-#            "useful_links": { "title": "Useful links", "groups": ["sidebar"], "items": [
-#                { "link": "https://daringfireball.net/projects/markdown/", "title": "Markdown", "external": true },
-#                { "link": "https://github.com/arctrong/md2html", "title": "md2html", "external": true }
-#            ]}
-        },
-        "variables": {
-            "logo": "<b><span style=\"color:#59f;margin-right:7px;\">Srpski</span></b>",
-            "theme": "light_default"
+            "sections": { "groups": ["sidebar"] },
+            "sidesteps": { "groups": ["sidebar"], "title": "Дополнительно" }
         },
         "index": {"index": {"output": "index_page.html", "title": "Index", "index-cache": "index_cache.json", 
                     "index-cache-relative": true, "letters": true, "letters-block": true,
