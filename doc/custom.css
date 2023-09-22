@@ -33,6 +33,8 @@ grey {
 
 .rv {
   background-color: aliceblue;
+  display: inline-block;
+  min-width: 50px;
 }
 
 .rv.review_is_on {
