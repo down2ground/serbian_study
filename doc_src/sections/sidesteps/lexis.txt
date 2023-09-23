@@ -135,6 +135,7 @@
 <span class="rv">slab</span> --- слабый    
 <span class="rv">zao</span> --- злой    
 <span class="rv">prljav</span> --- грязный    
+<span class="rv">nestašan</span> --- шаловливый, озорной    
 
 <span class="rv">skup</span> --- дорогой (по цене)    
 <span class="rv">jeftin</span> --- дешевый (по цене)    
