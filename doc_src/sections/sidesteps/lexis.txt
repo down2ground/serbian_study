@@ -8,186 +8,186 @@
 
 ## Общие слова и фразы
 
-<span class="rv">Naravno!</span> --- Конечно!    
-<span class="rv">Nemam pojma.</span> --- Понятия не имею.   
-<span class="rv">Može.</span> --- Да, можно (в ответ на предложение).    
+<!--rv Naravno!--> --- Конечно!    
+<!--rv Nemam pojma.--> --- Понятия не имею.   
+<!--rv Može.--> --- Да, можно (в ответ на предложение).    
 
-<span class="rv">još</span> --- еще (<span class="rv">još nešto?</span> --- *Что-то еще?*)    
-<span class="rv">već</span> --- уже    
+<!--rv još--> --- еще (<!--rv još nešto?--> --- *Что-то еще?*)    
+<!--rv već--> --- уже    
 
-<span class="rv">Pažnja!</span> --- Внимание!    
+<!--rv Pažnja!--> --- Внимание!    
 
-<span class="rv">na kraj</span> --- наконец, в конце концов    
-<span class="rv">nekoliko</span> --- несколько    
-<span class="rv">ostali</span> --- прочие, остальные    
-<span class="rv">deo</span> --- часть    
+<!--rv na kraj--> --- наконец, в конце концов    
+<!--rv nekoliko--> --- несколько    
+<!--rv ostali--> --- прочие, остальные    
+<!--rv deo--> --- часть    
 
 
 ## Вводные слова и слова-паразиты
 
-<span class="rv">па</span>                  --- *ну*    
-<span class="rv">ма</span>                  --- *ну*    
-<span class="rv">овај</span>                --- *этот* (часто употребляется как слово-паразит)    
-<span class="rv">значи</span>               --- *значит*    
-<span class="rv">е</span>                   --- *вот, ну вот*    
-<span class="rv">углавном</span>            --- *в основном*    
-<span class="rv">иначе</span>               --- *вообще-то, кроме того*    
-<span class="rv">уосталом</span>            --- *в общем*    
-<span class="rv">међутим</span>             --- *кстати*    
-<span class="rv">у суштини</span>           --- *по сути*    
-<span class="rv">стога</span>               --- *поэтому*    
-<span class="rv">надаље</span>             --- *более того*    
-<span class="rv">затим</span>               --- *затем*    
-<span class="rv">поред тога</span>          --- *кроме того*    
-<span class="rv">такође</span>              --- *также*    
-<span class="rv">док</span>                 --- *тогда как*    
-<span class="rv">иако</span>                --- *хотя*    
-<span class="rv">ипак</span>                --- *всё же*    
-<span class="rv">супротно</span>            --- *наоборот*    
-<span class="rv">унаточ</span>              --- *несмотря на*    
-<span class="rv">што се тиче</span>         --- *что касается*    
-<span class="rv">са друге стране</span>     --- *с другой стороны*    
-<span class="rv">нажалост</span>            --- *к сожалению*    
-<span class="rv">срећом</span>              --- *к счастью*    
-<span class="rv">према мом искуству</span>  --- *согласно моему опыту*    
+<!--rv па-->                  --- *ну*    
+<!--rv ма-->                  --- *ну*    
+<!--rv овај-->                --- *этот* (часто употребляется как слово-паразит)    
+<!--rv значи-->               --- *значит*    
+<!--rv е-->                   --- *вот, ну вот*    
+<!--rv углавном-->            --- *в основном*    
+<!--rv иначе-->               --- *вообще-то, кроме того*    
+<!--rv уосталом-->            --- *в общем*    
+<!--rv међутим-->             --- *кстати*    
+<!--rv у суштини-->           --- *по сути*    
+<!--rv стога-->               --- *поэтому*    
+<!--rv надаље-->             --- *более того*    
+<!--rv затим-->               --- *затем*    
+<!--rv поред тога-->          --- *кроме того*    
+<!--rv такође-->              --- *также*    
+<!--rv док-->                 --- *тогда как*    
+<!--rv иако-->                --- *хотя*    
+<!--rv ипак-->                --- *всё же*    
+<!--rv супротно-->            --- *наоборот*    
+<!--rv унаточ-->              --- *несмотря на*    
+<!--rv што се тиче-->         --- *что касается*    
+<!--rv са друге стране-->     --- *с другой стороны*    
+<!--rv нажалост-->            --- *к сожалению*    
+<!--rv срећом-->              --- *к счастью*    
+<!--rv према мом искуству-->  --- *согласно моему опыту*    
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["обучение, лексика"]-->
 # Обучение
 
-<span class="rv">celina</span> --- блок учебного курса (unit)    
-<span class="rv">čas</span> --- урок (в школе)    
-<span class="rv">lekcija</span> --- урок, лекция     
-<span class="rv">razgovor</span> --- разговорная тема (conversation), собеседование    
-<span class="rv">rečnik</span> --- словарь (vocabulary)    
-<span class="rv">gramatika</span> --- грамматика    
-<span class="rv">čitanje</span> --- чтение    
-<span class="rv">vežba</span> --- упражнение    
-<span class="rv">kviz</span> --- викторина (quiz)    
-<span class="rv">rešenje</span> --- решение (учебной задачи)    
-<span class="rv">rasprava</span> --- дискуссия, рассуждение    
+<!--rv celina--> --- блок учебного курса (unit)    
+<!--rv čas--> --- урок (в школе)    
+<!--rv lekcija--> --- урок, лекция     
+<!--rv razgovor--> --- разговорная тема (conversation), собеседование    
+<!--rv rečnik--> --- словарь (vocabulary)    
+<!--rv gramatika--> --- грамматика    
+<!--rv čitanje--> --- чтение    
+<!--rv vežba--> --- упражнение    
+<!--rv kviz--> --- викторина (quiz)    
+<!--rv rešenje--> --- решение (учебной задачи)    
+<!--rv rasprava--> --- дискуссия, рассуждение    
 
-<span class="rv">opis</span> --- описание (description)    
+<!--rv opis--> --- описание (description)    
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["лингвистика"]-->
 # Лингвистика
 
-<span class="rv">imenica</span> --- (имя) существительное    
-<span class="rv">zamenica</span> --- местоимение     
-<span class="rv">pridev</span> --- (имя) прилагательное    
-<span class="rv">glagol</span> --- глагол    
-<span class="rv">predlog</span> --- предлог    
+<!--rv imenica--> --- (имя) существительное    
+<!--rv zamenica--> --- местоимение     
+<!--rv pridev--> --- (имя) прилагательное    
+<!--rv glagol--> --- глагол    
+<!--rv predlog--> --- предлог    
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["канцелярия"]-->
 # Канцелярия
 
-<span class="rv">sveska</span> --- тетрадь    
-<span class="rv">olovka</span> --- карандаш    
-<span class="rv">hemijska olovka</span> --- (шариковая) ручка    
-<span class="rv">olovka u boji</span> --- цветной карандаш    
+<!--rv sveska--> --- тетрадь    
+<!--rv olovka--> --- карандаш    
+<!--rv hemijska olovka--> --- (шариковая) ручка    
+<!--rv olovka u boji--> --- цветной карандаш    
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["общение, лексика"]-->
 # Общение
 
-<span class="rv">upoznavanje</span> --- знакомство (sa kime, sa čime)   
-<span class="rv">Kako se zoveš/te?</span> --- Как тебя/Вас зовут?    
-<span class="rv">Ja se zovem ...</span> --- Меня зовут ...    
+<!--rv upoznavanje--> --- знакомство (sa kime, sa čime)   
+<!--rv Kako se zoveš/te?--> --- Как тебя/Вас зовут?    
+<!--rv Ja se zovem ...--> --- Меня зовут ...    
 
-<span class="rv">poruka</span> --- сообщение (электронной почты и т.п.)    
+<!--rv poruka--> --- сообщение (электронной почты и т.п.)    
 
-<span class="rv">Nema na čemu.</span> --- Не за что (в ответ на благодарность).    
+<!--rv Nema na čemu.--> --- Не за что (в ответ на благодарность).    
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["общество, лексика"]-->
 # Общественное устройство
 
-<span class="rv">zavod </span> --- институт (не учебный), учреждение, бюро    
+<!--rv zavod --> --- институт (не учебный), учреждение, бюро    
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["общество, лексика"]-->
 # Действия
 
-<span class="rv">birati</span> --- выбирать, подбирать, голосовать    
-<span class="rv">uzeti</span> --- взять    
-<span class="rv">mirisati</span> --- пахнуть (иметь запах)    
-<span class="rv">nadati se</span> --- надеяться    
-<span class="rv">izgledati</span> --- выглядеть    
+<!--rv birati--> --- выбирать, подбирать, голосовать    
+<!--rv uzeti--> --- взять    
+<!--rv mirisati--> --- пахнуть (иметь запах)    
+<!--rv nadati se--> --- надеяться    
+<!--rv izgledati--> --- выглядеть    
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["качества"]-->
 # Качества
 
-<span class="rv">jako, vrlo, veoma, baš</span> --- очень (весьма)   
-<span class="rv">stvarno</span> --- действительно, на самом деле (really)   
+<!--rv jako, vrlo, veoma, baš--> --- очень (весьма)   
+<!--rv stvarno--> --- действительно, на самом деле (really)   
 
-<span class="rv">divan</span> --- красивый, великолепный    
-<span class="rv">čudan</span> --- странный    
-<span class="rv">omiljen</span> --- любимый (писатель, блюдо и т.п.)    
-<span class="rv">dosadan</span> --- скучный, занудный    
-<span class="rv">ružan</span> --- некрасивый    
-<span class="rv">bezobrazan</span> --- грубый, нахальный    
-<span class="rv">fin</span> --- славный, милый    
-<span class="rv">interesantni</span> --- интересный    
-<span class="rv">mršav</span> --- худой    
-<span class="rv">slab</span> --- слабый    
-<span class="rv">zao</span> --- злой    
-<span class="rv">prljav</span> --- грязный    
-<span class="rv">nestašan</span> --- шаловливый, озорной    
+<!--rv divan--> --- красивый, великолепный    
+<!--rv čudan--> --- странный    
+<!--rv omiljen--> --- любимый (писатель, блюдо и т.п.)    
+<!--rv dosadan--> --- скучный, занудный    
+<!--rv ružan--> --- некрасивый    
+<!--rv bezobrazan--> --- грубый, нахальный    
+<!--rv fin--> --- славный, милый    
+<!--rv interesantni--> --- интересный    
+<!--rv mršav--> --- худой    
+<!--rv slab--> --- слабый    
+<!--rv zao--> --- злой    
+<!--rv prljav--> --- грязный    
+<!--rv nestašan--> --- шаловливый, озорной    
 
-<span class="rv">skup</span> --- дорогой (по цене)    
-<span class="rv">jeftin</span> --- дешевый (по цене)    
+<!--rv skup--> --- дорогой (по цене)    
+<!--rv jeftin--> --- дешевый (по цене)    
 
-<span class="rv">vruć</span> --- горячий    
-<span class="rv">topao</span> --- теплый    
-<span class="rv">hladan</span> --- холодный    
+<!--rv vruć--> --- горячий    
+<!--rv topao--> --- теплый    
+<!--rv hladan--> --- холодный    
 
-<span class="rv">taman</span> --- темный    
-<span class="rv">svetao</span> --- светлый    
+<!--rv taman--> --- темный    
+<!--rv svetao--> --- светлый    
 
-<span class="rv">udoban</span> --- удобный, уютный    
-<span class="rv">moderan</span> --- модный, современный    
-<span class="rv">stvaran</span> --- реальный, действительный    
-<span class="rv">ogroman</span> --- огромный    
+<!--rv udoban--> --- удобный, уютный    
+<!--rv moderan--> --- модный, современный    
+<!--rv stvaran--> --- реальный, действительный    
+<!--rv ogroman--> --- огромный    
 
-<span class="rv">čaroban</span> --- волшебный, магический    
+<!--rv čaroban--> --- волшебный, магический    
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["состояния"]-->
 # Состояния
 
-<span class="rv">zauzet</span> --- занятый (ovo mesto je <span class="rv">zauzeto</span>)    
-<span class="rv">slobodan</span> --- свободный (ovo mesto je <span class="rv">slobodno</span>)  
+<!--rv zauzet--> --- занятый (ovo mesto je <!--rv zauzeto-->)    
+<!--rv slobodan--> --- свободный (ovo mesto je <!--rv slobodno-->)  
 
-<span class="rv">bogat</span> --- богатый, состоятельный  
-<span class="rv">optimističan</span> --- оптимистичный  
-<span class="rv">romantičan</span> --- 	романтический  
-<span class="rv">tužan</span> --- грустный  
-<span class="rv">snažan</span> --- могучий, могущественный   
+<!--rv bogat--> --- богатый, состоятельный  
+<!--rv optimističan--> --- оптимистичный  
+<!--rv romantičan--> --- 	романтический  
+<!--rv tužan--> --- грустный  
+<!--rv snažan--> --- могучий, могущественный   
 
-<span class="rv">srećan</span> --- счастливый    
-<span class="rv">nesrećan</span> --- несчастный    
-<span class="rv">zabranjen</span> --- запрещенный   
+<!--rv srećan--> --- счастливый    
+<!--rv nesrećan--> --- несчастный    
+<!--rv zabranjen--> --- запрещенный   
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["отношения"]-->
 # Отношения
 
-<span class="rv">poznanik</span> --- знакомый    
-<span class="rv">poznanica</span> --- знакомая    
+<!--rv poznanik--> --- знакомый    
+<!--rv poznanica--> --- знакомая    
 
-<span class="rv">ljubav</span> --- любовь    
-<span class="rv">ljubavnik</span> --- любовник    
-<span class="rv">ljubavna priča</span> --- любовная история    
+<!--rv ljubav--> --- любовь    
+<!--rv ljubavnik--> --- любовник    
+<!--rv ljubavna priča--> --- любовная история    
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["время"]-->
 # Время
 
-<span class="rv">jutro</span> --- утро    
-<span class="rv">veče</span> --- вечер    
+<!--rv jutro--> --- утро    
+<!--rv veče--> --- вечер    
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["пространство"]-->
@@ -198,49 +198,49 @@
 <!--index ["окружающая среда"]-->
 # Окружающая среда
 
-<span class="rv">napolju</span> --- на улице (не в помещении)    
+<!--rv napolju--> --- на улице (не в помещении)    
 
-<span class="rv">vazduh</span> --- воздух    
-<span class="rv">vetar</span> --- ветер    
-<span class="rv">vatra</span> --- огонь, костер    
+<!--rv vazduh--> --- воздух    
+<!--rv vetar--> --- ветер    
+<!--rv vatra--> --- огонь, костер    
 
-<span class="rv">sunce</span> --- солнце    
-<span class="rv">sunčan</span> --- солнечный    
+<!--rv sunce--> --- солнце    
+<!--rv sunčan--> --- солнечный    
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["еда"]-->
 # Еда
 
-<span class="rv">voće</span> --- фрукты    
-<span class="rv">povrće</span> --- овощи    
+<!--rv voće--> --- фрукты    
+<!--rv povrće--> --- овощи    
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["жилье"]-->
 # Жилье
 
-<span class="rv">soba</span> --- комната    
+<!--rv soba--> --- комната    
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["искусство"]-->
 # Искусство
 
-<span class="rv">junak</span> --- герой    
-<span class="rv">junakinja</span> --- героиня   
-<span class="rv">lik</span> --- персонаж   
+<!--rv junak--> --- герой    
+<!--rv junakinja--> --- героиня   
+<!--rv lik--> --- персонаж   
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["транспорт"]-->
 # Транспорт
 
-<span class="rv">brod</span> --- корабль   
+<!--rv brod--> --- корабль   
 
 ----------------------------------------------------------------------------------------------------
-<!--index ["человек"]-->
-# Человек
+<!--index ["биология"]-->
+# Биология
 
-<span class="rv">lice</span> --- лицо   
-<span class="rv">uvo/uši</span> --- ухо/уши   
-<span class="rv">stopalo</span> --- ступня   
+<!--rv lice--> --- лицо   
+<!--rv uvo/uši--> --- ухо/уши   
+<!--rv stopalo--> --- ступня   
 
 
 
