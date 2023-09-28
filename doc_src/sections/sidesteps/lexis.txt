@@ -117,6 +117,10 @@
 <!--rv nadati se--> --- надеяться    
 <!--rv izgledati--> --- выглядеть    
 
+<!--rv leteti--> --- лететь, лететь    
+<!--rv ispunjavati--> --- исполнять, выполнять    
+<!--rv ispuniti--> --- исполнить, выполнить    
+
 ----------------------------------------------------------------------------------------------------
 <!--index ["качества", "состояния"]-->
 # Качества и состояния
@@ -126,6 +130,7 @@
 <!--rv različit--> --- разный, иной   
 
 <!--rv jako, vrlo, veoma, baš--> --- очень (весьма)   
+<!--rv malo, pomalo--> --- мало, немного    
 
 <!--rv nizak --> --- низкий    
 <!--rv visok --> --- высокий    
@@ -138,6 +143,7 @@
 <!--rv ružan--> --- некрасивый    
 <!--rv fin--> --- славный, милый    
 <!--rv interesantni--> --- интересный    
+<!--rv zanimljiv--> --- интересный, увлекательный      
 <!--rv prljav--> --- грязный    
 <!--rv slab--> --- слабый    
 <!--rv snažan--> --- могучий, могущественный   
@@ -177,6 +183,7 @@
 <!--rv slobodan--> --- свободный (ovo mesto je <!--rv slobodno-->)  
 
 <!--rv bogat--> --- богатый, состоятельный  
+<!--rv siromašan--> --- бедный    
 <!--rv optimističan--> --- оптимистичный  
 <!--rv romantičan--> --- романтический  
 <!--rv tužan--> --- грустный  
@@ -198,6 +205,8 @@
 <!--rv ljubav--> --- любовь    
 <!--rv ljubavnik--> --- любовник    
 <!--rv ljubavna priča--> --- любовная история    
+ 
+<!--rv kovrdžav--> --- кудрявый    
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["время"]-->
@@ -253,11 +262,19 @@
 <!--rv hemijska olovka--> --- (шариковая) ручка    
 <!--rv olovka u boji--> --- цветной карандаш   
 
+
+<!--index ["парикмахерская"]-->
+## Парикмахерская
+
+<!--rv frizura--> --- стрижка, прическа    
+
+
 ----------------------------------------------------------------------------------------------------
 <!--index ["жилье"]-->
 # Жилье
 
 <!--rv soba--> --- комната    
+<!--rv palata--> --- дворец    
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["искусство"]-->
@@ -266,6 +283,7 @@
 <!--rv junak--> --- герой    
 <!--rv junakinja--> --- героиня   
 <!--rv lik--> --- персонаж   
+<!--rv čarobnjak--> --- волшебник, фокусник   
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["транспорт"]-->
@@ -284,6 +302,7 @@
 <!--rv stopalo--> --- ступня   
 
 <!--rv vrabac--> --- воробей   
+<!--rv majmun--> --- обезьяна   
 
 ----------------------------------------------------------------------------------------------------
 <!--index ["цвета"]-->
@@ -303,6 +322,44 @@
 <!--rv tamnosmeđe--> --- темно-коричневый   
 <!--rv svetlosmeđe--> --- светло-коричневый   
 <!--rv zelenosmeđe--> --- зелено-коричневый   
+
+----------------------------------------------------------------------------------------------------
+<!--index ["страны"]-->
+# Страны
+
+<!--rv zemlja --> --- страна    
+<!--rv zastava--> --- флаг, знамя    
+<!--rv grb--> --- герб    
+
+Страна                | Zemlja                        | Stanovnik | Stanovnica | Stanovnici        | Jezik 
+----------------------|-------------------------------| ----------|---------| --------------| --------------
+Сербия                | <!--rv Srbija              -->| <!--rv Srbin      --> | <!--rv Srpkinja        --> | <!--rv Srbi                  -->| <!--rv srpski              --> 
+Черногория            | <!--rv Crna Gora           -->| <!--rv Crnogorac  --> | <!--rv Crnogorka   --> | <!--rv Crnogorci             -->| <!--rv srpski, crnogorski  --> 
+Хорватия              | <!--rv Hrvatska            -->| <!--rv Hrvat      --> | <!--rv Hrvatica        --> | <!--rv Hrvati                -->| <!--rv hrvatski            --> 
+Босния и Герцеговина  | <!--rv Bosna i Hercegovina -->| <!--rv Bosanac    --> | <!--rv Bosanka       --> | <!--rv Bosanci               -->| <!--rv srpski, bosanski    --> 
+Словения              | <!--rv Slovenija           -->| <!--rv Slovenac   --> | <!--rv Slovenka     --> | <!--rv Slovenci              -->| <!--rv slovenački          --> 
+Россия                | <!--rv Rusija              -->| <!--rv Rus        --> | <!--rv Ruskinja          --> | <!--rv Rusi                  -->| <!--rv ruski               --> 
+Украина               | <!--rv Ukrajina            -->| <!--rv Ukrajinac  --> | <!--rv Ukrajinka   --> | <!--rv Ukrajinci             -->| <!--rv ukrajinski          --> 
+Беларусь              | <!--rv Belorusija          -->| <!--rv Belorus    --> | <!--rv Beloruskinja  --> | <!--rv Belorusi              -->| <!--rv beloruski           --> 
+Армения               | <!--rv Jermenija           -->| <!--rv Jermenin   --> | <!--rv Jermenka     --> | <!--rv Jermeni               -->| <!--rv jermenski           --> 
+Грузия                | <!--rv Gruzija             -->| <!--rv Gruzijanac --> | <!--rv Gruzijanka --> | <!--rv Gruzijanci, Gruzini   -->| <!--rv gruzijski, gruzinski--> 
+Албания               | <!--rv Albanija            -->| <!--rv Albanac    --> | <!--rv Albanka       --> | <!--rv Albanci               -->| <!--rv albanski            --> 
+Англия                | <!--rv Engleska            -->| <!--rv Englez     --> | <!--rv Engleskinja    --> | <!--rv Englezi               -->| <!--rv engleski            --> 
+Германия              | <!--rv Nemačka             -->| <!--rv Nemac      --> | <!--rv Nemica          --> | <!--rv Nemci                 -->| <!--rv nemački             --> 
+Франция               | <!--rv Francuska           -->| <!--rv Francuz    --> | <!--rv Francuskinja  --> | <!--rv Francuzi              -->| <!--rv francuski           --> 
+Италия                | <!--rv Italija             -->| <!--rv Italijan   --> | <!--rv Italijanka   --> | <!--rv Italijani             -->| <!--rv italijanski         --> 
+Румыния               | <!--rv Rumunija            -->| <!--rv Rumun      --> | <!--rv Rumunka         --> | <!--rv Rumuni                -->| <!--rv rumunski            --> 
+Венгрия               | <!--rv Mađarska            -->| <!--rv Mađar      --> | <!--rv Mađarica        --> | <!--rv Mađari                -->| <!--rv mađarski            --> 
+Австрия               | <!--rv Austrija            -->| <!--rv Austrijanac--> | <!--rv Astrijanka--> | <!--rv Austrijanci           -->| <!--rv nemački             --> 
+Болгария              | <!--rv Bugarska            -->| <!--rv Bugarin    --> | <!--rv Bugarka       --> | <!--rv Bugari                -->| <!--rv bugarski            --> 
+Польша                | <!--rv Poljska             -->| <!--rv Poljak     --> | <!--rv Poljakinja     --> | <!--rv Poljaci               -->| <!--rv poljski             --> 
+Турция                | <!--rv Turska              -->| <!--rv Turčin     --> | <!--rv Turkinja       --> | <!--rv Turci                 -->| <!--rv turski              --> 
+Греция                | <!--rv Grčka               -->| <!--rv Grk        --> | <!--rv Grkinja          --> | <!--rv Grci                  -->| <!--rv grčki               --> 
+Америка               | <!--rv Amerika             -->| <!--rv Amerikanac --> | <!--rv Amerikanka        --> | <!--rv Amerikanci            -->| <!--rv (američki) engleski --> 
+Китай (Китай)         | <!--rv Kina                -->| <!--rv Kinez      --> | <!--rv Kineskinja      --> | <!--rv Kinezi                -->| <!--rv kineski             --> 
+Япония                | <!--rv Japan               -->| <!--rv Japanac    --> | <!--rv Japanka         --> | <!--rv Japanci               -->| <!--rv japanski            --> 
+Египет                | <!--rv Египат              -->|  | | |            
+                 
 
 
 

@@ -82,3 +82,10 @@ grey {
     visibility: initial;
     margin-left: 5px;
 } 
+
+.th {
+    font-weight: bold;
+    background-color: #e9f0f2;
+}
+
+
