@@ -149,7 +149,7 @@
 <!--rv nadati se--> --- надеяться    
 <!--rv izgledati--> --- выглядеть    
 
-<!--rv leteti--> --- лететь, лететь    
+<!--rv leteti--> --- лететь, летать    
 <!--rv ispunjavati--> --- исполнять, выполнять    
 <!--rv ispuniti--> --- исполнить, выполнить    
 
@@ -329,7 +329,7 @@
 <!--rv kuvar    --> | <!--rv kuvarica   --> | повар                      | <!--rv kuva       -->  | готовит          | <!--rv kuvati       --> |
 <!--rv programer--> | <!--rv programerka--> | программист, программистка | <!--rv programira -->  | программирует    | <!--rv programirati --> |
 <!--rv vaspitač --> | <!--rv vaspitačica--> | воспитатель (д/сада)       | <!--rv neguje decu-->  | ухаживает        | <!--rv negovati     --> |
-<!--rv učitelj  --> | <!--rv učiteljica --> | учитель (нач. классов)     | <!--rv predaje    -->  | преподает        | <!--rv predavati    --> |
+<!--rv učitelj  --> | <!--rv učiteljica --> | учитель (нач. классов)     | <!--rv obučava decu-->  | обучать         | <!--rv obučavati    --> |
 <!--rv nastavnik--> | <!--rv nastavnica --> | преподаватель (колледжа)   | <!--rv predaje    -->  | преподает        | <!--rv predavati    --> |
 <!--rv profesor --> | <!--rv profesorica--> | преподаватель (вуза)       | <!--rv predaje    -->  | преподает        | <!--rv predavati    --> |
 <!--rv teniser  --> | <!--rv teniserka  --> | теннисист, теннисистка     | <!--rv igra tenis -->  | играет в теннис  | <!--rv igrati       --> |
@@ -345,6 +345,7 @@
 <!--rv frizer   --> | <!--rv frizerka   --> | парикмахер, парикмахерша   | <!--rv šiša       -->  | стрижет          | <!--rv šišati       --> |
 <!--rv inženjer --> | <!--rv inženjerka --> | инженер                    | <!--rv projektuje -->  | проектирует      | <!--rv projektovati --> |
 <!--rv zubar    --> | <!--rv zubarka    --> | зубной врач                | <!--rv vadi zub   -->  | удаляет зуб      | <!--rv vaditi       --> |
+<!--rv vozač    --> | <!--rv vozač     -->  | водитель                   | <!--rv vozi ayto  -->  | водит машину     | <!--rv voziti       --> |
 
 <!--rv zanimanje--> --- профессия    
 <!--rv Šta si po zanimanju?--> --- Кто ты по профессии?    
