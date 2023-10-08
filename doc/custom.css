@@ -88,4 +88,32 @@ grey {
     background-color: #e9f0f2;
 }
 
+p.fn, p.fn2 {
+    font-size: 0.889rem;
+}
+
+p.fn {
+    margin-top: 25px;
+}
+
+p.fn:before {
+  content: '';
+  width: 150px;
+  height: 5px;
+  border-top: solid black 1px;
+  display: block;
+}
+
+div.admonition.footnote {
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div.admonition.footnote>* {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
 
