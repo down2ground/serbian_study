@@ -20,16 +20,20 @@ code, .code {
     border-color: lightgray;
 }
 
-pre>code.language-shell, pre>code.language-wrapped-shell {
-    background-color: darkslategray;
-    color: floralwhite;
-    border-color: darkslategray;
-}
-
 pre>code.language-code, pre>code.language-wrapped-code {
-    background-color: beige;
     color: darkred;
     border-color: darkred;
+    background-color: beige;
+}
+
+pre>code.language-shell, pre>code.language-wrapped-shell {
+    color: floralwhite;
+    border-color: darkslategray;
+    background-color: darkslategray;
+}
+
+.blockSrc {
+    color: darkslategray;
 }
 
 blockquote {

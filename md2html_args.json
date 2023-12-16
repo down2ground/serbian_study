@@ -20,7 +20,13 @@
             "sort-by-variable": "SORT_ORDER" }
     ],
     "plugins": {
-        "variables": { "html_lang": "ru", "show_source_link": true, "theme": "light",
+        "variables": {
+            "html_lang": "ru",
+            "burger_open_image": "layout/pict/burger.png",
+            "show_source_link": true,
+            "theme": "light",
+            "add_more_prog_langs": false,
+            "add_powered_by": true, "ad_exec_version": false,
             "link_js": [{"src": "review.js", "defer": false}],
             "controls": ["<span id=\"reviewToggler\" class=\"header_image\" onclick=\"toggleReview();\" title=\"Скрыть/показать ответы\"></span>"]
         },
