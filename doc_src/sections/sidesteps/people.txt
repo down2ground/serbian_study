@@ -1,0 +1,433 @@
+<!--VARIABLES {"title": "Люди", "SORT_ORDER": "020", "code": "people"}-->
+
+[TOC]
+
+----------------------------------------------------------------------------------------------------
+<!--index ["общение, лексика"]-->
+# Общение
+
+<!--rv pitati--> --- спрашивать (задавать вопрос)    
+<!--rv odgovoriti--> --- ответить (на вопросы)    
+
+<!--rv upoznavanje--> --- знакомство (sa kime, sa čime)   
+<!--rv Kako se zoveš/te?--> --- Как тебя/Вас зовут?    
+<!--rv Ja se zovem ...--> --- Меня зовут ...    
+
+<!--rv poruka--> --- сообщение (электронной почты и т.п.)    
+
+<!--rv Nema na čemu.--> --- Не за что (в ответ на благодарность).    
+
+<!--rv družiti se--> --- общаться    
+<!--rv druženje--> --- общение    
+
+<!--rv slagati se--> --- соглашаться, ладить    
+<!--rv U tom se slažem sa tobom.--> --- В этом я с тобой согласен.    
+
+<!--rv nazdraviti--> --- чокнуться, поднять тост    
+<!--rv častiti--> --- угощать   
+<!--rv slaviti--> --- праздновать, отмечать    
+<!--rv čestitati--> --- поздравить    
+<!--rv Čestitam!--> --- Поздравляю!    
+
+<!--rv Da li se šališ?--> --- Ты серьёзно (говоришь)?    
+<!--rv šaliti se--> --- шутить    
+<!--rv šala--> --- шутка    
+
+<!--rv svađati se--> --- ссориться, ругаться    
+<!--rv Naše komšije se svađaju svaki dan.--> --- Наши соседи ругаются каждый день.   
+<!--rv dogovoriti--> --- договориться (о чём-то)    
+
+<!--rv verovati--> --- верить (кому/чему), верить (в Бога и т.п.)    
+<!--rv Ne verujem mu.--> --- Я ему не верю.    
+
+<!--rv domaćin--> --- хозяин (радушный, хлебосольный и т.п.)    
+<!--rv rođendan--> --- день рождения    
+<!--rv Srećan rođendan!--> --- С днём рождения!    
+<!--rv sastanak--> --- встреча, свидание    
+<!--rv susret--> --- встреча, свидание    
+
+----------------------------------------------------------------------------------------------------
+<!--index ["отношения, лексика"]-->
+# Отношения
+
+<!--rv jedan s drugim--> --- друг с другом    
+ 
+<!--rv ona je udata--> --- она замужем   
+<!--rv on je oženjen--> --- он женат   
+<!--rv on je razveden--> --- он разведен   
+<!--rv udovac--> --- вдовец   
+<!--rv udovica--> --- вдова   
+
+<!--rv bračni--> --- брачный, супружеский    
+<!--rv bračni par--> --- супруги    
+<!--rv beba--> --- младенец, ребёнок    
+<!--rv deda i baba/baka--> --- дедушка и бабушка, прародители
+
+<!--rv poznanik--> --- знакомый    
+<!--rv poznanica--> --- знакомая    
+
+<!--rv ljubav--> --- любовь    
+<!--rv ljubavnik--> --- любовник    
+<!--rv ljubavna priča--> --- любовная история    
+
+<!--rv Idemo kod prijatelja **u goste**.--> --- Идем к друзьям в **гости**.    
+
+<!--rv rođak--> --- родственник    
+<!--rv komšija--> --- сосед    
+<!--rv komšinica--> --- соседка    
+
+<!--rv detinjstvo--> --- детство    
+<!--rv dečko--> --- мальчик (юноша), парень, бойфренд    
+
+----------------------------------------------------------------------------------------------------
+<!--index ["качества", "состояния, лексика"]-->
+# Качества и состояния
+
+<!--rv ružan--> --- некрасивый    
+<!--rv fin--> --- славный, милый    
+
+<!--rv slab--> --- слабый    
+<!--rv snažan--> --- могучий, могущественный   
+<!--rv jak--> --- сильный   
+<!--rv strpljiv--> --- терпеливый    
+
+<!--rv mršav--> --- худой    
+<!--rv vitak --> --- стройный
+
+<!--rv smešan--> --- смешной, забавный    
+<!--rv naivan--> --- наивный    
+<!--rv hrabar--> --- смелый, отважный    
+<!--rv zao--> --- злой    
+<!--rv nervozan --> --- нервный
+<!--rv nestašan--> --- шаловливый, озорной    
+<!--rv bezobrazan--> --- грубый, нахальный    
+<!--rv lukav--> --- хитрый, пронырливый    
+<!--rv šašav--> --- сумасбродный, безрассудный    
+<!--rv adekvatan--> --- адекватный, соответствующий    
+
+<!--rv bogat--> --- богатый, состоятельный  
+<!--rv siromašan--> --- бедный    
+<!--rv optimističan--> --- оптимистичный  
+<!--rv romantičan--> --- романтический  
+<!--rv tužan--> --- грустный    
+<!--rv miran--> --- тихий, спокойный, мирный    
+
+<!--rv srećan--> --- счастливый    
+<!--rv nesrećan--> --- несчастный    
+
+<!--rv kovrdžav--> --- кудрявый    
+
+<!--rv odrastao--> --- взрослый    
+<!--rv Odrasli mogu da piju pivo.--> --- Взрослым можно пить пиво.    
+<!--rv **Mladi** moraju da uče.--> --- **Молодёжь** должна учиться.    
+
+<!--rv lenj, len--> --- ленивый    
+<!--rv ljubazan--> --- приветливый, ласковый, любезный    
+
+<!--rv uredan--> --- чистоплотный, опрятный    
+<!--rv glavobolja--> --- головная боль    
+<!--rv bolestan--> --- больной (о человеке)    
+<!--rv briga--> --- забота (о ком/чём), страдание (тяготы)    
+
+<!--rv sram--> --- стыд    
+<!--rv žedan--> --- жаждущий    
+<!--rv biti žedan--> --- хотеть пить, чувствовать жажду    
+
+----------------------------------------------------------------------------------------------------
+<!--index ["быт"]-->
+# Быт
+
+
+<!--index ["еда"]-->
+## Еда
+
+<!--rv apetit--> --- аппетит    
+
+<!--rv doručak  --> --- завтрак    
+<!--rv ručak    --> --- обед    
+<!--rv večera   --> --- ужин    
+<!--rv užina    --> --- закуска 
+<!--rv pržen--> --- жареный    
+<!--rv kuvan--> --- варёный    
+
+<!--rv hrana--> --- еда    
+<!--rv piće--> --- напиток    
+
+<!--rv voće--> --- фрукты    
+<!--rv povrće--> --- овощи    
+
+<!--rv jabuka    --> --- яблоко    
+<!--rv kruška    --> --- груша    
+<!--rv banana    --> --- банан    
+<!--rv narandža  --> --- апельсин    
+<!--rv šljiva    --> --- слива    
+<!--rv lubenica  --> --- арбуз    
+<!--rv breskva   --> --- персик    
+<!--rv limun     --> --- лимон    
+<!--rv višnja    --> --- вишня    
+<!--rv jagoda    --> --- клубника    
+<!--rv borovnica --> --- черника    
+<!--rv malina    --> --- малина    
+<!--rv krompir   --> --- картофель    
+<!--rv paradajz  --> --- помидор    
+<!--rv krastavac --> --- огурец    
+<!--rv paprika   --> --- перец    
+<!--rv kupus     --> --- капуста    
+<!--rv spanać    --> --- шпинат    
+<!--rv karfiol   --> --- цветная капуста    
+<!--rv bundeva   --> --- тыква    
+<!--rv šargarepa --> --- морковь    
+<!--rv grašak    --> --- горох    
+<!--rv pasulj    --> --- боб    
+<!--rv boranija  --> --- фасоль    
+<!--rv patlidžan --> --- баклажан    
+
+<!--rv ulje     --> --- масло (растительное)    
+<!--rv maslac   --> --- масло (сливочное)    
+<!--rv sirće    --> --- уксус    
+<!--rv majonez  --> --- майонез    
+<!--rv kečap    --> --- кетчуп    
+<!--rv biber    --> --- перец    
+<!--rv so       --> --- соль    
+<!--rv šećer    --> --- сахар    
+<!--rv cimet    --> --- корица    
+
+<!--rv meso-->      --- мясо    
+<!--rv riba-->      --- рыба    
+<!--rv supa-->      --- суп    
+<!--rv salata-->    --- салат    
+<!--rv hleb-->      --- хлеб    
+<!--rv pahuljice--> --- зерновые хлопья    
+<!--rv sendvič-->   --- бутерброд    
+<!--rv jaja-->      --- яйца   
+
+<!--rv slatkiši-->  --- сладости    
+<!--rv čokolada-->  --- шоколад    
+<!--rv kolač-->     --- пирожное, печенье    
+<!--rv sladoled-->  --- мороженое    
+
+<!--rv voda-->      --- вода    
+<!--rv čaj-->       --- чай    
+<!--rv kafa-->      --- кофе    
+<!--rv sok-->       --- сок    
+<!--rv mleko-->     --- молоко    
+<!--rv jogurt-->    --- йогурт    
+<!--rv pivo-->      --- пиво    
+<!--rv vino-->      --- вино    
+
+<!--rv Stavljati šećer?--> --- Добавлять сахар? (например, в кофе)    
+
+<!--rv točeno pivo--> --- разливное пиво    
+<!--rv slan--> --- солёный    
+<!--rv protein--> --- белок, протеин    
+<!--rv pirinač--> --- рис    
+<!--rv mak--> --- мак    
+<!--rv kaša--> --- каша    
+<!--rv jelovnik--> --- меню (карта блюд, напитков и т.п.)    
+<!--rv šljiva--> --- слива    
+<!--rv desert--> --- десерт, сладкое    
+<!--rv bobica--> --- ягода    
+
+
+<!--index ["общепит"]-->
+## Общепит
+
+<!--rv kusur--> --- сдача (при покупке)   
+<!--rv bakšiš--> --- чаевые (официанту)   
+
+
+<!--index ["быт", "одежда", "обувь"]-->
+## Одежда и обувь
+
+<!--rv odeća--> --- одежда    
+<!--rv obuća--> --- обувь    
+
+<!--rv šešir--> --- шляпа    
+
+<!--rv cipela--> --- ботинок, туфля    
+<!--rv cipele--> --- туфли, обувь    
+<!--rv gaćice--> --- трусы
+<!--rv rukavica--> --- перчатка    
+<!--rv grudnjak--> --- бюстгальтер    
+<!--rv haljina--> --- платье    
+<!--rv jakna--> --- куртка    
+<!--rv kapa--> --- шапка, кепка    
+<!--rv kaput, mantil--> --- пальто    
+<!--rv košulja--> --- рубашка    
+<!--rv kravata--> --- галстук    
+<!--rv pantalone--> --- брюки, штаны    
+<!--rv papuče--> --- (домашние) тапочки    
+<!--rv pertla--> --- шнурок (для ботинок)    
+<!--rv sako--> --- пиджак    
+<!--rv suknja--> --- юбка    
+<!--rv donji veš--> --- (нижнее) бельё    
+<!--rv čizma--> --- сапог    
+<!--rv šorc--> --- шорты    
+<!--rv potpetica--> --- каблук    
+
+----------------------------------------------------------------------------------------------------
+<!--index ["жилье"]-->
+# Жилье
+
+<!--rv soba--> --- комната    
+<!--rv palata--> --- дворец    
+
+<!--rv kupatilo--> --- ванная (комната)    
+
+<!--rv smeštaj--> --- размещение (проживание)    
+
+<!--rv ormar--> --- шкаф    
+<!--rv tepih, ćilim--> --- ковер    
+
+<!--rv kašika   --> --- ложка    
+<!--rv viljuška --> --- вилка    
+<!--rv nož      --> --- нож    
+<!--rv tegla    --> --- банка    
+<!--rv tanjir   --> --- тарелка    
+<!--rv činija   --> --- чаша    
+<!--rv čaša     --> --- стакан    
+<!--rv šolja    --> --- чашка    
+<!--rv šerpa    --> --- кастрюля    
+<!--rv tiganj   --> --- сковородка    
+<!--rv posudica za biber--> --- перечница   
+
+<!--rv brus--> --- точило (камень), брусок, точилка    
+
+<!--rv frižider--> --- холодильник    
+
+<!--rv orman, ormar--> --- шкаф, (платяной) шкаф    
+
+<!--rv televizor--> --- телевизор    
+<!--rv televizija--> --- телевидение    
+<!--rv ne gledam televiziju--> --- я не смотрю телевизор    
+
+<!--rv svetlo--> --- светильник, фонарь, лампа, фара    
+
+<!--rv tuširati se--> --- принимать душ    
+<!--rv peškir--> --- полотенце          
+<!--rv veliki peškir--> --- банное полотенце          
+<!--rv kuhinjska krpa--> --- кухонное полотенце      
+
+<!--rv ćebe--> --- одеяло    
+
+<!--rv kofer--> --- чемодан (багаж)    
+<!--rv ranac--> --- рюкзак, ранец    
+
+<!--rv maska--> --- маска, марлевая маска    
+<!--rv cigareta--> --- сигарета, папироса    
+<!--rv naušnica--> --- серьга    
+<!--rv narukvica--> --- браслет    
+<!--rv novčanik--> --- кошелёк    
+<!--rv šminka--> --- макияж    
+
+<!--rv ogledalo--> --- зеркало    
+<!--rv prozor--> --- окно    
+<!--rv vrata--> --- дверь    
+
+----------------------------------------------------------------------------------------------------
+<!--index ["искусство"]-->
+# Искусство
+
+<!--rv junak--> --- герой    
+<!--rv junakinja--> --- героиня   
+<!--rv lik--> --- персонаж   
+<!--rv čarobnjak--> --- волшебник, фокусник   
+
+<!--rv pozorište--> --- театр   
+<!--rv predstava--> --- представление   
+
+----------------------------------------------------------------------------------------------------
+<!--index ["профессии, лексика"]-->
+# Профессии
+
+Он                  | Она                   | Перевод                    | Что делает             | Перевод          | Инфинитив
+--------------------|-----------------------|----------------------------|------------            |----------        |-----------
+<!--rv lekar    --> | <!--rv lekarka    --> | врач, врачица              | <!--rv leči       -->  | лечит            | <!--rv lečiti       --> |
+<!--rv doktor  -->  | <!--rv doktorica  --> | доктор, докторица          | <!--rv leči       -->  | лечит            | <!--rv lečiti       --> |
+<!--rv kuvar    --> | <!--rv kuvarica   --> | повар                      | <!--rv kuva       -->  | готовит          | <!--rv kuvati       --> |
+<!--rv programer--> | <!--rv programerka--> | программист, программистка | <!--rv programira -->  | программирует    | <!--rv programirati --> |
+<!--rv vaspitač --> | <!--rv vaspitačica--> | воспитатель (д/сада)       | <!--rv neguje decu-->  | ухаживает        | <!--rv negovati     --> |
+<!--rv učitelj  --> | <!--rv učiteljica --> | учитель (нач. классов)     | <!--rv obučava decu-->  | обучать         | <!--rv obučavati    --> |
+<!--rv nastavnik--> | <!--rv nastavnica --> | преподаватель (колледжа)   | <!--rv predaje    -->  | преподает        | <!--rv predavati    --> |
+<!--rv profesor --> | <!--rv profesorica--> | преподаватель (вуза)       | <!--rv predaje    -->  | преподает        | <!--rv predavati    --> |
+<!--rv teniser  --> | <!--rv teniserka  --> | теннисист, теннисистка     | <!--rv igra tenis -->  | играет в теннис  | <!--rv igrati       --> |
+<!--rv pevač    --> | <!--rv pevačica   --> | певец, певица              | <!--rv peva       -->  | поет             | <!--rv pevati       --> |
+<!--rv političar--> | <!--rv političarka--> | политик                    | <!--rv govori     -->  | говорит          | <!--rv govoriti     --> |
+<!--rv glumac   --> | <!--rv glumica    --> | актёр, актриса             | <!--rv glumi      -->  | играет           | <!--rv glumiti      --> |
+<!--rv muzičar  --> | <!--rv muzičarka  --> | музыкант, музыкантка       | <!--rv svira gitaru--> | играет на гитаре | <!--rv svirati      --> |
+<!--rv naučnik  --> | <!--rv naučnica   --> | ученый, ученая             | <!--rv misli      -->  | думает           | <!--rv misliti      --> |
+<!--rv konobar  --> | <!--rv konobarica --> | официант, официантка       |                        |                  |                         |
+<!--rv slikar   --> | <!--rv slikarka   --> | живописец                  | <!--rv slika      -->  | пишет            | <!--rv slikati      --> |
+<!--rv umetnik  --> | <!--rv umetnica   --> | художник, художница        | <!--rv crta       -->  | рисует           | <!--rv crtati       --> |
+<!--rv fotograf --> |                       | фотограф                   | <!--rv fotografiše-->  | фотографирует    | <!--rv fotografisati--> |
+<!--rv frizer   --> | <!--rv frizerka   --> | парикмахер, парикмахерша   | <!--rv šiša       -->  | стрижет          | <!--rv šišati       --> |
+<!--rv inženjer --> | <!--rv inženjerka --> | инженер                    | <!--rv projektuje -->  | проектирует      | <!--rv projektovati --> |
+<!--rv zubar    --> | <!--rv zubarka    --> | зубной врач                | <!--rv vadi zub   -->  | удаляет зуб      | <!--rv vaditi       --> |
+<!--rv vozač    --> | <!--rv vozač     -->  | водитель                   | <!--rv vozi auto  -->  | водит машину     | <!--rv voziti       --> |
+
+<!--rv zanimanje--> --- профессия    
+<!--rv Šta si po zanimanju?--> --- Кто ты по профессии?    
+<!--rv preduzetnik--> --- предприниматель    
+<!--rv druga smena--> --- вторая смена (по времени работы)    
+
+<!--rv nije lako biti preduzetnik--> --- нелегко быть предпринимателем    
+<!--rv nije lako imati svoju firmu--> --- нелегко иметь свою компанию   
+
+<!--rv velemajstor--> --- гроссмейстер (шахматист)   
+<!--rv vatrogasac--> --- пожарный (профессия)    
+<!--rv hitna pomoć--> --- скорая помощь    
+
+----------------------------------------------------------------------------------------------------
+<!--index ["общество, лексика"]-->
+# Общество
+
+<!--rv zavod --> --- институт (не учебный), учреждение, бюро    
+<!--rv guverner --> --- губернатор    
+
+<!--rv agencija--> --- агентство (бюро), контора    
+<!--rv akcija--> --- акция, мероприятие (культурное и т.п.)    
+<!--rv asocijacija--> --- объединение    
+
+----------------------------------------------------------------------------------------------------
+<!--index ["страны, лексика"]-->
+# Страны
+
+<!--rv zemlja --> --- страна    
+<!--rv zastava--> --- флаг, знамя    
+<!--rv grb--> --- герб    
+
+Страна                | Zemlja                        | Stanovnik | Stanovnica | Stanovnici        | Jezik 
+----------------------|-------------------------------| ----------|---------| --------------| --------------
+Сербия                | <!--rv Srbija              -->| <!--rv Srbin      --> | <!--rv Srpkinja        --> | <!--rv Srbi                  -->| <!--rv srpski              --> 
+Черногория            | <!--rv Crna Gora           -->| <!--rv Crnogorac  --> | <!--rv Crnogorka   --> | <!--rv Crnogorci             -->| <!--rv srpski, crnogorski  --> 
+Хорватия              | <!--rv Hrvatska            -->| <!--rv Hrvat      --> | <!--rv Hrvatica        --> | <!--rv Hrvati                -->| <!--rv hrvatski            --> 
+Босния и Герцеговина  | <!--rv Bosna i Hercegovina -->| <!--rv Bosanac    --> | <!--rv Bosanka       --> | <!--rv Bosanci               -->| <!--rv srpski, bosanski    --> 
+Словения              | <!--rv Slovenija           -->| <!--rv Slovenac   --> | <!--rv Slovenka     --> | <!--rv Slovenci              -->| <!--rv slovenački          --> 
+Россия                | <!--rv Rusija              -->| <!--rv Rus        --> | <!--rv Ruskinja          --> | <!--rv Rusi                  -->| <!--rv ruski               --> 
+Украина               | <!--rv Ukrajina            -->| <!--rv Ukrajinac  --> | <!--rv Ukrajinka   --> | <!--rv Ukrajinci             -->| <!--rv ukrajinski          --> 
+Беларусь              | <!--rv Belorusija          -->| <!--rv Belorus    --> | <!--rv Beloruskinja  --> | <!--rv Belorusi              -->| <!--rv beloruski           --> 
+Армения               | <!--rv Jermenija           -->| <!--rv Jermenin   --> | <!--rv Jermenka     --> | <!--rv Jermeni               -->| <!--rv jermenski           --> 
+Грузия                | <!--rv Gruzija             -->| <!--rv Gruzijanac --> | <!--rv Gruzijanka --> | <!--rv Gruzijanci, Gruzini   -->| <!--rv gruzijski, gruzinski--> 
+Албания               | <!--rv Albanija            -->| <!--rv Albanac    --> | <!--rv Albanka       --> | <!--rv Albanci               -->| <!--rv albanski            --> 
+Англия                | <!--rv Engleska            -->| <!--rv Englez     --> | <!--rv Engleskinja    --> | <!--rv Englezi               -->| <!--rv engleski            --> 
+Германия              | <!--rv Nemačka             -->| <!--rv Nemac      --> | <!--rv Nemica          --> | <!--rv Nemci                 -->| <!--rv nemački             --> 
+Франция               | <!--rv Francuska           -->| <!--rv Francuz    --> | <!--rv Francuskinja  --> | <!--rv Francuzi              -->| <!--rv francuski           --> 
+Италия                | <!--rv Italija             -->| <!--rv Italijan   --> | <!--rv Italijanka   --> | <!--rv Italijani             -->| <!--rv italijanski         --> 
+Румыния               | <!--rv Rumunija            -->| <!--rv Rumun      --> | <!--rv Rumunka         --> | <!--rv Rumuni                -->| <!--rv rumunski            --> 
+Венгрия               | <!--rv Mađarska            -->| <!--rv Mađar      --> | <!--rv Mađarica        --> | <!--rv Mađari                -->| <!--rv mađarski            --> 
+Австрия               | <!--rv Austrija            -->| <!--rv Austrijanac--> | <!--rv Astrijanka--> | <!--rv Austrijanci           -->| <!--rv nemački             --> 
+Болгария              | <!--rv Bugarska            -->| <!--rv Bugarin    --> | <!--rv Bugarka       --> | <!--rv Bugari                -->| <!--rv bugarski            --> 
+Польша                | <!--rv Poljska             -->| <!--rv Poljak     --> | <!--rv Poljakinja     --> | <!--rv Poljaci               -->| <!--rv poljski             --> 
+Турция                | <!--rv Turska              -->| <!--rv Turčin     --> | <!--rv Turkinja       --> | <!--rv Turci                 -->| <!--rv turski              --> 
+Греция                | <!--rv Grčka               -->| <!--rv Grk        --> | <!--rv Grkinja          --> | <!--rv Grci                  -->| <!--rv grčki               --> 
+Америка               | <!--rv Amerika             -->| <!--rv Amerikanac --> | <!--rv Amerikanka        --> | <!--rv Amerikanci            -->| <!--rv (američki) engleski --> 
+Китай (Китай)         | <!--rv Kina                -->| <!--rv Kinez      --> | <!--rv Kineskinja      --> | <!--rv Kinezi                -->| <!--rv kineski             --> 
+Япония                | <!--rv Japan               -->| <!--rv Japanac    --> | <!--rv Japanka         --> | <!--rv Japanci               -->| <!--rv japanski            --> 
+Египет                | <!--rv Egipat              -->|  | | |            
+                 
+<!--rv Afrika--> --- Африка    
+<!--rv arapski--> --- арабский    
+<!--rv Sjedinjene Američke Države--> --- Соединённые Штаты Америки    
+<!--rv država--> --- страна, земля, государство    
+
+
