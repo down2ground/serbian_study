@@ -33,9 +33,9 @@ code, .code {
     font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, sans-serif;
     font-size: 0.889rem;
     background-color: #eeeeee;
-    padding-left: 6px;
-    padding-right: 6px;
-    border-radius: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
     white-space: nowrap;
     border-style: solid;
     border-width: 1px;
@@ -182,4 +182,52 @@ img.floatLeft {
     font-size: 0.734rem;
 }
 
+.w-fit {
+    max-width: 50rem;
+}
+
+.img-frame {
+    border-style: dashed;
+    border-width: 1px;
+}
+
+.w-fit.img-frame {
+    max-width: 49.88rem;
+}
+
+.video::before {
+    position: relative;
+    bottom: -2px;
+    margin-right: 3px;
+}
+
+.external::before {
+    position: relative;
+    bottom: -2px;
+    margin-right: 3px;
+}
+
+.doc::before {
+    position: relative;
+    bottom: -2px;
+    margin-right: 3px;
+}
+
+.folder::before {
+    position: relative;
+    bottom: -2px;
+    margin-right: 3px;
+}
+
+.right {
+    text-align: right;
+}
+
+.th {
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
 
