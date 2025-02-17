@@ -28,7 +28,8 @@
             "add_more_prog_langs": false,
             "add_powered_by": true, "ad_exec_version": false,
             "link_js": [{"src": "review.js", "defer": false}],
-            "controls": ["<span id=\"reviewToggler\" class=\"header_image\" onclick=\"toggleReview();\" title=\"Скрыть/показать ответы\"></span>"]
+            "controls": ["<span id=\"reviewToggler\" class=\"header_image\" onclick=\"toggleReview(0);\" title=\"Скрыть/показать сербский\"></span>",
+                         "<span id=\"reviewToggler1\" class=\"header_image\" onclick=\"toggleReview(1);\" title=\"Скрыть/показать русский\"></span>"]
         },
         "page-variables": {},
         "relative-paths": {
@@ -60,6 +61,8 @@
                     "add-link-css": ["doc/layout/index.css"] }
         },
         "page-links": { "markers": ["page"] },
-        "replace": [{ "markers": ["rv"], "replace-with": "<span class=\"rv\">${1}</span>" }]
+        "replace": [{ "markers": ["rv"], "replace-with": "<span class=\"rv\">${1}</span>" },
+                    { "markers": ["rv1"], "replace-with": "<span class=\"rv1\">${1}</span>" }
+        ]
     }
 }

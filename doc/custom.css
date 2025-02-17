@@ -35,11 +35,15 @@ grey {
   background-color: aliceblue;
 }
 
-.rv.review_is_on {
+.rv1 {
+  background-color: #f1ffdb;
+}
+
+.rv.review_is_on, .rv1.review_is_on {
   cursor: pointer;
 }
 
-#reviewToggler {
+#reviewToggler, #reviewToggler1 {
     display: inline-block;
     position: relative;
     width: 41px;
@@ -50,7 +54,7 @@ grey {
     margin-left: 2px;
 }
 
-#reviewToggler::before {
+#reviewToggler::before, #reviewToggler1::before {
     content: url("pict/eyes_spline.png"); 
     position: absolute;
 } 
@@ -63,25 +67,33 @@ grey {
     margin-bottom: -12px;
 }
  
-#reviewToggler::before {
+#reviewToggler::before, #reviewToggler1::before {
     left: 0;
 }
 
-#reviewToggler.reviewHidden::before {
+#reviewToggler.reviewHidden::before, #reviewToggler1.reviewHidden::before {
     left: -41px;
 }
 
-.hidden_review {
+.hidden_review, .hidden_review1 {
     visibility: hidden;
 }
 
-.hidden_review::before {
-    content: url("pict/closed_eye.png"); 
+
+.hidden_review::before, .hidden_review1::before { 
     position: absolute;
     cursor: pointer;
     visibility: initial;
     margin-left: 5px;
-} 
+}
+
+.hidden_review::before {
+    content: url("pict/closed_eye.png"); 
+}
+
+.hidden_review1::before {
+    content: url("pict/closed_eye1.png"); 
+}
 
 .th {
     font-weight: bold;
