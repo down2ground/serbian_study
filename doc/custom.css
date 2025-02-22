@@ -1,3 +1,12 @@
+.ref {
+    background-color: aliceblue;
+}
+
+.refDef {
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
 .marker1 {
     background-color: aqua;
 }
@@ -102,6 +111,7 @@ grey {
 
 p.fn, p.fn2 {
     font-size: 0.889rem;
+    margin-top: -10px;
 }
 
 p.fn {
@@ -127,5 +137,18 @@ div.admonition.footnote>* {
     margin-right: 0;
 }
 
+.no-hor-lines+table td {
+    border-top: none;
+    border-bottom: none;
+    padding-bottom: 0;
+    padding-top: 0;
+}
 
+.normal-font-size+table td {
+    font-size: 1rem;
+}
 
+td.hline {
+  border-bottom: solid #6a8fb3 1px !important;
+  padding-top: 7px !important;
+}
